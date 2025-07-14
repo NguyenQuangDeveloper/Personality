@@ -1,0 +1,32 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>ViewModel Property</Title>
+    <Shortcut>propvm</Shortcut>
+    <Description>Property with SetProperty for MVVM</Description>
+    <Author>YourName</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>string</Default>
+      </Literal>
+      <Literal>
+        <ID>property</ID>
+        <Default>MyProperty</Default>
+      </Literal>
+      <Literal>
+        <ID>field</ID>
+        <Default>_myProperty</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp">
+      <![CDATA[private $type$ $field$;
+public $type$ $property$
+{
+    get => $field$;
+    set => SetProperty(ref $field$, value);
+}]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
