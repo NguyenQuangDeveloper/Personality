@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Group="Expanded" Label="Database" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Database.DBBase" Label="DBBase" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.DynamicRepository&lt;T&gt;" Label="DynamicRepository" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.DBHelper" Label="DBHelper" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.DBData" Label="DBData" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.DBInterface" Label="DBInterface" Category="CodeSchema_Interface" Group="Database" />
+    <Node Id="VSLibrary.Database.IDynamicRepository&lt;T&gt;" Label="IDynamicRepository" Category="CodeSchema_Interface" Group="Database" />
+    <Node Id="VSLibrary.Database.DBManager" Label="DBManager" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.MySQL" Label="MySQL" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.Oracle" Label="Oracle" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="VSLibrary.Database.SQLite" Label="SQLite" Category="CodeSchema_Class" Group="Database" />
+    <Node Id="Database.DBData" Group="Expanded" Label="Database.DBData" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Database.DBData.CustTbl" Label="CustTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="VSLibrary.Database.DBData.DepartTbl" Label="DepartTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="VSLibrary.Database.DBData.LogTbl" Label="LogTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="VSLibrary.Database.DBData.RecipeTbl" Label="RecipeTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="VSLibrary.Database.DBData.UserTbl" Label="UserTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="VSLibrary.Database.DBData.WorkingTbl" Label="WorkingTbl" Category="CodeSchema_Class" Group="Database.DBData" />
+    <Node Id="Database.Attributes" Group="Expanded" Label="Database.Attributes" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Database.Attributes.PrimaryKeyAttribute" Label="PrimaryKeyAttribute" Category="CodeSchema_Class" Group="Database.Attributes" />
+    <Node Id="VSLibrary.Database.Attributes.AutoIncrementAttribute" Label="AutoIncrementAttribute" Category="CodeSchema_Class" Group="Database.Attributes" />
+    <Node Id="VSLibrary.Database.Attributes.IgnoreColumnAttribute" Label="IgnoreColumnAttribute" Category="CodeSchema_Class" Group="Database.Attributes" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="VSLibrary.Database.DBBase" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.DynamicRepository&lt;T&gt;" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.DBHelper" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.DBData" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.DBInterface" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.IDynamicRepository&lt;T&gt;" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.DBManager" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.MySQL" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.Oracle" Category="Contains" />
+    <Link Source="Database" Target="VSLibrary.Database.SQLite" Category="Contains" />
+    <Link Source="Database" Target="Database.DBData" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.CustTbl" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.DepartTbl" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.LogTbl" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.RecipeTbl" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.UserTbl" Category="Contains" />
+    <Link Source="Database.DBData" Target="VSLibrary.Database.DBData.WorkingTbl" Category="Contains" />
+    <Link Source="Database" Target="Database.Attributes" Category="Contains" />
+    <Link Source="Database.Attributes" Target="VSLibrary.Database.Attributes.PrimaryKeyAttribute" Category="Contains" />
+    <Link Source="Database.Attributes" Target="VSLibrary.Database.Attributes.AutoIncrementAttribute" Category="Contains" />
+    <Link Source="Database.Attributes" Target="VSLibrary.Database.Attributes.IgnoreColumnAttribute" Category="Contains" />
+    <Link Source="VSLibrary.Database.DBBase" Target="VSLibrary.Database.DBInterface" Category="Implements" />
+    <Link Source="VSLibrary.Database.DynamicRepository&lt;T&gt;" Target="VSLibrary.Database.DBManager" Category="Uses" />
+    <Link Source="VSLibrary.Database.DynamicRepository&lt;T&gt;" Target="VSLibrary.Database.DBHelper" Category="Uses" />
+    <Link Source="VSLibrary.Database.DBHelper" Target="VSLibrary.Database.DBManager" Category="Uses" />
+    <Link Source="VSLibrary.Database.DBManager" Target="VSLibrary.Database.Attributes.PrimaryKeyAttribute" Category="Uses" />
+    <Link Source="VSLibrary.Database.DBManager" Target="VSLibrary.Database.DBInterface" Category="Uses" />
+    <Link Source="VSLibrary.Database.DBManager" Target="VSLibrary.Database.Attributes.IgnoreColumnAttribute" Category="Uses" />
+    <Link Source="VSLibrary.Database.DBManager" Target="VSLibrary.Database.Attributes.AutoIncrementAttribute" Category="Uses" />
+    <Link Source="VSLibrary.Database.MySQL" Target="VSLibrary.Database.DBBase" Category="Inherits" />
+    <Link Source="VSLibrary.Database.Oracle" Target="VSLibrary.Database.DBBase" Category="Inherits" />
+    <Link Source="VSLibrary.Database.SQLite" Target="VSLibrary.Database.DBBase" Category="Inherits" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" />
+    <Category Id="Inheritance" Background="#FF00FF00" />
+    <Category Id="Implementation" Background="#FFFFFF00" />
+    <Category Id="Composes" Background="#FF008000" />
+    <Category Id="Aggregates" Background="#FFFFA500" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

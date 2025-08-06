@@ -1,0 +1,139 @@
+﻿using MySql.Data.MySqlClient; // MySql.Data 패키지 using 추가
+using System.Data;
+using System.Reflection;
+
+
+namespace VSLibrary.Database
+{
+    public class MySQL : DBBase
+    {
+        private MySqlConnection _connection;
+        private MySqlTransaction _transaction;
+
+        public MySQL(string connectionString) : base(connectionString) { }
+
+        public override DatabaseProvider GetDatabaseProvider() => DatabaseProvider.MySQL;
+
+        // --- 연결 및 트랜잭션 ---
+        public override void ConnDb()
+        {
+            if (isConnected) return;
+            try
+            {
+                _connection = new MySqlConnection(_connectionString);
+                _connection.Open();
+                isConnected = true;
+            }
+            catch (Exception ex)
+            {
+                isConnected = false;
+                throw new Exception($"MySQL connection failed: {ex.Message}", ex);
+            }
+        }
+        public override void CloseDbConn()
+        {
+            _connection?.Close();
+        }
+        public override void BeginTransaction()
+        {
+            if (_transaction != null)
+                throw new InvalidOperationException("이미 진행 중인 트랜잭션이 있습니다. 기존 트랜잭션을 먼저 Commit 혹은 Rollback해야 합니다.");
+
+            if (!isConnected || _connection == null) ConnDb();
+            _transaction = _connection.BeginTransaction();
+        }
+
+        public override void CommitTransaction()
+        {
+            _transaction?.Commit();
+            _transaction?.Dispose();
+            _transaction = null;
+        }
+
+        public override void RollbackTransaction()
+        {
+            _transaction?.Rollback();
+            _transaction?.Dispose();
+            _transaction = null;
+        }
+
+
+        // --- 파라미터 생성 ---
+        public override IDbDataParameter CreateParameter(string parameterName, object value)
+        {
+            return new MySqlParameter(parameterName, value ?? DBNull.Value);
+        }
+
+        // --- 쿼리 실행 ---
+        public override async Task<int> ExecuteNonQueryAsync(string query, params IDbDataParameter[] parameters)
+        {
+            await using var cmd = new MySqlCommand(query, _connection, _transaction);
+            cmd.Parameters.AddRange(parameters);
+            return await cmd.ExecuteNonQueryAsync();
+        }
+
+        public override async Task<object> ExecuteScalarAsync(string query, params IDbDataParameter[] parameters)
+        {
+            await using var cmd = new MySqlCommand(query, _connection, _transaction);
+            cmd.Parameters.AddRange(parameters);
+            return await cmd.ExecuteScalarAsync();
+        }
+
+        public override async Task<DataTable> GetDataTableAsync(string query, params IDbDataParameter[] parameters)
+        {
+            await using var cmd = new MySqlCommand(query, _connection, _transaction);
+            cmd.Parameters.AddRange(parameters);
+            await using var reader = await cmd.ExecuteReaderAsync();
+            var dataTable = new DataTable();
+            dataTable.Load(reader);
+            return dataTable;
+        }
+
+        public override async Task<IEnumerable<T>> QueryAsync<T>(string query, params IDbDataParameter[] parameters)
+        {
+            var list = new List<T>();
+            await using (var cmd = new MySqlCommand(query, _connection, _transaction))
+            {
+                cmd.Parameters.AddRange(parameters);
+                await using (var reader = await cmd.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        var obj = new T();
+                        for (var i = 0; i < reader.FieldCount; i++)
+                        {
+                            var prop = typeof(T).GetProperty(reader.GetName(i), BindingFlags.IgnoreCase | BindingFlags.Public | BindingFlags.Instance);
+                            if (prop != null && !reader.IsDBNull(i))
+                            {
+                                var dbValue = reader.GetValue(i);
+                                var targetType = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+                                var convertedValue = Convert.ChangeType(dbValue, targetType);
+                                prop.SetValue(obj, convertedValue, null);
+                            }
+                        }
+                        list.Add(obj);
+                    }
+                }
+            }
+            return list;
+        }
+
+        // --- IDisposable 구현 ---
+        private bool _disposed = false;
+        protected override void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    _transaction?.Dispose();
+                    _connection?.Dispose();
+                }
+                _disposed = true;
+            }
+            base.Dispose(disposing);
+        }
+
+
+    }
+}

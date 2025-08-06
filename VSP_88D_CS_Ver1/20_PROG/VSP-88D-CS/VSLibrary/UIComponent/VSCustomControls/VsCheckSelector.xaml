@@ -1,0 +1,72 @@
+﻿<UserControl
+    x:Class="VSLibrary.UIComponent.VSCustomControls.VsCheckSelector"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls"
+    xmlns:converters="clr-namespace:VSLibrary.UIComponent.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VSLibrary.UIComponent.VSCustomControls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vsl="clr-namespace:VSLibrary.UIComponent.Localization"
+    d:DesignHeight="28"
+    d:DesignWidth="200"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibility" />
+    </UserControl.Resources>
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!--  1. 체크박스: Content/IsChecked 외부 바인딩  -->
+        <VSControls:VsCheckBox
+            x:Name="PART_CheckBox"
+            Height="28"
+            Content="{Binding CheckText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            IsChecked="{Binding IsChecked, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay}" />
+
+        <!--  2. 라디오(왼쪽): 체크될 때만 보임  -->
+        <VSControls:VsRadioButton
+            x:Name="PART_RadioLeft"
+            Grid.Column="1"
+            Height="28"
+            Margin="2,2,0,0"
+            Content="{Binding LeftRadioText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            GroupName="{Binding CheckText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            IsChecked="{Binding IsLeftChecked, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay}"
+            Visibility="{Binding IsChecked, ElementName=PART_CheckBox, Converter={StaticResource BoolToVisibility}}" />
+
+        <!--  3. 라디오(오른쪽): 체크될 때만 보임  -->
+        <VSControls:VsRadioButton
+            x:Name="PART_RadioRight"
+            Grid.Column="2"
+            Height="28"
+            Margin="2,2,0,0"
+            Content="{Binding RightRadioText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            GroupName="{Binding CheckText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+            IsChecked="{Binding IsRightChecked, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay}"
+            Visibility="{Binding IsChecked, ElementName=PART_CheckBox, Converter={StaticResource BoolToVisibility}}" />
+
+        <StackPanel
+            Grid.Column="3"
+            Height="30"
+            Margin="2,0,0,0"
+            Visibility="{Binding IsChecked, ElementName=PART_CheckBox, Converter={StaticResource BoolToVisibility}}">
+            <VSControls:VsTextBlock
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="VsCheckSelector_AxisText"
+                FontSize="8" />
+            <TextBox
+                x:Name="PART_AxisMaxBox"
+                Height="17"
+                Text="{Binding AxisMax, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

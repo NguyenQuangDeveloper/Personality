@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VSLibrary.Threading.VSThread">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.ThreadBase&lt;TSelf&gt;">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BGAEIAAEgCCAAAAEAAABQAYABAAUAiAAJAAAQgABAgA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Threading.CpuAffinityHelper">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.TimeResolutionHelper">
+    <Position X="5.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.ThreadFactory">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.VirtualThread">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAgAAAAAA=</HashCode>
+      <FileName>Threading\ThreadBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.ThreadManager">
+    <Position X="10" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAACAAAEAEAQAAAWAAAAABAAAIYAAEAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Threading.ThreadManagerProxy">
+    <Position X="7.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAACAAAEAEAQAAAAAAAAABAAAIIIAEAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VSLibrary.Threading.IThread">
+    <Position X="3.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACCAAAAEAAAAQAQAAAAAAAAAJAAAQAAAAAA=</HashCode>
+      <FileName>Threading\ThreadInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Threading.ICancellableThread">
+    <Position X="3.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Threading.IThreadManager">
+    <Position X="7.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAACAAAEAEAQAAAAAAAAABAAAIIAAEAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Threading.IThreadRegistrar">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Threading\ThreadInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VSLibrary.Threading.ThreadPriorityLevel">
+    <Position X="10" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Threading\ThreadEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VSLibrary.Threading.ThreadStatus">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAIAAQIAAAAAAAAAAAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>Threading\ThreadEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

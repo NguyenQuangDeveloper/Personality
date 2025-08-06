@@ -1,0 +1,20 @@
+﻿VSLibrary
+
+
+library
+C#
+.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Release\net8.0-windows\
+VSLibrary
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+
+302108789351
+1584021393
+1431543523656
+256795342314
+UIComponent\Common\ButtonMenu.xaml;UIComponent\KeyPads\VsKeyPadNumberPad.xaml;UIComponent\KeyPads\VsKeyPadTextKeyboard.xaml;UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.xaml;UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.xaml;UIComponent\LayoutPanels\TopPanel\VsTopPanel.xaml;UIComponent\MessageBox\VsMessageBoxWindow.xaml;UIComponent\Styles\CustomButtonStyle.xaml;UIComponent\Styles\CustomGroupBoxStyle.xaml;UIComponent\Styles\KeyPadStyles.xaml;UIComponent\Styles\VsButtonStyle.xaml;UIComponent\Styles\VsChartStyle.xaml;UIComponent\Styles\VsCheckBoxStyle.xaml;UIComponent\Styles\VsComboBoxStyle.xaml;UIComponent\Styles\VsDataGridStyle.xaml;UIComponent\Styles\VsGridStyles.xaml;UIComponent\Styles\VsLabelStyle.xaml;UIComponent\Styles\VsListBoxStyle.xaml;UIComponent\Styles\VsMessageBoxButtonStyle.xaml;UIComponent\Styles\VsPasswordBoxStyle.xaml;UIComponent\Styles\VsRadioButtonStyle.xaml;UIComponent\Styles\VsRTChartStyle.xaml;UIComponent\Styles\VsTabControlStyle.xaml;UIComponent\Styles\VsTextBlockStyle.xaml;UIComponent\Styles\VsTextBoxStyle.xaml;UIComponent\Styles\VsTimeSpinnerStyle.xaml;UIComponent\UIResources.xaml;UIComponent\VSCustomControls\VsCheckSelector.xaml;UIComponent\VsLogin\VsLoginControl.xaml;UIComponent\VsNavigations\VsNavigationBar.xaml;
+
+False
+

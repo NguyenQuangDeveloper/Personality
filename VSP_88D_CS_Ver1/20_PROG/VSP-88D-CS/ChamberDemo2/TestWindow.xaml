@@ -1,0 +1,89 @@
+﻿<Window x:Class="ChamberDemo2.TestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChamberDemo2"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="TestWindow" Height="650" Width="800">
+    <StackPanel>
+        <StackPanel Margin="10">
+            <TextBlock FontWeight="DemiBold" Margin="3"> Vacuum Gauge</TextBlock>
+            <StackPanel Margin="3" Orientation="Horizontal">
+                <ComboBox Margin="3"  HorizontalAlignment="Right" Width="100" SelectedItem="{Binding Chamber.Gauge.Unit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" ItemsSource="{Binding LstUnit, UpdateSourceTrigger=PropertyChanged}"></ComboBox>
+                <TextBox  Text="{Binding Chamber.Gauge.MaxValue, UpdateSourceTrigger=PropertyChanged}"  Margin="3"  Width="100"></TextBox>
+            </StackPanel>
+            <Slider Margin="3" Minimum="0" Maximum="{Binding Chamber.Gauge.MaxValue, UpdateSourceTrigger=PropertyChanged}" Value="{Binding Chamber.Gauge.CurrentValue }"></Slider>
+        </StackPanel>
+        <StackPanel Margin="10">
+            <TextBlock FontWeight="DemiBold" Margin="3"> Pump Block</TextBlock>
+            <StackPanel Margin="3" Orientation="Horizontal">
+                <Button Command="{Binding Chamber.PumpBlock.Valve.ChangeStatusCommand}" Height="30" Width="120">On/Off Valve</Button>
+                <Button Command="{Binding Chamber.PumpBlock.Pump.ChangeStatusCommand}" Height="30" Width="120">On/Off Pump</Button>
+                <Button Command="{Binding Chamber.PumpBlock.Booster.ChangeStatusCommand}" Height="30" Width="120">On/Off Booster</Button>
+                <Button Command="{Binding ShowHideBoosterCommand}" Height="30" Width="120">Show/Hide Booster</Button>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Margin="10">
+            <TextBlock FontWeight="DemiBold" Margin="3"> Exhaust Valve</TextBlock>
+            <StackPanel Margin="3" Orientation="Horizontal">
+                <Button Command="{Binding Chamber.ExhaustValve.ChangeStatusCommand}" Height="30" Width="100">On/Off Valve</Button>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Margin="10">
+            <TextBlock FontWeight="DemiBold" Margin="3"> Plasma Valve</TextBlock>
+
+            <ItemsControl ItemsSource="{Binding Chamber.LstPlasmaValve, UpdateSourceTrigger=PropertyChanged}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Vertical"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Background="AntiqueWhite" Margin="3">
+                            <StackPanel Orientation="Horizontal" >
+                                <TextBlock Margin="0 0 10 0" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+                                <TextBlock Margin="0 0 10 0" Text="{Binding IsOpen, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+                                <Button Command="{Binding ChangeStatusCommand}">Change Status</Button>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Margin="10">
+                <TextBlock FontWeight="DemiBold" Margin="3"> Event</TextBlock>
+                <RichTextBox x:Name="txtShowLog" Height="150">
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text="{Binding EventLog, UpdateSourceTrigger=PropertyChanged}"></Run>
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock FontWeight="DemiBold" Margin="3"> Orthers</TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock  VerticalAlignment="Center"  > Container Height:</TextBlock>
+                    <TextBox  Text="{Binding Chamber.Gauge.RectangleHeight, UpdateSourceTrigger=PropertyChanged}"  Margin="3"  Width="200"></TextBox>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center"  > Plasma Count: </TextBlock>
+                    <TextBox  Text="{Binding Chamber.PlasmaCount.Title, UpdateSourceTrigger=PropertyChanged}"  Margin="3"  Width="200"></TextBox>
+                    <TextBox  Text="{Binding Chamber.PlasmaCount.Value, UpdateSourceTrigger=PropertyChanged}"  Margin="3"  Width="50"></TextBox>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>

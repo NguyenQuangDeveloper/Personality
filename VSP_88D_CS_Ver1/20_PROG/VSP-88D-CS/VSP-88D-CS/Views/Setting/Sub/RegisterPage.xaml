@@ -1,0 +1,392 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Setting.Sub.RegisterPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             xmlns:converters="clr-namespace:VSP_88D_CS.Converters"
+             xmlns:controls="clr-namespace:VSP_88D_CS.Common.Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="680"
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <DataTemplate x:Key="UserTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="&#x1F464;"
+                           FontSize="14"
+                           Margin="5"
+                           Foreground="DarkBlue"></TextBlock>
+                <TextBlock Text="{Binding Id}"
+                           FontSize="14"
+                           FontWeight="SemiBold"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3.5*" />
+            <ColumnDefinition Width="7*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Border BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="5"
+                    Padding="0"
+                    Margin="2">
+                <TreeView Margin="5">
+                    <TreeViewItem Margin="0,10,0,0"
+                                  IsExpanded="False"
+                                  FontWeight="DemiBold">
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="pack://application:,,,/Resources/Icons/AddFile.png"
+                                       Width="16"
+                                       Height="16"
+                                       Margin="0,0,5,0" />
+                                <TextBlock Text="{Binding LanguageResources[HowToAdd], FallbackValue='How To Add'}"
+                                           FontWeight="DemiBold" />
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Margin="0,7,0,3"
+                                      Header="{Binding LanguageResources[AddStep1], FallbackValue='1. Select [Add] Button'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[AddStep2], FallbackValue='2. Select [Level]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[AddStep3], FallbackValue='3. Input [User Id]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[AddStep4], FallbackValue='4. Input [Username]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[AddStep5], FallbackValue='5. Input [Password]'}" />
+                    </TreeViewItem>
+
+                    <TreeViewItem Margin="0,10,0,0"
+                                  IsExpanded="False"
+                                  FontWeight="DemiBold">
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="pack://application:,,,/Resources/Icons/EditFile.png"
+                                       Width="16"
+                                       Height="16"
+                                       Margin="0,0,5,0" />
+                                <TextBlock Text="{Binding LanguageResources[HowToEdit], FallbackValue='How To Edit'}"
+                                           FontWeight="DemiBold" />
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Margin="0,7,0,3"
+                                      Header="{Binding LanguageResources[EditStep1], FallbackValue='1. Select a row to edit from table.'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[EditStep2], FallbackValue='2. Select [Edit] button'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[EditStep3], FallbackValue='3. Select [Level]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[EditStep4], FallbackValue='4. Input [User ID]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[EditStep5], FallbackValue='5. Input [Username]'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[EditStep6], FallbackValue='6. Input [Password]'}" />
+                    </TreeViewItem>
+
+                    <TreeViewItem Margin="0,10,0,0"
+                                  IsExpanded="False"
+                                  FontWeight="DemiBold">
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="pack://application:,,,/Resources/Icons/DeleteFile.png"
+                                       Width="16"
+                                       Height="16"
+                                       Margin="0,0,5,0" />
+                                <TextBlock Text="{Binding LanguageResources[HowToDelete], FallbackValue='How To Delete'}"
+                                           FontWeight="DemiBold" />
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Margin="0,7,0,3"
+                                      Header="{Binding LanguageResources[DeleteStep1], FallbackValue='1. Select a row to delete from table.'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[DeleteStep2], FallbackValue='2. Select [Delete] button'}" />
+                        <TreeViewItem Margin="0,0,0,3"
+                                      Header="{Binding LanguageResources[DeleteStep3], FallbackValue='3. Select [Yes] from dialog box'}" />
+                    </TreeViewItem>
+                </TreeView>
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Border BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="5"
+                    Padding="0"
+                    Margin="2"
+                    Background="White">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="180"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"
+                              Margin="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"
+                                               MinHeight="35"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Button Grid.Row="0"
+                                    Height="auto"
+                                    Content="{Binding LanguageResources[User], FallbackValue='User'}"></Button>
+                            <DataGrid  Grid.Row="1"
+                                       ItemsSource="{Binding Users, Mode=TwoWay}"
+                                       HeadersVisibility="None"
+                                       SelectedItem="{Binding SelectedUser}"
+                                       AutoGenerateColumns="False"
+                                       IsReadOnly="True"
+                                       Background="White"
+                                       IsEnabled="{Binding IsEnableUserListRegion}">
+                                <DataGrid.Style>
+                                    <Style TargetType="DataGrid">
+                                        <Setter Property="IsEnabled"
+                                                Value="True" />
+                                    </Style>
+                                </DataGrid.Style>
+                                <DataGrid.RowStyle>
+                                    <Style TargetType="DataGridRow">
+                                        <Style.Triggers>
+                                            <Trigger Property="IsSelected"
+                                                     Value="True">
+                                                <Setter Property="Background"
+                                                        Value="LightBlue" />
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGrid.RowStyle>
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn Width="50">
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="⮞"
+                                                           FontSize="16"
+                                                           FontWeight="Bold"
+                                                           Foreground="Green"
+                                                           Width="auto">
+                                                    <TextBlock.Style>
+                                                        <Style TargetType="TextBlock">
+                                                            <Setter Property="Visibility"
+                                                                    Value="Collapsed" />
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
+                                                                             Value="True">
+                                                                    <Setter Property="Visibility"
+                                                                            Value="Visible" />
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </TextBlock.Style>
+                                                </TextBlock>
+
+                                            </DataTemplate>
+
+                                        </DataGridTemplateColumn.CellTemplate>
+
+                                    </DataGridTemplateColumn>
+
+                                    <DataGridTemplateColumn CellTemplate="{StaticResource UserTemplate}"
+                                                            Width="*">
+                                        <DataGridTemplateColumn.Header>
+                                            <TextBlock Text="{Binding  DataContext.LanguageResources[UserID],FallbackValue='User ID', RelativeSource={RelativeSource AncestorType=UserControl}}" />
+                                            <!--<TextBlock Text="{Binding  LanguageResources[UserID],FallbackValue='User ID'}" />-->
+                                        </DataGridTemplateColumn.Header>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <!--<DataGrid Margin="5"
+                                      Background="White"
+                                      ItemsSource="{Binding Users}"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True"
+                                      BorderThickness="1"
+                                      BorderBrush="Gray"
+                                      SelectedItem="{Binding SelectedUser}">
+                                <DataGrid.RowStyle>
+                                    <Style TargetType="DataGridRow">
+                                        <Style.Triggers>
+                                            <Trigger Property="IsSelected"
+                                                     Value="True">
+                                                <Setter Property="Background"
+                                                        Value="LightBlue" />
+                                                <Setter Property="Foreground"
+                                                        Value="Black" />
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGrid.RowStyle>
+                                <DataGrid.ColumnHeaderStyle>
+                                    <Style TargetType="DataGridColumnHeader">
+                                        <Setter Property="Height"
+                                                Value="30"></Setter>
+                                        <Setter Property="Background"
+                                                Value="#673AB7 " />
+                                        <Setter Property="FontSize"
+                                                Value="12" />
+                                        <Setter Property="BorderBrush"
+                                                Value="Black"></Setter>
+                                        <Setter Property="BorderThickness"
+                                                Value="0.5"></Setter>
+                                        <Setter Property="Foreground"
+                                                Value="White" />
+                                        <Setter Property="FontWeight"
+                                                Value="SemiBold" />
+                                        <Setter Property="HorizontalContentAlignment"
+                                                Value="Center" />
+                                    </Style>
+                                </DataGrid.ColumnHeaderStyle>
+                                <DataGrid.Columns>
+                                    <DataGridTemplateColumn CellTemplate="{StaticResource UserTemplate}"
+                                                            Header="{Binding LanguageResources[UserID],FallbackValue='User ID'}"
+                                                            Width="*"></DataGridTemplateColumn>
+                                </DataGrid.Columns>
+
+                            </DataGrid>-->
+
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Border BorderBrush="Gray"
+                                    BorderThickness="1"
+                                    CornerRadius="5"
+                                    Padding="0"
+                                    Margin="5"
+                                    Background="White"
+                                    IsEnabled="{Binding IsAddEnable}">
+                                <StackPanel Orientation="Vertical"
+                                            Margin="5">
+                                    <GroupBox Header="{Binding LanguageResources[LevelSelection], FallbackValue='Level Selection'}"
+                                              Margin="0,2,0,0"
+                                              IsEnabled="{Binding IsAddEnable}">
+                                        <StackPanel>
+                                            <RadioButton Margin="0,2,0,0"
+                                                         Content="{Binding Level1Option.OptionName}"
+                                                         IsChecked="{Binding Level1Option.IsChecked}"></RadioButton>
+                                            <RadioButton Margin="0,2,0,0"
+                                                         Content="{Binding Level2Option.OptionName}"
+                                                         IsChecked="{Binding Level2Option.IsChecked}"></RadioButton>
+                                            <RadioButton Margin="0,2,0,0"
+                                                         Content="{Binding Level3Option.OptionName}"
+                                                         IsChecked="{Binding Level3Option.IsChecked}"></RadioButton>
+                                        </StackPanel>
+                                    </GroupBox>
+
+                                    <controls:ExtendedVsButton Text="{Binding LanguageResources[Edit], FallbackValue='Edit'}"
+                                                          ImageSource="/Resources/Icons/Edit.png"
+                                                          Tag="{Binding BtnEditAliasInfo}"
+                                                          Margin="5"
+                                                          Command="{Binding EditAliasCommand}"
+                                                          CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                                          Width="150"
+                                                          IsEnabled="{Binding IsEditEnable}" />
+
+                                    <GroupBox Header="{Binding LanguageResources[UserInfo], FallbackValue='User Info'}"
+                                              Foreground="DarkBlue">
+                                        <UniformGrid Columns="1"
+                                                     Rows="6">
+                                            <TextBlock Text="{Binding LanguageResources[UserID], FallbackValue='User ID'}" />
+                                            <TextBox TextAlignment="Center"
+                                                     BorderBrush="LightGray"
+                                                     BorderThickness="1"
+                                                     Text="{Binding EditingUser.Id}"
+                                                     IsReadOnly="True" />
+                                            <TextBlock Text="{Binding LanguageResources[UserName], FallbackValue='UserName'}" />
+                                            <TextBox TextAlignment="Center"
+                                                     BorderBrush="LightGray"
+                                                     BorderThickness="1"
+                                                     Text="{Binding EditingUser.UserName}" />
+                                            <TextBlock Text="{Binding LanguageResources[Password], FallbackValue='Password'}" />
+                                            <PasswordBox BorderBrush="LightGray"
+                                                         BorderThickness="1"
+                                                         HorizontalContentAlignment="Center"
+                                                         converters:PasswordBoxHelper.BoundPassword="{Binding EditingPassword, Mode=TwoWay}">
+                                            </PasswordBox>
+                                        </UniformGrid>
+                                    </GroupBox>
+                                </StackPanel>
+                            </Border>
+
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="1"
+                          Height="180">
+                        <UniformGrid  Rows="3"
+                                      Columns="2">
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnAddInfo}"
+                                                  Text="{Binding LanguageResources[Add], FallbackValue='Add'}"
+                                                  ImageSource="/Resources/Icons/AddFile.png"
+                                                  Command="{Binding AddUserCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnSetMatrixInfo}"
+                                                  Text="{Binding LanguageResources[SetMatrix], FallbackValue='Set Matrix'}"
+                                                  ImageSource="/Resources/Icons/SetMatrix.png"
+                                                  Command="{Binding SetAccessMatrixCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnEditInfo}"
+                                                  Text="{Binding LanguageResources[Edit], FallbackValue='Edit'}"
+                                                  ImageSource="/Resources/Icons/Edit.png"
+                                                  Command="{Binding EditUserCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnConfirmInfo}"
+                                                  Text="{Binding LanguageResources[OK], FallbackValue='OK'}"
+                                                  ImageSource="/Resources/Icons/Ok.png"
+                                                  Command="{Binding ConfirmCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+                            <!--<Button Margin="0,5,0,5"
+                                    Width="200"
+                                    Command="{Binding ConfirmCommand}"
+                                    Style="{StaticResource ImageButtonStyle}"
+                                    Tag="pack://application:,,,/Resources/Icons/Ok.png"
+                                    Content="{Binding LanguageResources[OK], FallbackValue='OK'}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />-->
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnDeleteInfo}"
+                                                  Text="{Binding LanguageResources[Delete], FallbackValue='Delete'}"
+                                                  ImageSource="/Resources/Icons/DeleteFile.png"
+                                                  Command="{Binding DeleteUserCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+
+                            <controls:ExtendedVsButton Margin="0,5,0,5"
+                                                  Width="200"
+                                                  Tag="{Binding BtnCancelInfo}"
+                                                  Text="{Binding LanguageResources[Cancel], FallbackValue='Cancel'}"
+                                                  ImageSource="/Resources/Icons/Cancel.png"
+                                                  Command="{Binding CancelCommand}"
+                                                  CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+                            <!--<Button Margin="0,5,0,5"
+                                    Width="200"
+                                    Command="{Binding CancelCommand}"
+                                    Style="{StaticResource ImageButtonStyle}"
+                                    Tag="pack://application:,,,/Resources/Icons/Cancel.png"
+                                    Content="{Binding LanguageResources[Cancel], FallbackValue='Cancel'}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />-->
+
+
+                        </UniformGrid>
+
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+    </Grid>
+</UserControl>

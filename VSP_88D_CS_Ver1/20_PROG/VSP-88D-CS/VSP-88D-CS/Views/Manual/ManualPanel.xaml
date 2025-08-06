@@ -1,0 +1,889 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Manual.ManualPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Manual"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <GroupBox Grid.Row="0"
+                      Margin="5"
+                      Header="{Binding LanguageResources[LoadingBuffer], FallbackValue='Loading Buffer'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferFWDCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="-1"
+                                                        ScaleY="1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Forward], FallbackValue='Forward'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferBWDCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Backward], FallbackValue='Backward'}"
+                                           Width="70"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferRollerRunCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="8"
+                                       Source="/Resources/Icons/Tools4.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[RollerRun], FallbackValue='Roller Run'}"
+                                           Width="Auto"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferRollerStopCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="8"
+                                       Source="/Resources/Icons/Stop.png">
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[RollerStop], FallbackValue='Roller Stop'}"
+                                           Width="Auto"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferStopperUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[StopperUp], FallbackValue='Stopper Up'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingBufferStopperDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[StopperDown], FallbackValue='Stopper Down'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Row="1"
+                      Margin="5"
+                      Header="{Binding LanguageResources[UnloadingBuffer], FallbackValue='Unloading Buffer'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferFWDCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="-1"
+                                                        ScaleY="1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Forward], FallbackValue='Forward'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferBWDCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Backward], FallbackValue='Backward'}"
+                                           Width="70"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferRollerRunCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="8"
+                                       Source="/Resources/Icons/Tools4.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[RollerRun], FallbackValue='Roller Run'}"
+                                           Width="Auto"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferRollerStopCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="8"
+                                       Source="/Resources/Icons/Stop.png">
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[RollerStop], FallbackValue='Roller Stop'}"
+                                           Width="Auto"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferStopperUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[StopperUp], FallbackValue='Stopper Up'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingBufferStopperDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[StopperDown], FallbackValue='Stopper Down'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <GroupBox Grid.Row="0"
+                      Margin="5"
+                      Header="{Binding LanguageResources[StripID], FallbackValue='Strip ID'}"
+                      FontWeight="Bold">
+                <StackPanel HorizontalAlignment="Center">
+                    <Button Height="150"
+                            Grid.Column="0"
+                            Background="#FFE6E5E5"
+                            FontSize="15"
+                            Margin="15"
+                            Foreground="Blue"
+                            Command="{Binding ReadStripIDCommand}">
+                        <StackPanel Orientation="Vertical"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                            <!-- Image -->
+                            <Image Stretch="UniformToFill"
+                                   Margin="5"
+                                   Width="50"
+                                   Height="50"
+                                   Source="/Resources/Icons/QrCode.png" />
+                            <!-- Text -->
+                            <TextBlock Text="{Binding LanguageResources[IDRead], FallbackValue='ID Read'}"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5,0,5">
+                        <Label Content="{Binding LanguageResources[Lane1], FallbackValue='Lane 1'}"
+                               FontSize="14"
+                               VerticalContentAlignment="Center" />
+                        <VSControls:VsTextBox Width="150"
+                                              Margin="5,0,0,0"
+                                              Background="#FFE3F0D9"
+                                              FontSize="14"
+                                              Text="{Binding StripID1, Mode=TwoWay}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5,0,5">
+                        <Label Content="{Binding LanguageResources[Lane2], FallbackValue='Lane 2'}"
+                               FontSize="14"
+                               VerticalContentAlignment="Center" />
+                        <VSControls:VsTextBox Width="150"
+                                              Margin="5,0,0,0"
+                                              Background="#FFE3F0D9"
+                                              FontSize="14"
+                                              Text="{Binding StripID2, Mode=TwoWay}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5,0,5">
+                        <Label Content="{Binding LanguageResources[Lane3], FallbackValue='Lane 3'}"
+                               FontSize="14"
+                               VerticalAlignment="Center" />
+                        <VSControls:VsTextBox Width="150"
+                                              Margin="5,0,0,0"
+                                              Background="#FFE3F0D9"
+                                              FontSize="14"
+                                              Text="{Binding StripID3, Mode=TwoWay}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5,0,5">
+                        <Label Content="{Binding LanguageResources[Lane4], FallbackValue='Lane 4'}"
+                               FontSize="14"
+                               VerticalAlignment="Center" />
+                        <VSControls:VsTextBox Width="150"
+                                              Margin="5,0,0,0"
+                                              Background="#FFE3F0D9"
+                                              FontSize="14"
+                                              Text="{Binding StripID4, Mode=TwoWay}" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,5,0,5">
+                        <TextBlock Text="{Binding LanguageResources[Lane5], FallbackValue='Lane 5'}"
+                                   FontSize="14"
+                                   VerticalAlignment="Center" />
+                        <TextBox Width="150"
+                                 Margin="5,0,0,0"
+                                 Background="#FFE3F0D9"
+                                 FontSize="14"
+                                 Text="{Binding StripID5, Mode=TwoWay}" />
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Row="1"
+                      Margin="5"
+                      Header="{Binding LanguageResources[Chamber], FallbackValue='Chamber'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding ChamberUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Up], FallbackValue='Up'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding ChamberDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Down], FallbackValue='Down'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <GroupBox Grid.Row="0"
+                      Margin="5"
+                      Header="{Binding LanguageResources[Elevator], FallbackValue='Elevator'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingElevatorUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[LoadingUp], FallbackValue='Loading Up'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingElevatorDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[LoadingDown], FallbackValue='Loading Down'}"
+                                           Width="60"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingElevatorUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[UnloadingUp], FallbackValue='Unloading Up'}"
+                                           Width="80"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding UnloadingElevatorDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[UnloadingDown], FallbackValue='Unloading Down'}"
+                                           Width="80"
+                                           LineHeight="20"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           TextWrapping="Wrap"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Row="1"
+                      Margin="5"
+                      Header="{Binding LanguageResources[LoadingPusher], FallbackValue='Loading Pusher'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingPusherUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Up], FallbackValue='Up'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingPusherDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Down], FallbackValue='Down'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingPusherLeftCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Left], FallbackValue='Left'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding LoadingPusherRightCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="-1"
+                                                        ScaleY="1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Right], FallbackValue='Right'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+            <GroupBox Grid.Row="2"
+                      Margin="5"
+                      Header="{Binding LanguageResources[IndexPusher], FallbackValue='Index Pusher'}"
+                      FontWeight="Bold">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding IndexPusherUpCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Up], FallbackValue='Up'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding IndexPusherDownCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/up.ico">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="1"
+                                                        ScaleY="-1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Down], FallbackValue='Down'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="0"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="0,0,5,0"
+                                             Foreground="Blue"
+                                             Command="{Binding IndexPusherLeftCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO" />
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Left], FallbackValue='Left'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                        <VSControls:VsButton Height="50"
+                                             Grid.Column="1"
+                                             Background="#FFE6E5E5"
+                                             FontSize="15"
+                                             Margin="5,0,0,0"
+                                             Foreground="Blue"
+                                             Command="{Binding IndexPusherRightCommand}">
+                            <StackPanel Orientation="Horizontal"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <!-- Image -->
+                                <Image Stretch="Fill"
+                                       Margin="5"
+                                       Source="/Resources/Icons/Left.ICO">
+                                    <Image.LayoutTransform>
+                                        <ScaleTransform ScaleX="-1"
+                                                        ScaleY="1" />
+                                    </Image.LayoutTransform>
+                                </Image>
+                                <!-- Text -->
+                                <TextBlock Text="{Binding LanguageResources[Right], FallbackValue='Right'}"
+                                           VerticalAlignment="Center" />
+                            </StackPanel>
+                        </VSControls:VsButton>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</UserControl>

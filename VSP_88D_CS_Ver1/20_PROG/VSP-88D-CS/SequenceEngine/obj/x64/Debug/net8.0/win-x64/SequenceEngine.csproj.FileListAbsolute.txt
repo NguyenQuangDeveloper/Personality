@@ -1,0 +1,11 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\bin\x64\Debug\net8.0\win-x64\SequenceEngine.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\bin\x64\Debug\net8.0\win-x64\SequenceEngine.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\bin\x64\Debug\net8.0\win-x64\SequenceEngine.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\refint\SequenceEngine.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\SequenceEngine.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\SequenceEngine\obj\x64\Debug\net8.0\win-x64\ref\SequenceEngine.dll

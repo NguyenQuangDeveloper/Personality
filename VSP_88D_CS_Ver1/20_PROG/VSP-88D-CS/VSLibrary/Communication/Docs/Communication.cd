@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAYSAAAAAAAAAIAAAAAACQJCAAEAAAAAAAEM=</HashCode>
+      <FileName>Communication\Packet\Modbus\ModbusASCII.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAYSAAAAAAAAAIAAAAAACQJCAAEAAAAAAAEM=</HashCode>
+      <FileName>Communication\Packet\Modbus\ModbusRTU.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Collapsed="true">
+    <Position X="19.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAYSAAAAAAAAAIAAAAAACQJCAAEAAAAAAAEM=</HashCode>
+      <FileName>Communication\Packet\Modbus\ModbusTCP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol._2DIDBCR.CognexBCR" Collapsed="true">
+    <Position X="26.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\2DIDBCR\CognexBCR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol._2DIDBCR.KeyenceBCR" Collapsed="true">
+    <Position X="26.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\2DIDBCR\KeyenceBCR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABQAIAABgIAAAAABAARAEIAAAQKJAAAACFIgBAIBA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\PlasourceRFGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGeneratorData" Collapsed="true">
+    <Position X="29.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAGAAAAAAAABAGAAAAAAAAEAAAAAAAAQACAEAACAQA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\YoungshinRFGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAEgYAAgAABAABAUCAAAAIJACgACUAkBRIAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\YoungshinRFGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestModbusAsciiData" Collapsed="true">
+    <Position X="29.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACAAAAgAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestModbusASCII.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestModbusASCII" Collapsed="true">
+    <Position X="8" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAgAQAAAAAgABAAAAAAAAJAAACAAAAAQAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestModbusASCII.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestModbusRTU" Collapsed="true">
+    <Position X="10.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestModbusRTU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestModbusTCP" Collapsed="true">
+    <Position X="19.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestModbusTCP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestSerial" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIgAAAAAABAABAEEEAAAAJAAAAAAAABAgQA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestSerial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestSocketData" Collapsed="true">
+    <Position X="26.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestSocket" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAIQACAAgAAAAAABEABAEAAAAAAJAAAAAAAABAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestSocket.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServerData" Collapsed="true">
+    <Position X="28" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestSocketServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServer" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIQAAAAgAAAAAABEABAEAAAAAAJAAAAAAAABAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\Test\TestSocketServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.Serial.SerialBase" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAABAAIAAAAAAAQICAAGAAAAAAAAA=</HashCode>
+      <FileName>Communication\Serial\SerialBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Socket.SocketBase" Collapsed="true">
+    <Position X="20.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAEgAABAAAAAAAAAAAICAAGAABAAAABA=</HashCode>
+      <FileName>Communication\Socket\SocketBase .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.Socket.SocketServerBase" Collapsed="true">
+    <Position X="23.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAACAEAAABAAAAAABAAAAICAAGAEAAAAABA=</HashCode>
+      <FileName>Communication\Socket\SocketServerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.CommunicationEventArgs" Collapsed="true">
+    <Position X="29.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Communication\CommunicationBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.CommunicationBase">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="VSLibrary.Communication.CommunicationBase.PendingRequest" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Communication\CommunicationBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FAVAAAAgBigAIAEAgBAABABGiIAEIoDACGIAACBAQAQ=</HashCode>
+      <FileName>Communication\CommunicationBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Communication.PacketHelper" Collapsed="true">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAACAAAAAgAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Communication\CommunicationBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Communication.CommunicationConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAKAAACgAAABAAAAAQAACAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Communication\CommunicationData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VSLibrary.Communication.CommunicationManager" Collapsed="true">
+    <Position X="31.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAABAAQAAABAAAAAAAAAAAAAAgAAAAAAAgIABAA=</HashCode>
+      <FileName>Communication\CommunicationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGenerator" Collapsed="true">
+    <Position X="28" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQAAAAAAIAAAAAAAAQAAIAAAQKBAAAACFIgAAIBA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\IPlasourceRfGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGeneratorData" Collapsed="true">
+    <Position X="29.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAMAAAQAAAAAAAQAAAACAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\IPlasourceRfGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IYoungshinRFGenerator" Collapsed="true">
+    <Position X="31.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEAYAAgAAAAAAAQCAAAAIBACgACUAkARIAA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\IYoungshinRFGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.ICommunication" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NABAAAAgAgAAAAAAABAAAABAAAAAAgCAAGAAAABAQAA=</HashCode>
+      <FileName>Communication\CommunicationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.ICommunicationConfig" Collapsed="true">
+    <Position X="28" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAiAAAAAAAAAAAAAAAAACgACAAACAAAAAAEAAAUAAA=</HashCode>
+      <FileName>Communication\CommunicationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.IModbusConfig" Collapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\CommunicationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.IDataProvider" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Communication\CommunicationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Communication.IModbusMasterWrapper" Collapsed="true">
+    <Position X="26.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYQAAAAAAAAAIAAAAAACQIAAAAAAAAAAAAE=</HashCode>
+      <FileName>Communication\CommunicationInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VSLibrary.Communication.Packet.Protocol.RFGenerator.ModeStatus" Collapsed="true">
+    <Position X="29.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAABAAAAAAAAACAAAABA=</HashCode>
+      <FileName>Communication\Packet\Protocol\RFGenerator\IPlasourceRfGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VSLibrary.Communication.CommunicationTarget" Collapsed="true">
+    <Position X="28" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAAAIAAAIBQAAAAAAAAAAAAAAAAAAAAAAAAACACA=</HashCode>
+      <FileName>Communication\CommunicationENUM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VSLibrary.Communication.CommunicationEventType" Collapsed="true">
+    <Position X="26.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBBAAQBAAAEUQBAQAAABBIAAlAAAAIAAACAAgAAAAA=</HashCode>
+      <FileName>Communication\CommunicationENUM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

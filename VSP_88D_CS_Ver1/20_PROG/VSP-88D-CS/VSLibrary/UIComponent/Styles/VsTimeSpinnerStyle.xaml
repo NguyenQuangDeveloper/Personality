@@ -1,0 +1,96 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:VSLibrary.UIComponent.VSControls">
+    <Style TargetType="{x:Type local:VsTimeSpinner}">
+        <Setter Property="Foreground" Value="#143A5A" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Background" Value="White" />
+        <Setter Property="BorderBrush" Value="#3282FF" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:VsTimeSpinner}">
+                    <Border
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="10">
+                        <StackPanel
+                            Margin="8,2,8,2"
+                            VerticalAlignment="Center"
+                            Orientation="Horizontal">
+                            <TextBox
+                                x:Name="PART_HourBox"
+                                Width="38"
+                                Margin="0,0,3,0"
+                                HorizontalContentAlignment="Center"
+                                Background="#FAFBFF"
+                                BorderBrush="#3282FF"
+                                BorderThickness="1"
+                                FontWeight="Bold"
+                                MaxLength="2" />
+                            <TextBlock
+                                Margin="0,0,3,0"
+                                VerticalAlignment="Center"
+                                FontWeight="Bold"
+                                Text=":" />
+                            <TextBox
+                                x:Name="PART_MinBox"
+                                Width="38"
+                                Margin="0,0,3,0"
+                                HorizontalContentAlignment="Center"
+                                Background="#FAFBFF"
+                                BorderBrush="#3282FF"
+                                BorderThickness="1"
+                                FontWeight="Bold"
+                                MaxLength="2" />
+                            <TextBlock
+                                Margin="0,0,3,0"
+                                VerticalAlignment="Center"
+                                FontWeight="Bold"
+                                Text=":" />
+                            <TextBox
+                                x:Name="PART_SecBox"
+                                Width="38"
+                                Margin="0,0,8,0"
+                                HorizontalContentAlignment="Center"
+                                Background="#FAFBFF"
+                                BorderBrush="#3282FF"
+                                BorderThickness="1"
+                                FontWeight="Bold"
+                                MaxLength="2" />
+                            <!--  업다운 버튼 일체형 스타일  -->
+                            <Viewbox
+                                Height="25"
+                                HorizontalAlignment="Right"
+                                Stretch="Fill">
+                                <StackPanel HorizontalAlignment="Right">
+                                    <local:VsButton
+                                        x:Name="PART_UpButton"
+                                        Width="40"
+                                        Padding="0"
+                                        Background="#FFF"
+                                        BorderBrush="#3282FF"
+                                        BorderThickness="1"
+                                        Content="▲"
+                                        FontWeight="Bold" />
+                                    <local:VsButton
+                                        x:Name="PART_DownButton"
+                                        Width="40"
+                                        Padding="0"
+                                        Background="#FFF"
+                                        BorderBrush="#3282FF"
+                                        BorderThickness="1"
+                                        Content="▼"
+                                        FontWeight="Bold" />
+                                </StackPanel>
+                            </Viewbox>
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

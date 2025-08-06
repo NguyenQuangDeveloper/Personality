@@ -1,0 +1,697 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\AlarmConfig\\AlarmConfig.csproj": {}
+  },
+  "projects": {
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\AlarmConfig\\AlarmConfig.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\AlarmConfig\\AlarmConfig.csproj",
+        "projectName": "AlarmConfig",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\AlarmConfig\\AlarmConfig.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\AlarmConfig\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.2",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Dapper": "2.1.66",
+            "HtmlAgilityPack": "1.12.1",
+            "LiveCharts": "0.9.7",
+            "LiveCharts.Wpf": "0.9.7",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "MaterialDesignColors": "5.2.1",
+            "MaterialDesignThemes": "5.2.1",
+            "MessagePack": "2.5.192",
+            "Microsoft.AspNetCore.Components": "8.0.13",
+            "Microsoft.AspNetCore.Http": "2.3.0",
+            "Microsoft.Data.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.Extensions.DependencyInjection": "9.0.0",
+            "Microsoft.IdentityModel.Tokens": "6.24.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "Microsoft.Web.WebView2": "1.0.3179.45",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "MySql.Data": "9.2.0",
+            "Newtonsoft.Json": "13.0.3",
+            "NLog": "5.4.0",
+            "NLog.Config": "4.7.15",
+            "NLog.Extensions.Logging": "5.4.0",
+            "Oracle.EntityFrameworkCore": "8.21.160",
+            "Oracle.ManagedDataAccess.Core": "23.8.0",
+            "PdfiumViewer.Native.x86.v8-xfa": "2018.4.8.256",
+            "PdfiumViewer.Native.x86_64.v8-xfa": "2018.4.8.256",
+            "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+            "PresentationFramework": "4.6.0",
+            "PropertyChanged.Fody": "4.1.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "SharpHook": "6.2.0",
+            "SharpZipLib": "1.4.2",
+            "ShowMeTheXAML": "2.0.0",
+            "Syncfusion.DocIO.Wpf": "29.1.40",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Drawing.Common": "9.0.4",
+            "System.IO.Ports": "9.0.4",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView.WPF",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "SkiaSharp.HarfBuzz": {
+              "target": "Package",
+              "version": "[3.119.0, )"
+            },
+            "SkiaSharp.Views.WPF": {
+              "target": "Package",
+              "version": "[3.119.0, )"
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.2",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Dapper": "2.1.66",
+            "HtmlAgilityPack": "1.12.1",
+            "LiveCharts": "0.9.7",
+            "LiveCharts.Wpf": "0.9.7",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "MaterialDesignColors": "5.2.1",
+            "MaterialDesignThemes": "5.2.1",
+            "MessagePack": "2.5.192",
+            "Microsoft.AspNetCore.Components": "8.0.13",
+            "Microsoft.AspNetCore.Http": "2.3.0",
+            "Microsoft.Data.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.Extensions.DependencyInjection": "9.0.0",
+            "Microsoft.IdentityModel.Tokens": "6.24.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "Microsoft.Web.WebView2": "1.0.3179.45",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "MySql.Data": "9.2.0",
+            "Newtonsoft.Json": "13.0.3",
+            "NLog": "5.4.0",
+            "NLog.Config": "4.7.15",
+            "NLog.Extensions.Logging": "5.4.0",
+            "Oracle.EntityFrameworkCore": "8.21.160",
+            "Oracle.ManagedDataAccess.Core": "23.8.0",
+            "PdfiumViewer.Native.x86.v8-xfa": "2018.4.8.256",
+            "PdfiumViewer.Native.x86_64.v8-xfa": "2018.4.8.256",
+            "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+            "PresentationFramework": "4.6.0",
+            "PropertyChanged.Fody": "4.1.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "SharpHook": "6.2.0",
+            "SharpZipLib": "1.4.2",
+            "ShowMeTheXAML": "2.0.0",
+            "Syncfusion.DocIO.Wpf": "29.1.40",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Drawing.Common": "9.0.4",
+            "System.IO.Ports": "9.0.4",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.9, )"
+            },
+            "SkiaSharp.HarfBuzz": {
+              "target": "Package",
+              "version": "[2.88.9, )"
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.2",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Dapper": "2.1.66",
+            "HtmlAgilityPack": "1.12.1",
+            "LiveCharts": "0.9.7",
+            "LiveCharts.Wpf": "0.9.7",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "MaterialDesignColors": "5.2.1",
+            "MaterialDesignThemes": "5.2.1",
+            "MessagePack": "2.5.192",
+            "Microsoft.AspNetCore.Components": "8.0.13",
+            "Microsoft.AspNetCore.Http": "2.3.0",
+            "Microsoft.Data.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.Extensions.DependencyInjection": "9.0.0",
+            "Microsoft.IdentityModel.Tokens": "6.24.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "Microsoft.Web.WebView2": "1.0.3179.45",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "MySql.Data": "9.2.0",
+            "Newtonsoft.Json": "13.0.3",
+            "NLog": "5.4.0",
+            "NLog.Config": "4.7.15",
+            "NLog.Extensions.Logging": "5.4.0",
+            "Oracle.EntityFrameworkCore": "8.21.160",
+            "Oracle.ManagedDataAccess.Core": "23.8.0",
+            "PdfiumViewer.Native.x86.v8-xfa": "2018.4.8.256",
+            "PdfiumViewer.Native.x86_64.v8-xfa": "2018.4.8.256",
+            "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+            "PresentationFramework": "4.6.0",
+            "PropertyChanged.Fody": "4.1.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "SharpHook": "6.2.0",
+            "SharpZipLib": "1.4.2",
+            "ShowMeTheXAML": "2.0.0",
+            "Syncfusion.DocIO.Wpf": "29.1.40",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Drawing.Common": "9.0.4",
+            "System.IO.Ports": "9.0.4",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj",
+        "projectName": "LiveChartsCore",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.2",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Dapper": "2.1.66",
+            "HtmlAgilityPack": "1.12.1",
+            "LiveCharts": "0.9.7",
+            "LiveCharts.Wpf": "0.9.7",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "MaterialDesignColors": "5.2.1",
+            "MaterialDesignThemes": "5.2.1",
+            "MessagePack": "2.5.192",
+            "Microsoft.AspNetCore.Components": "8.0.13",
+            "Microsoft.AspNetCore.Http": "2.3.0",
+            "Microsoft.Data.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.Extensions.DependencyInjection": "9.0.0",
+            "Microsoft.IdentityModel.Tokens": "6.24.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "Microsoft.Web.WebView2": "1.0.3179.45",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "MySql.Data": "9.2.0",
+            "Newtonsoft.Json": "13.0.3",
+            "NLog": "5.4.0",
+            "NLog.Config": "4.7.15",
+            "NLog.Extensions.Logging": "5.4.0",
+            "Oracle.EntityFrameworkCore": "8.21.160",
+            "Oracle.ManagedDataAccess.Core": "23.8.0",
+            "PdfiumViewer.Native.x86.v8-xfa": "2018.4.8.256",
+            "PdfiumViewer.Native.x86_64.v8-xfa": "2018.4.8.256",
+            "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+            "PresentationFramework": "4.6.0",
+            "PropertyChanged.Fody": "4.1.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "SharpHook": "6.2.0",
+            "SharpZipLib": "1.4.2",
+            "ShowMeTheXAML": "2.0.0",
+            "Syncfusion.DocIO.Wpf": "29.1.40",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Drawing.Common": "9.0.4",
+            "System.IO.Ports": "9.0.4",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj",
+        "projectName": "VSLibrary",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Microsoft-WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "NModbus4.NetCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.8.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.2",
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "Dapper": "2.1.66",
+            "HtmlAgilityPack": "1.12.1",
+            "LiveCharts": "0.9.7",
+            "LiveCharts.Wpf": "0.9.7",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "MaterialDesignColors": "5.2.1",
+            "MaterialDesignThemes": "5.2.1",
+            "MessagePack": "2.5.192",
+            "Microsoft.AspNetCore.Components": "8.0.13",
+            "Microsoft.AspNetCore.Http": "2.3.0",
+            "Microsoft.Data.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.Extensions.DependencyInjection": "9.0.0",
+            "Microsoft.IdentityModel.Tokens": "6.24.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "Microsoft.Web.WebView2": "1.0.3179.45",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "MySql.Data": "9.2.0",
+            "Newtonsoft.Json": "13.0.3",
+            "NLog": "5.4.0",
+            "NLog.Config": "4.7.15",
+            "NLog.Extensions.Logging": "5.4.0",
+            "Oracle.EntityFrameworkCore": "8.21.160",
+            "Oracle.ManagedDataAccess.Core": "23.8.0",
+            "PdfiumViewer.Native.x86.v8-xfa": "2018.4.8.256",
+            "PdfiumViewer.Native.x86_64.v8-xfa": "2018.4.8.256",
+            "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
+            "PresentationFramework": "4.6.0",
+            "PropertyChanged.Fody": "4.1.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0",
+            "SharpHook": "6.2.0",
+            "SharpZipLib": "1.4.2",
+            "ShowMeTheXAML": "2.0.0",
+            "Syncfusion.DocIO.Wpf": "29.1.40",
+            "System.Data.SqlClient": "4.9.0",
+            "System.Drawing.Common": "9.0.4",
+            "System.IO.Ports": "9.0.4",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

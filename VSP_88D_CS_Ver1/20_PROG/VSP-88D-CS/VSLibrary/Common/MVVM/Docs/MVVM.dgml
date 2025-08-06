@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Common.MVVM.Behaviors" Group="Expanded" Label="Common.MVVM.Behaviors" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.MVVM.Behaviors.RegionBehavior" Label="RegionBehavior" Category="CodeSchema_Class" Group="Common.MVVM.Behaviors" />
+    <Node Id="VSLibrary.Common.MVVM.Behaviors.WindowDragBehavior" Label="WindowDragBehavior" Category="CodeSchema_Class" Group="Common.MVVM.Behaviors" />
+    <Node Id="Common.MVVM.Core" Group="Expanded" Label="Common.MVVM.Core" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.MVVM.Core.RegionManager" Label="RegionManager" Category="CodeSchema_Class" Group="Common.MVVM.Core" />
+    <Node Id="VSLibrary.Common.MVVM.Core.RelayCommand" Label="RelayCommand" Category="CodeSchema_Class" Group="Common.MVVM.Core" />
+    <Node Id="VSLibrary.Common.MVVM.Core.RelayCommand&lt;T&gt;" Label="RelayCommand" Category="CodeSchema_Class" Group="Common.MVVM.Core" />
+    <Node Id="VSLibrary.Common.MVVM.Core.ViewManager" Label="ViewManager" Category="CodeSchema_Class" Group="Common.MVVM.Core" />
+    <Node Id="VSLibrary.Common.MVVM.Core.VSContainer" Label="VSContainer" Category="CodeSchema_Class" Group="Common.MVVM.Core" />
+    <Node Id="Common.MVVM.Interfaces" Group="Expanded" Label="Common.MVVM.Interfaces" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.IActivatable" Label="IActivatable" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.IContainer" Label="IContainer" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.INavigator" Label="INavigator" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.IRegionAware" Label="IRegionAware" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.IRegionManager" Label="IRegionManager" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="VSLibrary.Common.MVVM.Interfaces.IViewManager" Label="IViewManager" Category="CodeSchema_Interface" Group="Common.MVVM.Interfaces" />
+    <Node Id="Common.MVVM.Locators" Group="Expanded" Label="Common.MVVM.Locators" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.MVVM.Locators.ViewModelLocator" Label="ViewModelLocator" Category="CodeSchema_Class" Group="Common.MVVM.Locators" />
+    <Node Id="VSLibrary.Common.MVVM.Locators.ViewModelLocatorConverter" Label="ViewModelLocatorConverter" Category="CodeSchema_Class" Group="Common.MVVM.Locators" />
+    <Node Id="Common.MVVM.ViewModels" Group="Expanded" Label="Common.MVVM.ViewModels" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.MVVM.ViewModels.BlazorViewModelBase" Label="BlazorViewModelBase" Category="CodeSchema_Class" Group="Common.MVVM.ViewModels" />
+    <Node Id="VSLibrary.Common.MVVM.ViewModels.ViewModelBase" Label="ViewModelBase" Category="CodeSchema_Class" Group="Common.MVVM.ViewModels" />
+  </Nodes>
+  <Links>
+    <Link Source="Common.MVVM.Behaviors" Target="VSLibrary.Common.MVVM.Behaviors.RegionBehavior" Category="Contains" />
+    <Link Source="Common.MVVM.Behaviors" Target="VSLibrary.Common.MVVM.Behaviors.WindowDragBehavior" Category="Contains" />
+    <Link Source="Common.MVVM.Core" Target="VSLibrary.Common.MVVM.Core.RegionManager" Category="Contains" />
+    <Link Source="Common.MVVM.Core" Target="VSLibrary.Common.MVVM.Core.RelayCommand" Category="Contains" />
+    <Link Source="Common.MVVM.Core" Target="VSLibrary.Common.MVVM.Core.RelayCommand&lt;T&gt;" Category="Contains" />
+    <Link Source="Common.MVVM.Core" Target="VSLibrary.Common.MVVM.Core.ViewManager" Category="Contains" />
+    <Link Source="Common.MVVM.Core" Target="VSLibrary.Common.MVVM.Core.VSContainer" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.IActivatable" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.IContainer" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.INavigator" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.IRegionAware" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.IRegionManager" Category="Contains" />
+    <Link Source="Common.MVVM.Interfaces" Target="VSLibrary.Common.MVVM.Interfaces.IViewManager" Category="Contains" />
+    <Link Source="Common.MVVM.Locators" Target="VSLibrary.Common.MVVM.Locators.ViewModelLocator" Category="Contains" />
+    <Link Source="Common.MVVM.Locators" Target="VSLibrary.Common.MVVM.Locators.ViewModelLocatorConverter" Category="Contains" />
+    <Link Source="Common.MVVM.ViewModels" Target="VSLibrary.Common.MVVM.ViewModels.BlazorViewModelBase" Category="Contains" />
+    <Link Source="Common.MVVM.ViewModels" Target="VSLibrary.Common.MVVM.ViewModels.ViewModelBase" Category="Contains" />
+    <Link Source="VSLibrary.Common.MVVM.Behaviors.RegionBehavior" Target="VSLibrary.Common.MVVM.Core.RegionManager" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Core.RegionManager" Target="VSLibrary.Common.MVVM.Interfaces.IRegionManager" Category="Implements" />
+    <Link Source="VSLibrary.Common.MVVM.Core.RegionManager" Target="VSLibrary.Common.MVVM.Interfaces.IActivatable" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Core.RegionManager" Target="VSLibrary.Common.MVVM.Core.VSContainer" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Core.ViewManager" Target="VSLibrary.Common.MVVM.Interfaces.IViewManager" Category="Implements" />
+    <Link Source="VSLibrary.Common.MVVM.Core.ViewManager" Target="VSLibrary.Common.MVVM.Interfaces.IContainer" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Core.ViewManager" Target="VSLibrary.Common.MVVM.Interfaces.INavigator" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Core.VSContainer" Target="VSLibrary.Common.MVVM.Interfaces.IContainer" Category="Implements" />
+    <Link Source="VSLibrary.Common.MVVM.Core.VSContainer" Target="VSLibrary.Common.MVVM.Interfaces.IActivatable" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Interfaces.IRegionManager" Target="VSLibrary.Common.MVVM.Interfaces.INavigator" Category="Implements" />
+    <Link Source="VSLibrary.Common.MVVM.Locators.ViewModelLocator" Target="VSLibrary.Common.MVVM.Interfaces.IContainer" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.Locators.ViewModelLocatorConverter" Target="VSLibrary.Common.MVVM.Locators.ViewModelLocator" Category="Uses" />
+    <Link Source="VSLibrary.Common.MVVM.ViewModels.BlazorViewModelBase" Target="VSLibrary.Common.MVVM.ViewModels.ViewModelBase" Category="Inherits" />
+    <Link Source="VSLibrary.Common.MVVM.ViewModels.ViewModelBase" Target="VSLibrary.Common.MVVM.Interfaces.IActivatable" Category="Implements" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" />
+    <Category Id="Inheritance" Background="#FF00FF00" />
+    <Category Id="Implementation" Background="#FFFFFF00" />
+    <Category Id="Composes" Background="#FF008000" />
+    <Category Id="Aggregates" Background="#FFFFA500" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

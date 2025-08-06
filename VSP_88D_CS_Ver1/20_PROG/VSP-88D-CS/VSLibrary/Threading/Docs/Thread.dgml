@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Threading" Category="CodeSchema_Namespace" Bounds="0,0,689.655,365.96" Group="Expanded" Label="Threading" />
+    <Node Id="VSLibrary.Threading.CpuAffinityHelper" Category="CodeSchema_Class" Bounds="179.696666666667,264,137.093333333333,26" Label="CpuAffinityHelper" />
+    <Node Id="VSLibrary.Threading.ICancellableThread" Category="CodeSchema_Interface" Bounds="182.593333333333,152.02,143.336666666667,25.96" Label="ICancellableThread" />
+    <Node Id="VSLibrary.Threading.IThread" Category="CodeSchema_Interface" Bounds="213.403333333333,208.02,81.7166666666667,25.96" Label="IThread" />
+    <Node Id="VSLibrary.Threading.IThreadManager" Category="CodeSchema_Interface" Bounds="369.248333333333,208.02,130.026666666667,25.96" Label="IThreadManager" />
+    <Node Id="VSLibrary.Threading.IThreadRegistrar" Category="CodeSchema_Interface" Bounds="20,320,129.696666666667,25.96" Label="IThreadRegistrar" />
+    <Node Id="VSLibrary.Threading.ThreadBase&lt;TSelf&gt;" Category="CodeSchema_Class" Bounds="48.5916666666667,152,103.34,26" Label="ThreadBase" />
+    <Node Id="VSLibrary.Threading.ThreadFactory" Category="CodeSchema_Class" Bounds="25.92,264,117.856666666667,26" Label="ThreadFactory" />
+    <Node Id="VSLibrary.Threading.ThreadManager" Category="CodeSchema_Class" Bounds="542.868333333333,152,126.786666666667,26" Label="ThreadManager" />
+    <Node Id="VSLibrary.Threading.ThreadManagerProxy" Category="CodeSchema_Class" Bounds="355.981666666667,152,156.56,26" Label="ThreadManagerProxy" />
+    <Node Id="VSLibrary.Threading.TimeResolutionHelper" Category="CodeSchema_Class" Bounds="20,208,160.523333333333,26" Label="TimeResolutionHelper" />
+    <Node Id="VSLibrary.Threading.VSThread" Category="CodeSchema_Class" Bounds="30.4733333333333,96,92.6033333333334,26" Label="VSThread" />
+    <Node Id="VSLibrary.Threading.VirtualThread" Category="CodeSchema_Class" Bounds="20,40,113.55,26" Label="VirtualThread" />
+  </Nodes>
+  <Links>
+    <Link Source="Threading" Target="VSLibrary.Threading.CpuAffinityHelper" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.ICancellableThread" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.IThread" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.IThreadManager" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.IThreadRegistrar" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.ThreadBase&lt;TSelf&gt;" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.ThreadFactory" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.ThreadManager" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.ThreadManagerProxy" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.TimeResolutionHelper" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.VSThread" Category="Contains" />
+    <Link Source="Threading" Target="VSLibrary.Threading.VirtualThread" Category="Contains" />
+    <Link Source="VSLibrary.Threading.ICancellableThread" Target="VSLibrary.Threading.IThread" Category="Implements" Bounds="254.261672973633,177.979995727539,0,21.0400085449219" />
+    <Link Source="VSLibrary.Threading.ThreadBase&lt;TSelf&gt;" Target="VSLibrary.Threading.IThread" Category="Implements" Bounds="136.011672973633,178,74.0968475341797,26.9443054199219" />
+    <Link Source="VSLibrary.Threading.ThreadBase&lt;TSelf&gt;" Target="VSLibrary.Threading.TimeResolutionHelper" Category="Uses" Bounds="100.261665344238,178,0,21" />
+    <Link Source="VSLibrary.Threading.ThreadFactory" Target="VSLibrary.Threading.IThreadRegistrar" Category="Uses" Bounds="84.8483352661133,290,0,21" />
+    <Link Source="VSLibrary.Threading.ThreadManager" Target="VSLibrary.Threading.IThreadManager" Category="Uses" Bounds="482.686645507813,178,83.6464233398438,27.2337188720703" />
+    <Link Source="VSLibrary.Threading.ThreadManagerProxy" Target="VSLibrary.Threading.IThread" Category="Uses" Bounds="302.552673339844,178,89.9232788085938,27.9761352539063" />
+    <Link Source="VSLibrary.Threading.ThreadManagerProxy" Target="VSLibrary.Threading.IThreadManager" Category="Implements" Bounds="434.261657714844,178,0,21.0200042724609" />
+    <Link Source="VSLibrary.Threading.VirtualThread" Target="VSLibrary.Threading.VSThread" Category="Inherits" Bounds="76.7750015258789,66,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="클래스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="클래스" />
+    <Category Id="CodeSchema_Interface" Label="인터페이스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="인터페이스" />
+    <Category Id="CodeSchema_Namespace" Label="네임스페이스" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="네임스페이스" />
+    <Category Id="CodeSchema_Type" Label="형식" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="형식" />
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="Implements" Label="구현" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="구현자" OutgoingActionLabel="구현" />
+    <Category Id="Inherits" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="배경" Description="배경색입니다." DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

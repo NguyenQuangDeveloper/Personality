@@ -1,0 +1,474 @@
+﻿<UserControl
+    x:Class="AlarmConfig.Views.Centers.DrawingArea"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="clr-namespace:AlarmConfig.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:AlarmConfig.Views.Centers"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <converter:TextShapeVisibilityConverter x:Key="TextShapeVisibilityConverter" />
+        <converter:BoolToFontWeightConverter x:Key="BoolToFontWeightConverter" />
+        <converter:BoolToFontStyleConverter x:Key="BoolToFontConverter" />
+        <converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+        <converter:MultiBoolOrToVisibilityConverter x:Key="MultiBoolOrToVisibilityConverter" />
+        <converter:AddOffsetConverter x:Key="AddOffsetConverter" />
+        <converter:OffsetMarginConverter x:Key="OffsetMarginConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <Canvas
+                Grid.Column="1"
+                Width="{Binding DisplayWidth}"
+                Height="{Binding DisplayHeight}"
+                Background="White"
+                ClipToBounds="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding StartDrawCommand}" PassEventArgsToCommand="True" />
+                    </i:EventTrigger>
+
+                    <i:EventTrigger EventName="MouseMove">
+                        <i:InvokeCommandAction Command="{Binding DrawMoveCommand}" PassEventArgsToCommand="True" />
+                    </i:EventTrigger>
+
+                    <i:EventTrigger EventName="MouseUp">
+                        <i:InvokeCommandAction Command="{Binding EndDrawCommand}" PassEventArgsToCommand="True" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+
+                <Grid RenderTransform="{Binding CombinedTransform}">
+                    <Grid.RenderTransformOrigin>0.5,0.5</Grid.RenderTransformOrigin>
+                    <Image
+                        Width="{Binding DisplayWidth}"
+                        Height="{Binding DisplayHeight}"
+                        Source="{Binding ImageAlarm}"
+                        Stretch="Fill" />
+                    <ItemsControl ItemsSource="{Binding Shapes}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="ContentPresenter">
+                                <Setter Property="Canvas.Left" Value="{Binding X}" />
+                                <Setter Property="Canvas.Top" Value="{Binding Y}" />
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Canvas>
+                                    <Grid>
+                                        <Rectangle
+                                            Fill="LightBlue"
+                                            RadiusX="2"
+                                            RadiusY="2"
+                                            Stroke="LightBlue"
+                                            StrokeDashArray="4">
+                                            <Rectangle.Visibility>
+                                                <MultiBinding Converter="{StaticResource MultiBoolOrToVisibilityConverter}">
+                                                    <Binding Path="IsSelected" />
+                                                    <Binding Path="IsEditing" />
+                                                </MultiBinding>
+                                            </Rectangle.Visibility>
+                                        </Rectangle>
+                                        <!--  Rectangle  -->
+                                        <Grid>
+                                            <Rectangle
+                                                x:Name="OuterFrame1"
+                                                Width="{Binding Width}"
+                                                Height="{Binding Height}"
+                                                RenderTransformOrigin="0.5,0.5"
+                                                StrokeThickness="{Binding StrokeThickness}"
+                                                Tag="{Binding ID}">
+
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="MouseMove">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.SelectedShapeMouseMoveCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.EditShapeCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                </i:Interaction.Triggers>
+
+                                                <Rectangle.Style>
+                                                    <Style TargetType="Rectangle">
+                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                        <Setter Property="Stroke" Value="{Binding Color}" />
+
+                                                        <Setter Property="RenderTransform">
+                                                            <Setter.Value>
+                                                                <ScaleTransform ScaleX="1" ScaleY="1" />
+                                                            </Setter.Value>
+                                                        </Setter>
+
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding ShapeType}" Value="Rectangle">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                                                <Setter Property="Stroke" Value="Cyan" />
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsAnimating}" Value="True">
+                                                                <DataTrigger.EnterActions>
+                                                                    <BeginStoryboard>
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation
+                                                                                AutoReverse="True"
+                                                                                RepeatBehavior="Forever"
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                                                From="1"
+                                                                                To="1.5"
+                                                                                Duration="0:0:0.2" />
+                                                                            <DoubleAnimation
+                                                                                AutoReverse="True"
+                                                                                RepeatBehavior="Forever"
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                                                From="1"
+                                                                                To="1.5"
+                                                                                Duration="0:0:0.2" />
+                                                                        </Storyboard>
+                                                                    </BeginStoryboard>
+                                                                </DataTrigger.EnterActions>
+                                                                <DataTrigger.ExitActions>
+                                                                    <BeginStoryboard>
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                                                To="1"
+                                                                                Duration="0:0:0.2" />
+                                                                            <DoubleAnimation
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                                                To="1"
+                                                                                Duration="0:0:0.2" />
+                                                                        </Storyboard>
+                                                                    </BeginStoryboard>
+                                                                </DataTrigger.ExitActions>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Rectangle.Style>
+                                            </Rectangle>
+                                            <TextBox
+                                                Width="{Binding ActualWidth, ElementName=OuterFrame1}"
+                                                Height="{Binding ActualHeight, ElementName=OuterFrame1}"
+                                                Focusable="True"
+                                                IsTabStop="False"
+                                                Opacity="0"
+                                                Visibility="{Binding IsEditing, Converter={StaticResource BoolToVisibilityConverter}}">
+
+                                                <TextBox.Style>
+                                                    <Style TargetType="TextBox">
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                                <Setter Property="FocusManager.FocusedElement" Value="{Binding RelativeSource={RelativeSource Self}}" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBox.Style>
+
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="PreviewKeyDown">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.FinishEditCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                </i:Interaction.Triggers>
+                                            </TextBox>
+                                        </Grid>
+                                        <!--  Ellipse  -->
+                                        <Grid>
+                                            <Ellipse
+                                                x:Name="OuterFrame"
+                                                Width="{Binding Width}"
+                                                Height="{Binding Height}"
+                                                RenderTransformOrigin="0.5,0.5"
+                                                StrokeThickness="{Binding StrokeThickness}"
+                                                Tag="{Binding ID}">
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="MouseMove">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.SelectedShapeMouseMoveCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.EditShapeCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                </i:Interaction.Triggers>
+                                                <Ellipse.Style>
+                                                    <Style TargetType="Ellipse">
+                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                        <Setter Property="Stroke" Value="{Binding Color}" />
+
+                                                        <Setter Property="RenderTransform">
+                                                            <Setter.Value>
+                                                                <ScaleTransform ScaleX="1" ScaleY="1" />
+                                                            </Setter.Value>
+                                                        </Setter>
+
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding ShapeType}" Value="Ellipse">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                            </DataTrigger>
+
+                                                            <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                                                <Setter Property="Stroke" Value="Cyan" />
+                                                            </DataTrigger>
+
+                                                            <DataTrigger Binding="{Binding IsAnimating}" Value="True">
+                                                                <DataTrigger.EnterActions>
+                                                                    <BeginStoryboard>
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation
+                                                                                AutoReverse="True"
+                                                                                RepeatBehavior="Forever"
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                                                From="1"
+                                                                                To="1.5"
+                                                                                Duration="0:0:0.2" />
+                                                                            <DoubleAnimation
+                                                                                AutoReverse="True"
+                                                                                RepeatBehavior="Forever"
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                                                From="1"
+                                                                                To="1.5"
+                                                                                Duration="0:0:0.2" />
+                                                                        </Storyboard>
+                                                                    </BeginStoryboard>
+                                                                </DataTrigger.EnterActions>
+                                                                <DataTrigger.ExitActions>
+                                                                    <BeginStoryboard>
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                                                To="1"
+                                                                                Duration="0:0:0.2" />
+                                                                            <DoubleAnimation
+                                                                                Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                                                To="1"
+                                                                                Duration="0:0:0.2" />
+                                                                        </Storyboard>
+                                                                    </BeginStoryboard>
+                                                                </DataTrigger.ExitActions>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Ellipse.Style>
+                                            </Ellipse>
+                                            <TextBox
+                                                Width="{Binding ActualWidth, ElementName=OuterFrame}"
+                                                Height="{Binding ActualHeight, ElementName=OuterFrame}"
+                                                Focusable="True"
+                                                IsTabStop="False"
+                                                Opacity="0"
+                                                Visibility="{Binding IsEditing, Converter={StaticResource BoolToVisibilityConverter}}">
+
+                                                <TextBox.Style>
+                                                    <Style TargetType="TextBox">
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                                <Setter Property="FocusManager.FocusedElement" Value="{Binding RelativeSource={RelativeSource Self}}" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBox.Style>
+
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="PreviewKeyDown">
+                                                        <i:InvokeCommandAction Command="{Binding DataContext.FinishEditCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                    </i:EventTrigger>
+                                                </i:Interaction.Triggers>
+                                            </TextBox>
+                                        </Grid>
+                                        <!--  TEXT  -->
+                                        <Grid
+                                            Width="{Binding Width}"
+                                            Height="{Binding Height, Converter={StaticResource AddOffsetConverter}, ConverterParameter=30}"
+                                            Visibility="{Binding ShapeType, Converter={StaticResource TextShapeVisibilityConverter}}">
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="MouseMove">
+                                                    <i:InvokeCommandAction Command="{Binding DataContext.SelectedShapeMouseMoveCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                </i:EventTrigger>
+                                            </i:Interaction.Triggers>
+                                            <Grid Height="{Binding Height}">
+                                                <Rectangle
+                                                    Fill="LightBlue"
+                                                    RadiusX="2"
+                                                    RadiusY="2"
+                                                    Stroke="LightBlue"
+                                                    StrokeDashArray="4">
+                                                    <Rectangle.Visibility>
+                                                        <MultiBinding Converter="{StaticResource MultiBoolOrToVisibilityConverter}">
+                                                            <Binding Path="IsSelected" />
+                                                            <Binding Path="IsEditing" />
+                                                        </MultiBinding>
+                                                    </Rectangle.Visibility>
+                                                </Rectangle>
+                                                <TextBox
+                                                    Width="{Binding Width}"
+                                                    Height="{Binding Height}"
+                                                    AcceptsReturn="True"
+                                                    Background="Transparent"
+                                                    BorderThickness="0"
+                                                    FontSize="{Binding FontSize}"
+                                                    FontStyle="{Binding IsItalic, Converter={StaticResource BoolToFontConverter}}"
+                                                    FontWeight="{Binding IsBold, Converter={StaticResource BoolToFontWeightConverter}}"
+                                                    Foreground="{Binding Color}"
+                                                    HorizontalScrollBarVisibility="Disabled"
+                                                    Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}"
+                                                    TextWrapping="Wrap"
+                                                    VerticalScrollBarVisibility="Auto">
+                                                    <TextBox.Style>
+                                                        <Style TargetType="TextBox">
+                                                            <Setter Property="Visibility" Value="Collapsed" />
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                    <Setter Property="Visibility" Value="Visible" />
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </TextBox.Style>
+
+                                                    <i:Interaction.Triggers>
+                                                        <i:EventTrigger EventName="PreviewKeyDown">
+                                                            <i:InvokeCommandAction Command="{Binding DataContext.FinishEditCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                        </i:EventTrigger>
+                                                    </i:Interaction.Triggers>
+
+                                                </TextBox>
+                                                <TextBlock
+                                                    FontSize="{Binding FontSize}"
+                                                    FontStyle="{Binding IsItalic, Converter={StaticResource BoolToFontConverter}}"
+                                                    FontWeight="{Binding IsBold, Converter={StaticResource BoolToFontWeightConverter}}"
+                                                    Foreground="{Binding Color}"
+                                                    Text="{Binding Text}"
+                                                    TextWrapping="Wrap">
+                                                    <TextBlock.Style>
+                                                        <Style TargetType="TextBlock">
+                                                            <Setter Property="Visibility" Value="Visible" />
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </TextBlock.Style>
+
+                                                    <i:Interaction.Triggers>
+                                                        <i:EventTrigger EventName="MouseLeftButtonDown">
+                                                            <i:InvokeCommandAction Command="{Binding DataContext.EditShapeCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" CommandParameter="{Binding}" />
+                                                        </i:EventTrigger>
+                                                    </i:Interaction.Triggers>
+                                                </TextBlock>
+                                            </Grid>
+                                        </Grid>
+                                    </Grid>
+                                    <StackPanel
+                                        Margin="0,-50,0,0"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Top"
+                                        Orientation="Vertical"
+                                        Visibility="{Binding IsEditing, Converter={StaticResource BoolToVisibilityConverter}}">
+
+                                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                                            <Border
+                                                Width="30"
+                                                BorderBrush="Black"
+                                                BorderThickness="1">
+                                                <TextBlock
+                                                    Padding="4,0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Background="White"
+                                                    FontWeight="Bold"
+                                                    Text="H" />
+                                            </Border>
+                                            <Button
+                                                Width="40"
+                                                Height="20"
+                                                Background="White"
+                                                Command="{Binding DataContext.DecreaseShapeHeightCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"
+                                                Content="➖"
+                                                Foreground="Red" />
+                                            <Button
+                                                Width="40"
+                                                Height="20"
+                                                Background="White"
+                                                Command="{Binding DataContext.IncreaseShapeHeightCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"
+                                                Content="➕"
+                                                Foreground="Blue" />
+                                        </StackPanel>
+
+                                        <StackPanel
+                                            Margin="0,2,0,0"
+                                            HorizontalAlignment="Right"
+                                            Orientation="Horizontal">
+                                            <Border
+                                                Width="30"
+                                                BorderBrush="Black"
+                                                BorderThickness="1">
+                                                <TextBlock
+                                                    Padding="4,0"
+                                                    HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"
+                                                    Background="White"
+                                                    FontWeight="Bold"
+                                                    Text="W" />
+                                            </Border>
+                                            <Button
+                                                Width="40"
+                                                Height="20"
+                                                Background="White"
+                                                Command="{Binding DataContext.DecreaseShapeWidthCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"
+                                                Content="➖"
+                                                Foreground="Red" />
+                                            <Button
+                                                Width="40"
+                                                Height="20"
+                                                Background="White"
+                                                Command="{Binding DataContext.IncreaseShapeWidthCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                CommandParameter="{Binding}"
+                                                Content="➕"
+                                                Foreground="Blue" />
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Canvas>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+
+                <Rectangle
+                    Canvas.Left="{Binding SelectRectX}"
+                    Canvas.Top="{Binding SelectRectY}"
+                    Width="{Binding SelectRectWidth}"
+                    Height="{Binding SelectRectHeight}"
+                    IsHitTestVisible="False"
+                    Stroke="Blue"
+                    StrokeDashArray="4"
+                    StrokeThickness="1"
+                    Visibility="{Binding IsSelecting, Converter={StaticResource BoolToVisibilityConverter}}">
+                    <Rectangle.Style>
+                        <Style TargetType="Rectangle">
+                            <Setter Property="Fill" Value="#300080FF" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsSelectingFromLeftToRight}" Value="False">
+                                    <Setter Property="Fill" Value="#30FF8000" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Rectangle.Style>
+                </Rectangle>
+            </Canvas>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

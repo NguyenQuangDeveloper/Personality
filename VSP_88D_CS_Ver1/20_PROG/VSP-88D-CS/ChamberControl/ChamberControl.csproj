@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\LeftArrow.bmp" />
+    <None Remove="Assets\Images\PumpOff.bmp" />
+    <None Remove="Assets\Images\PumpOn.bmp" />
+    <None Remove="Assets\Images\RightArrow.bmp" />
+    <None Remove="Assets\Images\VacuumGauge.bmp" />
+    <None Remove="Assets\Images\ValveClose.bmp" />
+    <None Remove="Assets\Images\ValveOpenIn.bmp" />
+    <None Remove="Assets\Images\ValveOpenOut.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSLibrary\VSLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\LeftArrow.bmp" />
+    <Resource Include="Assets\Images\PumpOff.bmp" />
+    <Resource Include="Assets\Images\PumpOn.bmp" />
+    <Resource Include="Assets\Images\RightArrow.bmp" />
+    <Resource Include="Assets\Images\VacuumGauge.bmp" />
+    <Resource Include="Assets\Images\ValveClose.bmp" />
+    <Resource Include="Assets\Images\ValveOpenIn.bmp" />
+    <Resource Include="Assets\Images\ValveOpenOut.bmp" />
+  </ItemGroup>
+
+</Project>

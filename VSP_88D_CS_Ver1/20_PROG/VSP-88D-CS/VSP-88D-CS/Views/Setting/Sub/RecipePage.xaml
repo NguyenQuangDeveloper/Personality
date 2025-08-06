@@ -1,0 +1,340 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Setting.Sub.RecipePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+             xmlns:controls="clr-namespace:VSP_88D_CS.Common.Controls"
+             xmlns:converters="clr-namespace:VSP_88D_CS.Converters"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sub="clr-namespace:VSP_88D_CS.ViewModels.Setting.Sub"
+             d:DataContext="{d:DesignInstance Type=sub:RecipePageViewModel}"
+             d:DesignHeight="600"
+             d:DesignWidth="800"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <converters:BothFalseMultiConverter x:Key="BothFalseMultiConverter" />
+        <converters:OrBooleanMultiConverter x:Key="OrBooleanMultiConverter" />
+        <converters:BothTrueMultiConverter x:Key="BothTrueMultiConverter" />
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+        <converters:NullableToBoolConverter x:Key="NullableToBoolConverter"
+                                            Invert="True" />
+        <converters:SelectedItemsCountRangeConverter x:Key="SelectedItemsCountRangeConverter" />
+
+        <Style BasedOn="{StaticResource {x:Type VSControls:VsDataGrid}}"
+               TargetType="{x:Type VSControls:VsDataGrid}">
+            <Setter Property="Height"
+                    Value="Auto" />
+            <Setter Property="AutoGenerateColumns"
+                    Value="False" />
+            <Setter Property="BorderBrush"
+                    Value="Black" />
+            <Setter Property="BorderThickness"
+                    Value="1" />
+            <Setter Property="HeadersVisibility"
+                    Value="None" />
+            <Setter Property="IsReadOnly"
+                    Value="True" />
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="360" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!--  #LEFT PANEL  -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <!--#region RECIPE LIST-->
+            <GroupBox Grid.Row="0"
+                      Margin="5,0,5,5"
+                      Padding="5"
+                      FontWeight="Bold"
+                      Header="{Binding LanguageResources[RecipeList], FallbackValue='Recipe List'}">
+                <VSControls:VsDataGrid ItemsSource="{Binding RecipeDatas}"
+                                       SelectedItem="{Binding SelectedRecipe}"
+                                       SelectionChanged="VsDataGrid_SelectionChanged">
+
+                    <VSControls:VsDataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Width="auto"
+                                               FontSize="16"
+                                               Foreground="Green"
+                                               Text="⮞">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Visibility"
+                                                        Value="Collapsed" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
+                                                                 Value="True">
+                                                        <Setter Property="Visibility"
+                                                                Value="Visible" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTextColumn Width="*"
+                                            Binding="{Binding Recipe}"
+                                            Header="Name" />
+                    </VSControls:VsDataGrid.Columns>
+
+                    <VSControls:VsDataGrid.IsEnabled>
+                        <MultiBinding Converter="{StaticResource BothFalseMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </VSControls:VsDataGrid.IsEnabled>
+
+                </VSControls:VsDataGrid>
+            </GroupBox>
+
+            <!--  # MODIFY BUTTONS: ADD - EDIT - DELETE  -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <controls:ExtendedVsButton Grid.Column="0"
+                                           Command="{Binding OnButtonClickCommand}"
+                                           CommandParameter="Add"
+                                           ImageSource="pack://application:,,,/Resources/Icons/AddFile.png"
+                                           Text="{Binding LanguageResources[Add], FallbackValue='Add'}">
+                    <controls:ExtendedVsButton.IsEnabled>
+                        <MultiBinding Converter="{StaticResource BothFalseMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </controls:ExtendedVsButton.IsEnabled>
+                </controls:ExtendedVsButton>
+
+                <controls:ExtendedVsButton Grid.Column="2"
+                                           Command="{Binding OnButtonClickCommand}"
+                                           CommandParameter="Edit"
+                                           ImageSource="pack://application:,,,/Resources/Icons/Edit.png"
+                                           Text="{Binding LanguageResources[Edit], FallbackValue='Edit'}">
+                    <controls:ExtendedVsButton.IsEnabled>
+                        <MultiBinding Converter="{StaticResource BothTrueMultiConverter}">
+                            <Binding Path="IsAdd"
+                                     Converter="{StaticResource InverseBooleanConverter}" />
+                            <Binding Path="IsEdit"
+                                     Converter="{StaticResource InverseBooleanConverter}" />
+                            <Binding Path="SelectedRecipes"
+                                     Converter="{StaticResource SelectedItemsCountRangeConverter}"
+                                     ConverterParameter='1-1' />
+                        </MultiBinding>
+                    </controls:ExtendedVsButton.IsEnabled>
+                </controls:ExtendedVsButton>
+
+                <controls:ExtendedVsButton Grid.Column="4"
+                                           Command="{Binding OnButtonClickCommand}"
+                                           CommandParameter="Delete"
+                                           ImageSource="pack://application:,,,/Resources/Icons/DeleteFile.png"
+                                           Text="{Binding LanguageResources[Delete], FallbackValue='Delete'}">
+                    <controls:ExtendedVsButton.IsEnabled>
+                        <MultiBinding Converter="{StaticResource BothTrueMultiConverter}">
+                            <Binding Path="IsAdd"
+                                     Converter="{StaticResource InverseBooleanConverter}" />
+                            <Binding Path="IsEdit"
+                                     Converter="{StaticResource InverseBooleanConverter}" />
+                            <Binding Path="SelectedRecipe"
+                                     Converter="{StaticResource NullableToBoolConverter}" />
+                        </MultiBinding>
+                    </controls:ExtendedVsButton.IsEnabled>
+                </controls:ExtendedVsButton>
+            </Grid>
+
+            <!--  #RECIPE NAME  -->
+            <Label Grid.Row="2"
+                   Margin="0,5,5,0"
+                   Content="{Binding LanguageResources[EnterRecipeName], FallbackValue='Enter recipe name'}"
+                   FontWeight="Bold" />
+
+            <TextBox Grid.Row="3"
+                     Height="40"
+                     Margin="5,0,5,5"
+                     materialDesign:HintAssist.Hint="Enter recipe name"
+                     Text="{Binding RecipeName}">
+                <TextBox.IsEnabled>
+                    <MultiBinding Converter="{StaticResource OrBooleanMultiConverter}">
+                        <Binding Path="IsAdd" />
+                        <Binding Path="IsEdit" />
+                    </MultiBinding>
+                </TextBox.IsEnabled>
+
+            </TextBox>
+
+            <!--  #CONFIRM BUTTON: CONFIRM - CANCEL  -->
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <controls:ExtendedVsButton Grid.Column="0"
+                                           Command="{Binding OnButtonClickCommand}"
+                                           CommandParameter="Save"
+                                           ImageSource="pack://application:,,,/Resources/Icons/Save.png"
+                                           Text="{Binding LanguageResources[Save], FallbackValue='Save'}">
+
+                    <controls:ExtendedVsButton.IsEnabled>
+                        <MultiBinding Converter="{StaticResource OrBooleanMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </controls:ExtendedVsButton.IsEnabled>
+
+                </controls:ExtendedVsButton>
+
+                <controls:ExtendedVsButton Grid.Column="1"
+                                           Margin="10,0,0,0"
+                                           Command="{Binding OnButtonClickCommand}"
+                                           CommandParameter="Cancel"
+                                           ImageSource="pack://application:,,,/Resources/Icons/Cancel.png"
+                                           Text="{Binding LanguageResources[Cancel], FallbackValue='Cancel'}">
+                    <controls:ExtendedVsButton.IsEnabled>
+                        <MultiBinding Converter="{StaticResource OrBooleanMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </controls:ExtendedVsButton.IsEnabled>
+
+                </controls:ExtendedVsButton>
+            </Grid>
+        </Grid>
+
+        <!--  #RIGHT PANEL  -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <!--  # TOP: CLEANING PARAMETER LIST  -->
+            <GroupBox Grid.Row="0"
+                      Grid.Column="1"
+                      Margin="5,0,0,5"
+                      Padding="5"
+                      FontWeight="Bold"
+                      Header="{Binding LanguageResources[CleaningParameterList], FallbackValue='Cleaning Parameter List'}">
+                <VSControls:VsDataGrid ItemsSource="{Binding CleaningDatas}"
+                                       SelectedItem="{Binding SelectedCleaning}"
+                                       SelectionMode="Single">
+                    <!--  Column definition  -->
+                    <VSControls:VsDataGrid.Columns>
+                        <DataGridTemplateColumn Width="50">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Width="auto"
+                                               FontSize="16"
+                                               Foreground="Green"
+                                               Text="⮞">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Visibility"
+                                                        Value="Collapsed" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
+                                                                 Value="True">
+                                                        <Setter Property="Visibility"
+                                                                Value="Visible" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTextColumn Width="*"
+                                            Binding="{Binding CleaningName}"
+                                            Header="Cleaning" />
+                    </VSControls:VsDataGrid.Columns>
+
+                    <VSControls:VsDataGrid.IsEnabled>
+                        <MultiBinding Converter="{StaticResource OrBooleanMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </VSControls:VsDataGrid.IsEnabled>
+
+                </VSControls:VsDataGrid>
+            </GroupBox>
+
+            <!--  BOTTOM: DEVICE LIST  -->
+            <GroupBox Grid.Row="1"
+                      Grid.Column="1"
+                      Margin="5,5,0,5"
+                      Padding="5"
+                      FontWeight="Bold"
+                      Header="{Binding LanguageResources[DeviceList], FallbackValue='Device List'}">
+                <VSControls:VsDataGrid ItemsSource="{Binding DeviceDatas}"
+                                       SelectedItem="{Binding SelectedDevice}"
+                                       SelectionMode="Single">
+                    <!--  Column definition  -->
+                    <VSControls:VsDataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Width="auto"
+                                               FontSize="16"
+                                               Foreground="Green"
+                                               Text="⮞">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Visibility"
+                                                        Value="Collapsed" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
+                                                                 Value="True">
+                                                        <Setter Property="Visibility"
+                                                                Value="Visible" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                        <DataGridTextColumn Width="*"
+                                            Binding="{Binding DeviceName}"
+                                            Header="Device" />
+                    </VSControls:VsDataGrid.Columns>
+
+                    <VSControls:VsDataGrid.IsEnabled>
+                        <MultiBinding Converter="{StaticResource OrBooleanMultiConverter}">
+                            <Binding Path="IsAdd" />
+                            <Binding Path="IsEdit" />
+                        </MultiBinding>
+                    </VSControls:VsDataGrid.IsEnabled>
+
+                </VSControls:VsDataGrid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VSLibrary.Controller.AnalogIO.ADLinkAIO" Collapsed="true">
+    <Position X="8.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAQACAAAAIAAABAAAAAgAAAAAAIAgAABgAAAAA=</HashCode>
+      <FileName>Controller\AnalogIO\ADLinkAIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.AnalogIO.AjinAxtAIO" Collapsed="true">
+    <Position X="10.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAiAQACAAAAIgAABAAAAAAAAAAKAIAgAARgAAAAA=</HashCode>
+      <FileName>Controller\AnalogIO\AjinAxtAIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.DigitalIO.AjinAxtDIO" Collapsed="true">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAwAAAAgAYAABBAAAAAACAAIAAMAIAABAAAAAE=</HashCode>
+      <FileName>Controller\DigitalIO\AjinAxtDIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.DigitalIO.ComizoaDIO" Collapsed="true">
+    <Position X="15.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAQAABBAAAAAAAAAIAAMAAAAAAAAAAE=</HashCode>
+      <FileName>Controller\DigitalIO\ComizoaDIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.Motion.AxlMotion" Collapsed="true">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQcQKAAAEiQggBAAAAASAAAAAAABYUEEAIIABAEABEE=</HashCode>
+      <FileName>Controller\Motion\Ajin\AxlMotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.Motion.AxtMotion" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQcQKKAQEKQggDYLAIBSACABIEABZcGENIIEBAMghEM=</HashCode>
+      <FileName>Controller\Motion\Ajin\AxtMotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.Motion.ComizoaMotion" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQcQKAAAEiQggBAAAAASAAAAAAABYUEEAIIABAEABEE=</HashCode>
+      <FileName>Controller\Motion\ComizoaMotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.AIOBase" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAACAAAAAAAABIAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.AIODataBase" Collapsed="true">
+    <Position X="8.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAoAQgACAAAQAAAAAAAgAAAAAQiAAAAAQAAAAA=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.DIOBase" Collapsed="true">
+    <Position X="14.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAgAQAAAAAAAAAAAAAIAAEAIAAAAAAAAE=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.DIODataBase" Collapsed="true">
+    <Position X="17.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAIQQhAAAAAQAAgAAIAgQAAJAAiAAAkAAAAgIA=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.MotionBase" Collapsed="true">
+    <Position X="10.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQMQKAAAECQgABAAAAASAAAAAAABQUEAAAIEBAEABEE=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.AxisDataBase" Collapsed="true">
+    <Position X="16.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAA5CgAIUSQQAFAxIAAWIAAAHAAJQ0EABIJABCHEBAE=</HashCode>
+      <FileName>Controller\ControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Controller.AIOData" Collapsed="true">
+    <Position X="8.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAgAAoEQgACAAAQAAAAAAggAAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.DIOData" Collapsed="true">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIUQgAAAAAQAAoAAIAgAAAJAAiAAAsAAAAgAA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.AxtAxisData" Collapsed="true">
+    <Position X="16.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAApRiAKSQIQKkA5IQAFIABJHAAJBkQCBKhAoGDEBQA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.ControllerManager" Collapsed="true">
+    <Position X="19.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAJAgAAAAAAAAwAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Controller\ControllerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Controller.LibraryInitializer" Collapsed="true">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAgAAQAAAAAAAABAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="VSLibrary.Controller.Motion_HomeConfig" Collapsed="true">
+    <Position X="19.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VSLibrary.Controller.Motion_MechanicalSignal" Collapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQEIAAAAIAAAAAAACIAAAAAAIACAIAAAAAAAIAAgQA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VSLibrary.Controller.Motion_IOStatus" Collapsed="true">
+    <Position X="21.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAACAPwAAAAJAIAAAAAACAABAIAA=</HashCode>
+      <FileName>Controller\ControllerData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="VSLibrary.Controller.IAIOBase" Collapsed="true">
+    <Position X="19.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAACAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IIOSettinglist" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAQAAAAAAAgAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IAnalogIOData" Collapsed="true">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAoAQAACAAAAAAAAAAAAAAAAAQCAAAAAQAAAAA=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IDIOBase" Collapsed="true">
+    <Position X="21.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAQAAAAAAAAAAAAAIAAEAIAAAAAAAAE=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IDigitalIOData" Collapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAIQQBAAAAAAAAgAAIAAQAAJAACAAAkAAAAgIA=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IMotionBase" Collapsed="true">
+    <Position X="19.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQCAAAECQgABAAAAASAAAAAAABQUEAAAIEBAEABEE=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IAxisSettinglist" Collapsed="true">
+    <Position X="13.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAIQAAQAAARAAAEAAAAGAAIAEAABIAAACCAAAA=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Controller.IAxisData" Collapsed="true">
+    <Position X="13.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYCgAAESQAAFAgIAASIAAABAABQ0EAAAJABAFEBAE=</HashCode>
+      <FileName>Controller\ControllerInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VSLibrary.Controller.IOType" Collapsed="true">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerENUM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VSLibrary.Controller.ControllerType" Collapsed="true">
+    <Position X="19.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAKAAAAAAAAAAQAAUAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ControllerENUM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

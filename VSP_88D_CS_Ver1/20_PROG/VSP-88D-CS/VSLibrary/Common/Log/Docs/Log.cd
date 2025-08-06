@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="사용자 어플리 케이션&#xD;&#xA;&#xD;&#xA;// A안 - 정적 직접 접근&#xD;&#xA;LogManager.Write(&quot;Hello&quot;, LogType.Info);&#xD;&#xA;&#xD;&#xA;// B안 - DI 방식으로 주입&#xD;&#xA;ILogManager log = container.Resolve&lt;ILogManager&gt;();&#xD;&#xA;log.Write(&quot;Hello&quot;);">
+    <Position X="6.771" Y="5.625" Height="1.823" Width="4.085" />
+  </Comment>
+  <Class Name="VSLibrary.Common.Log.LogOptions">
+    <Position X="4.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAAAAAABAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Log\LogBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.Log.NLogProvider">
+    <Position X="2.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAIAAAAAEAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\Log\LogBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.Log.BaseLogWriter">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAQKAAAAgAAACAAAAAEAABAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Common\Log\LogBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.Log.LogManager">
+    <Position X="6.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgEBAAIAAIMAAYAgAAAEAGAEAAAAAAEAAAAAAEEAAAA=</HashCode>
+      <FileName>Common\Log\LogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.Log.LogManagerProxy">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAABAAAAAQIBBQAAAAAAAAAAAAAQAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Common\Log\LogManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VSLibrary.Common.Log.ILogProvider">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAEAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\Log\LogInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.Log.ILogWriter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Common\Log\LogInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.Log.ILogManager">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Common\Log\LogInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VSLibrary.Common.Log.LogType">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAAAAAAAAAAAEAAAAAAEAAAAA=</HashCode>
+      <FileName>Common\Log\LogEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:VSLibrary.UIComponent.VSControls"
+                    xmlns:converters="clr-namespace:VSLibrary.UIComponent.Converters"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- 닫기 버튼 표시용 bool → Visibility 변환기 -->
+    <BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+
+    <Style TargetType="{x:Type local:VsTabControl}" BasedOn="{StaticResource {x:Type TabControl}}">
+        <!-- TODO: HeaderTemplate, CloseButton 등 확장 예정 -->
+    </Style>
+
+    <Style TargetType="{x:Type local:VsTabItem}" BasedOn="{StaticResource {x:Type TabItem}}">
+        <Setter Property="FontSize" Value="{Binding TabHeaderFontSize, RelativeSource={RelativeSource Self}}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:VsTabItem}">
+                    <Border Name="Bd"
+                            Background="{Binding TabHeaderBackground, RelativeSource={RelativeSource TemplatedParent}}"
+                            BorderBrush="Gray"
+                            BorderThickness="{Binding TabBorderThickness, RelativeSource={RelativeSource TemplatedParent}}"
+                            CornerRadius="{Binding TabCornerRadius, RelativeSource={RelativeSource TemplatedParent}}"
+                            Padding="6,2">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="4,0,4,0">
+                            <Image Width="16" Height="16"
+                                   Visibility="{Binding Icon, RelativeSource={RelativeSource TemplatedParent}, Converter={StaticResource NullToVisibilityConverter}}"
+                                   Source="{Binding Icon, RelativeSource={RelativeSource TemplatedParent}}"
+                                   Margin="0,0,4,0" />
+
+                            <TextBlock Text="{Binding Header, RelativeSource={RelativeSource TemplatedParent}}"
+                                       FontWeight="SemiBold"
+                                       FontSize="{Binding TabHeaderFontSize, RelativeSource={RelativeSource TemplatedParent}}"
+                                       Foreground="#333"
+                                       VerticalAlignment="Center" />
+
+                            <Button x:Name="PART_Close"
+                                    Content="✖"
+                                    Margin="6,0,0,0"
+                                    Width="16" Height="16"
+                                    FontSize="10"
+                                    Padding="0"
+                                    VerticalAlignment="Center"
+                                    Background="Transparent"
+                                    BorderBrush="Transparent"
+                                    Visibility="{Binding IsClosable, RelativeSource={RelativeSource TemplatedParent}, Converter={StaticResource BoolToVisibilityConverter}}"
+                                    Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:VsTabControl}}, Path=CloseTabCommand}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource TemplatedParent}}"
+                                    ToolTip="탭 닫기" />
+                        </StackPanel>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="Bd" Property="Background" Value="{Binding TabHeaderSelectedBackground, RelativeSource={RelativeSource TemplatedParent}}" />
+                            <Setter Property="Foreground" Value="Black" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Bd" Property="Background" Value="#FFEBF4FC" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+</ResourceDictionary>

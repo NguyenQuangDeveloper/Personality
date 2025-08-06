@@ -1,0 +1,5 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\x64\Debug\net8.0-windows\win-x64\ChamberControl.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\x64\Debug\net8.0-windows\win-x64\Views\Chamber.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\x64\Debug\net8.0-windows\win-x64\GeneratedInternalTypeHelper.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\x64\Debug\net8.0-windows\win-x64\ChamberControl_MarkupCompile.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\x64\Debug\net8.0-windows\win-x64\ChamberControl_MarkupCompile.lref

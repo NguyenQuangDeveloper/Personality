@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+    <AssemblyName>LiveChartsCore</AssemblyName>
+    <RootNamespace>LiveChartsCore</RootNamespace>
+    <Version>2.0.0-rc5.4</Version>
+    <Authors>BetoRodriguez</Authors>
+    <Description>Simple, flexible chart library for .NET</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/beto-rodriguez/LiveCharts2</RepositoryUrl>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DASK" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9/////////7//////////7/////937/////////vv/8=</HashCode>
+      <FileName>3rd Party Files\Controller\AdlinkLib\Dask\Dask64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtAIO" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UMgjtACAYCAAwSIpMRAEVAgKoMJIjqymAACIBKCBYQk=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtAIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtCAMC5M" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VcR1e+m1tqQvLDrfhVbdlAe8ve9rnd9I37c/2wqSwfQ=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtCAMC5M.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtCAMCFS" Collapsed="true">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>61iqkT35kNe3V2qTDT4prdIaEqc7Wu0FX+ObuBjqvLs=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtCAMCFS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtCAMCFS20" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>F/zeYu3aF5WXiJb5Xs/27bnzNO9tltPP/KR/k3IYhyU=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtCAMCFS20.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtCAMCFS20KDNS" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAgAAAQAAAAAABAAAAEAAAAAAAAAAAAg=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtCAMCFS20KDNS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtDIO" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DJSAYABAgBAhQIBwJCCGAKSAAISMoVQCCIBAKIGChQA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtDIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtKeCAMCFS" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIRlKwkgAAgUAABgAAmBAAgIAwUjDAQAAAAWMCAPCQo=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtKeCAMCFS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtKeCAMCFS20" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IuGEMIFcyC7UEmBhDAFmNAxX2wYE08DhWswuQSUDS0Y=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtKeCAMCFS20.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtKeLib" Collapsed="true">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAgAIAAAAAAIAAAAACAABABAAAACAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtKeLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtLib" Collapsed="true">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAYAAQAAAAAAAABAkACACAFAgEAAAIAQAhgiAAEAJY=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxdLibDef" Collapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLibDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAxtTrigger" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAYAAAAAAAkAABAAAAAEAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCAMCIPdef" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AXT_BASE_BOARD" Collapsed="true">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAgAACAEkAAgAADEAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLibDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AXT_FUNC_MODULE" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAgQCAAEAAAAAAAAAACgDAAAAAAQABAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLibDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AXT_LOG_LEVEL" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAQAAAACAAAAAAQAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLibDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AXT_EVENT" Collapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAIQBABAAAAIAAAAAABEAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\AxtLibDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SYNC_SET" Collapsed="true">
+    <Position X="13.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PORT_DATA_WRITE" Collapsed="true">
+    <Position X="6.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAQAAAAAAAAAAAAAAAIAYAIAAQIAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PORT_DATA_READ" Collapsed="true">
+    <Position X="4.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAABAAAAEAAAAAAAIQAAAAIAABAAAAE=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="COMMAND" Collapsed="true">
+    <Position X="9.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DgIRADAIHFAAAChAhIQABAAABSgAAIQAAGGAgoAYhgA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VERSION" Collapsed="true">
+    <Position X="4.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DIRECTION_SENSE" Collapsed="true">
+    <Position X="15" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UI_MODE" Collapsed="true">
+    <Position X="15" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SP_MODE" Collapsed="true">
+    <Position X="11.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="INPUT_METHOD" Collapsed="true">
+    <Position X="13.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MAIN_CLOCK" Collapsed="true">
+    <Position X="6.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAACAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DETECT_DOWN_START_POINT" Collapsed="true">
+    <Position X="13.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PULSE_OUTPUT" Collapsed="true">
+    <Position X="9.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAgAgAAAAAABAAAgAAJAAAAgEAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DETECT_DESTINATION_SIGNAL" Collapsed="true">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAAAAAIACACAAAAAAIAAAACAIAAAACAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EXTERNAL_COUNTER_INPUT" Collapsed="true">
+    <Position X="6.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAQAABAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="INP_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="11.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ALM_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="2.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NSLM_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="15" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PSLM_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="8" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NELM_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="13.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PELM_SIGNAL_ACTIVE_LEVEL" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UNIVERSAL_SIGNAL" Collapsed="true">
+    <Position X="2.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAHgAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BASE_ADDR" Collapsed="true">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CHIP_SELECT" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAEAAIAAAACAAEAAAABAICAQA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MOVE_DIRECTION" Collapsed="true">
+    <Position X="9.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MPG_MODE" Collapsed="true">
+    <Position X="11.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FS_VERSION" Collapsed="true">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAIAAAAAIAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IP_VERSION" Collapsed="true">
+    <Position X="8" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAiAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSPORT_DATA_WRITE" Collapsed="true">
+    <Position X="8" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAEAAAAgAAAAQAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPPORT_DATA_WRITE" Collapsed="true">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACAAAAAAAAgAAAAAAAAAAEAAAABAAIAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSPORT_DATA_READ" Collapsed="true">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAABAAAAAAAAAAAAAAgAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPPORT_DATA_READ" Collapsed="true">
+    <Position X="15" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAAAACAAAAAIAAAAEAAAAAAAAAAEAAAAAADAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="END_STATUS" Collapsed="true">
+    <Position X="4.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAgQAAAkAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FS_END_STATUS" Collapsed="true">
+    <Position X="11.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAiAABAAAQAkAAAABQBBIAEAAACQAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IP_END_STATUS" Collapsed="true">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAACCAhAAJAAAAAAQQAQAQEIAAAAIABAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DRIVE_STATUS" Collapsed="true">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAABAAAAQAgAACAAEABCAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FS_DRIVE_STATUS" Collapsed="true">
+    <Position X="9.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAggAQIAAAAAAAAAAAABAEAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IP_DRIVE_STATUS" Collapsed="true">
+    <Position X="2.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACSDAgAEAAABABAAAAAAAAAAAAAAAAAVQAwAEAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MECHANICAL_SIGNAL" Collapsed="true">
+    <Position X="8" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAABAACAAAAAAAAAAAAAAEAAAAIAAAAAQAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FS_MECHANICAL_SIGNAL" Collapsed="true">
+    <Position X="13.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACACABAAAQAEAAAAAAAiAAAAAAAGAAABAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IP_MECHANICAL_SIGNAL" Collapsed="true">
+    <Position X="6.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAADQAAAAAAJAgAAAAAAAAACAgAAACAAAkEAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FS_DRIVE_OPERATION" Collapsed="true">
+    <Position X="8" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAABAAAAAAAQAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IP_DRIVE_OPERATION" Collapsed="true">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAIAAAAACAAAAEAAAAAAAAAEAAAAAAAAgAAAAE=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSCOMMAND" Collapsed="true">
+    <Position X="2.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qBNNzrV2Pr6N1LbBV7H/fRBc0qZqXnsoYXqqz85/J3k=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPCOMMAND" Collapsed="true">
+    <Position X="9.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>5N+l59bp1mWehy/d//hepv6un15P+KwZvK+e13rrQ3M=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSEVENT" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>phAsAAWIRAbAEGnBLIMzgQQgYqIwSoAAAjMnmBEAAsY=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPEVENT" Collapsed="true">
+    <Position X="11.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>tAHlWqDsRgWcJJAMkyMcEhQqUlDpjy18IADawqay/8U=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FSUNIVERSAL_SIGNAL" Collapsed="true">
+    <Position X="9.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUBAAAAAQAAAAIAAABAAAAAAAAgAAAAAQIACBAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPUNIVERSAL_SIGNAL" Collapsed="true">
+    <Position X="4.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAQCAIAAEAAAAEAAAQAgAABQAAAgEAAAAAAgCA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IPINTERRUPT_BANK1" Collapsed="true">
+    <Position X="13.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAACIAAACAQAEAAAAAEAEBAMAAEuAQAAgCCAABgIAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AXT_MOTION_IP_INTERRUPT_BANK2" Collapsed="true">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAACAAAEAAAAABAAAAALAAAAAkAgIQAAAAMAA=</HashCode>
+      <FileName>3rd Party Files\Controller\Ajin\AxtLib\MotionDef.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CallbackDelegate" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3rd Party Files\Controller\AdlinkLib\Dask\Dask64.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,259 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Auto.Sub.SvPv"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Auto.Sub"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Grid.Column="1"
+                           Text="{Binding LanguageResources[SetValue], FallbackValue='SET-VALUE'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Grid.Column="2"
+                           Text="{Binding LanguageResources[Current], FallbackValue='CURRENT'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding LanguageResources[Step], FallbackValue='STEP'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding StepSetValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Text="{Binding StepCurrentValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="RF"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Grid.Column="1"
+                           Text="{Binding RFSetValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Grid.Column="2"
+                       Text="{Binding RFCurrentValue, FallbackValue='F:000, R:000'}"
+                       FontWeight="DemiBold"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding LanguageResources[Vacuum], FallbackValue='VACUUM(TORR)'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding VacuumSetValue, FallbackValue='0.000'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Text="{Binding VacuumCurrentValue, FallbackValue='0.000'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding LanguageResources[Gas1], FallbackValue='GAS1(SCCM)'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding Gas1SetValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Text="{Binding Gas1CurrentValue, FallbackValue='0.0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding LanguageResources[Gas2], FallbackValue='GAS2(SCCM)'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0">
+                <TextBlock Text="{Binding Gas2SetValue, FallbackValue='SKIP'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0.5, 0">
+                <TextBlock Text="{Binding Gas2CurrentValue, FallbackValue='0.0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" 
+                    Background="AntiqueWhite"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0.5">
+                <TextBlock Text="{Binding LanguageResources[Cleaning], FallbackValue='CLEANING'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="1"
+                    Background="AliceBlue"
+                    BorderBrush="black" 
+                    BorderThickness="0.5, 0.5, 0, 0.5">
+                <TextBlock Text="{Binding CleaningSetValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+            <Border Grid.Column="2"
+                    Background="LightGray"
+                    BorderBrush="black" 
+                    BorderThickness="0.5">
+                <TextBlock Text="{Binding CleaningCurrentValue, FallbackValue='0'}"
+                           FontWeight="DemiBold"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

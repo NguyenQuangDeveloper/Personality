@@ -1,0 +1,219 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Report.Sub.ChartPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Report.Sub"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+             xmlns:lvcPaint="clr-namespace:LiveChartsCore.SkiaSharpView.Painting;assembly=LiveChartsCore.SkiaSharpView"
+             xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary">
+
+    <Grid>
+        <Border BorderBrush="Gray"
+                BorderThickness="1"
+                CornerRadius="8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+
+                    <lvc:CartesianChart Series="{Binding SeriesCollection}"
+                                        XAxes="{Binding XAxes}"
+                                        YAxes="{Binding YAxes}"
+                                        TooltipTextPaint="{Binding TooltipTextPaint}"
+                                        LegendTextPaint="{Binding Labels}"
+                                        LegendPosition="Right"
+                                        AnimationsSpeed="0:0:0.5"
+                                        DrawMarginFrame="{Binding Frame}"
+                                        ZoomMode="X">
+
+                    </lvc:CartesianChart>
+                    <!--<lvc:CartesianChart Margin="20"
+                                        Series="{Binding Series}"
+                                        XAxes="{Binding XAxes}"
+                                        YAxes="{Binding YAxes}"
+                                        DrawMarginFrame="{Binding Frame}"
+                                        MatchAxesScreenDataRatio="True"
+                                        ZoomMode="Both"
+                                        TooltipPosition="Hidden">
+                    </lvc:CartesianChart>-->
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.5*" />
+                            <ColumnDefinition Width="7*" />
+                            <ColumnDefinition Width="7*" />
+                            <ColumnDefinition Width="4*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="1"
+                              Margin="5">
+                            <GroupBox Header="{Binding  LanguageResources[ChartSet], FallbackValue='Chart Set'}"
+                                      Foreground="DarkBlue"
+                                      Margin="5">
+                                <UniformGrid Columns="2"
+                                             Rows="4">
+                                    <VSControls:VsLabel Content="{Binding  LanguageResources[XTerm(Sec)], FallbackValue='X Term(Sec.)'}" />
+                                    <VSControls:VsTextBox TextAlignment="Center"
+                                                          Text="{Binding LimitTime}"
+                                                          BorderBrush="LightGray"
+                                                          BorderThickness="1" />
+
+                                    <VSControls:VsLabel Content="{Binding  LanguageResources[LeftAxis(RF)Max], FallbackValue='Left Axis(RF) Max.'}" />
+                                    <VSControls:VsTextBox TextAlignment="Center"
+                                                          Text="{Binding LimitRF}"
+                                                          BorderBrush="LightGray"
+                                                          BorderThickness="1" />
+                                    <VSControls:VsLabel Content="{Binding  LanguageResources[RightAxis(Gas)Max], FallbackValue='Right Axis(Gas) Max.'}" />
+                                    <VSControls:VsTextBox TextAlignment="Center"
+                                                          Text="{Binding LimitGas}"
+                                                          BorderBrush="LightGray"
+                                                          BorderThickness="1" />
+                                    <VSControls:VsLabel Content="{Binding  LanguageResources[RightAxis(Vacuum)Max], FallbackValue='Right Axis(Vacuum) Max.'}" />
+                                    <VSControls:VsTextBox TextAlignment="Center"
+                                                          Text="{Binding LimitVacuum}"
+                                                          BorderBrush="LightGray"
+                                                          BorderThickness="1" />
+
+                                </UniformGrid>
+                                <!--<StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="X Term(Sec.)"></TextBlock>
+                                        <TextBox TextAlignment="Center"
+                                                 Text="0"
+                                                 BorderBrush="LightGray"
+                                                 BorderThickness="1"
+                                                 MinWidth="100"></TextBox>
+                                    </StackPanel>
+                                  
+                                    <TextBlock Text="Left Axis(RF, GAS) Max."></TextBlock>
+                                    <TextBox TextAlignment="Center"
+                                             Text="0"
+                                             BorderBrush="LightGray"
+                                             BorderThickness="1"
+                                             Margin="5"></TextBox>
+                                    <TextBlock Text="Right Axis(Vacuum) Max."></TextBlock>
+                                    <TextBox TextAlignment="Center"
+                                             Text="0"
+                                             BorderBrush="LightGray"
+                                             BorderThickness="1"
+                                             Margin="5"></TextBox>
+
+                                </StackPanel>-->
+
+
+                            </GroupBox>
+                        </Grid>
+                        <Grid Grid.Column="2"
+                              Margin="5">
+                            <GroupBox Header="{Binding  LanguageResources[StartDate], FallbackValue='Start Date'}"
+                                      Margin="5">
+
+                                <StackPanel Orientation="Vertical"
+                                            Margin="10">
+                                    <UniformGrid Rows="2">
+                                        <DatePicker x:Name="MyDatePicker"
+                                                    SelectedDate="{Binding SelectedDate}"
+                                                    materialDesign:HintAssist.Hint="{Binding  LanguageResources[PickDate], FallbackValue='Pick Date'}"
+                                                    Margin="5" />
+                                        <materialDesign:TimePicker SelectedTimeFormat="Long"
+                                                                   x:Name="MyTimePicker"
+                                                                   materialDesign:HintAssist.Hint="Pick Time"
+                                                                   Margin="5"
+                                                                   SelectedTime="{Binding SelectedDate}" />
+                                    </UniformGrid>
+
+                                </StackPanel>
+
+                            </GroupBox>
+                        </Grid>
+                        <Grid Grid.Column="3">
+                            <StackPanel Orientation="Vertical"
+                                        Width="150"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center">
+                                <VSControls:VsButton Height="50"
+                                                     Grid.Column="1"
+                                                     Background="#FFE6E5E5"
+                                                     FontSize="15"
+                                                     Foreground="Blue"
+                                                     Command="{Binding SetAxisCommand}">
+                                    <StackPanel Orientation="Horizontal"
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Center">
+                                        <Image Stretch="Fill"
+                                               Margin="5"
+                                               Source="/Resources/Icons/Save.png">
+                                            <Image.LayoutTransform>
+                                                <ScaleTransform ScaleX="1"
+                                                                ScaleY="-1" />
+                                            </Image.LayoutTransform>
+                                        </Image>
+                                        <TextBlock Text="{Binding LanguageResources[Save], FallbackValue='Save'}"
+                                                   LineStackingStrategy="BlockLineHeight"
+                                                   VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </VSControls:VsButton>
+
+                                <VSControls:VsButton Height="50"
+                                                     Grid.Column="1"
+                                                     Background="#FFE6E5E5"
+                                                     FontSize="15"
+                                                     Foreground="Blue"
+                                                     Command="{Binding OpenBtnCommand}"
+                                                     Margin="0,5,0,0">
+                                    <StackPanel Orientation="Horizontal"
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Center">
+                                        <Image Stretch="Fill"
+                                               Margin="5"
+                                               Source="/Resources/Icons/Ok.png">
+                                            <Image.LayoutTransform>
+                                                <ScaleTransform ScaleX="1"
+                                                                ScaleY="-1" />
+                                            </Image.LayoutTransform>
+                                        </Image>
+                                        <TextBlock Text="{Binding LanguageResources[Open], FallbackValue='Open'}"
+                                                   LineStackingStrategy="BlockLineHeight"
+                                                   VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </VSControls:VsButton>
+
+                                <VSControls:VsButton Height="50"
+                                                     Grid.Column="1"
+                                                     Background="#FFE6E5E5"
+                                                     FontSize="15"
+                                                     Foreground="Blue"
+                                                     Command="{Binding ResetBtnCommand}"
+                                                     Margin="0,5,0,0">
+                                    <StackPanel Orientation="Horizontal"
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Center">
+                                        <Image Stretch="Fill"
+                                               Margin="5"
+                                               Source="/Resources/Icons/Cancel.png">
+                                            <Image.LayoutTransform>
+                                                <ScaleTransform ScaleX="1"
+                                                                ScaleY="-1" />
+                                            </Image.LayoutTransform>
+                                        </Image>
+                                        <TextBlock Text="{Binding LanguageResources[Reset], FallbackValue='Reset'}"
+                                                   LineStackingStrategy="BlockLineHeight"
+                                                   VerticalAlignment="Center" />
+                                    </StackPanel>
+                                </VSControls:VsButton>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

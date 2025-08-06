@@ -1,0 +1,12 @@
+﻿<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+	  <PackageVersion Include="NLog" Version="5.4.0" />
+	  <PackageVersion Include="Serilog" Version="4.2.0" />
+	  <PackageVersion Include="Serilog.Sinks.Console" Version="6.0.0" />
+	  <PackageVersion Include="Serilog.Sinks.File" Version="6.0.0" />
+	  <PackageVersion Include="ClosedXML" Version="0.104.0-rc1" />
+   </ItemGroup>
+</Project>

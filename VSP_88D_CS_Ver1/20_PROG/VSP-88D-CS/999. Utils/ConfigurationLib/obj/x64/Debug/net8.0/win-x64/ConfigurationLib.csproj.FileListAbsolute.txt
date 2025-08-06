@@ -1,0 +1,12 @@
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\x64\Debug\net8.0\win-x64\ConfigurationLib.deps.json
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\x64\Debug\net8.0\win-x64\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\x64\Debug\net8.0\win-x64\ConfigurationLib.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.AssemblyInfo.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\refint\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ConfigurationLib.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\x64\Debug\net8.0\win-x64\ref\ConfigurationLib.dll

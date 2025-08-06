@@ -1,0 +1,109 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Auto.Sub.Cim"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Auto.Sub"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0"
+                    VerticalAlignment="Center">
+            <Button Margin="5,0,0,0"
+                    Height="35"
+                    Background="MediumPurple"
+                    Command="{Binding OfflineCommand}"
+                    FontWeight="DemiBold">
+                <StackPanel VerticalAlignment="Center" 
+                            Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Resources/Icons/CimOffline.png" />
+                    <TextBlock Padding="2,0,0,0"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Text="{Binding LanguageResources[Offline], FallbackValue='Offline'}" />
+                </StackPanel>
+            </Button>
+            <Label Content="{Binding Offline.Status, FallbackValue='Disconnected'}" 
+                   Margin="5,3,0,0"
+                   FontSize="12"
+                   Foreground="White"
+                   Background="{Binding Offline.Background, FallbackValue='Green'}" 
+                   VerticalContentAlignment="Center"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Stretch">
+                <Label.InputBindings>
+                    <MouseBinding Gesture="LeftClick"
+                                  Command="{Binding ShowCimSettingCommand}" />
+                </Label.InputBindings>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Column="1"
+                    VerticalAlignment="Center">
+            <Button Margin="5,0,0,0"
+                    Height="35"
+                    Background="MediumPurple"
+                    Command="{Binding LocalCommand}"
+                    FontWeight="DemiBold">
+                <StackPanel VerticalAlignment="Center" 
+                            Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Resources/Icons/CimLocal.png" />
+                    <TextBlock Padding="2,0,0,0"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Text="{Binding LanguageResources[Local], FallbackValue='Local'}" />
+                </StackPanel>
+            </Button>
+            <Label Content="{Binding Local.Status, FallbackValue='Disconnected'}"
+                   Margin="5,3,0,0"
+                   FontSize="12"
+                   Foreground="White"
+                   Background="{Binding Local.Background, FallbackValue='Green'}"
+                   VerticalContentAlignment="Center"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Stretch">
+                <Label.InputBindings>
+                    <MouseBinding Gesture="LeftClick"
+                                  Command="{Binding ShowCimSettingCommand}" />
+                </Label.InputBindings>
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Column="2"
+                    VerticalAlignment="Center">
+            <Button Margin="5,0,5,0"
+                    Height="35"
+                    Background="MediumPurple"
+                    Command="{Binding RemoteCommand}"
+                    FontWeight="DemiBold">
+                <StackPanel VerticalAlignment="Center" 
+                            Orientation="Horizontal">
+                    <Image Source="pack://application:,,,/Resources/Icons/CimRemote.png" />
+                    <TextBlock Padding="2,0,0,0"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Text="{Binding LanguageResources[Remote], FallbackValue='Remote'}" />
+                </StackPanel>
+            </Button>
+            <Label Content="{Binding Remote.Status, FallbackValue='Disconnected'}"
+                   Margin="5,3,5,0"
+                   FontSize="12"
+                   Foreground="White"
+                   Background="{Binding Remote.Background, FallbackValue='Green'}"
+                   VerticalContentAlignment="Center"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Stretch">
+                <Label.InputBindings>
+                    <MouseBinding Gesture="LeftClick"
+                                  Command="{Binding ShowCimSettingCommand}" />
+                </Label.InputBindings>
+            </Label>
+        </StackPanel>
+    </Grid>
+</UserControl>

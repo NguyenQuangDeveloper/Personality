@@ -1,0 +1,233 @@
+﻿<UserControl
+    x:Class="VSLibrary.UIComponent.LayoutPanels.CenterPanel.Report.VsPlasmaLog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls"
+    xmlns:VsCheckSelector="clr-namespace:VSLibrary.UIComponent.VSCustomControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VSLibrary.UIComponent.LayoutPanels.CenterPanel.Report"
+    xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vsl="clr-namespace:VSLibrary.UIComponent.Localization"
+    d:DesignHeight="500"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.635*" />
+            <RowDefinition Height="0.065*" />
+            <RowDefinition Height="0.3*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.37*" />
+            <ColumnDefinition Width="0.23*" />
+            <ColumnDefinition Width="0.22*" />
+            <ColumnDefinition Width="0.13*" />
+        </Grid.ColumnDefinitions>
+        <!--
+    [주의]
+    - GroupBox를 동적으로(템플릿/반복/여러 팝업/동적 화면) 사용할 경우,
+      반드시 Name, Key, 또는 ViewModel의 고유값을 XAML에서 바인딩 해주세요!
+      (Header만으로는 라디오 그룹 충돌이 날 수 있습니다.)
+
+    예시:
+        <GroupBox Header="Chart Set" x:Name="ChartSetGroupBox">
+        <GroupBox Header="Chamber Selection" x:Name="{Binding ChamberKey}">-->
+        <lvc:CartesianChart
+            x:Name="chart"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            Margin="5"
+            AnimationsSpeed="0:0:0"
+            LegendPosition="Bottom"
+            ZoomMode="None" />
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <VSControls:VsButton
+                Grid.Column="0"
+                Margin="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="Left_Chart"
+                Click="Left_Click"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/Left.png" />
+            
+            <VSControls:VsButton
+                Grid.Column="1"
+                Margin="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="Zoom_in"
+                Click="ZoomIn_Click"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/zoomin.png" />
+            
+            <VSControls:VsButton
+                Grid.Column="2"
+                Margin="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="Zoom_out"
+                Click="ZoomOut_Click"
+                ImagePosition="Right"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/zoomout.png" />
+            
+            <VSControls:VsButton
+                Grid.Column="3"
+                Margin="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="Right_Chart"
+                Click="Right_Click"
+                ImagePosition="Right"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/Right.png" />
+        </Grid>
+
+        <GroupBox
+            Grid.Row="2"
+            Grid.Column="0"
+            Margin="2"
+            vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+            vsl:VsLocalization.LocalizationKey="GroupBox_ChartSet"
+            Header="Chart Set">
+            <StackPanel>
+                <VsCheckSelector:VsCheckSelector
+                    x:Name="chkRfFwd"
+                    CheckText="RF FWD"
+                    IsChecked="True"
+                    IsLeftChecked="True"
+                    LeftRadioText="Left"
+                    RightRadioText="Right"
+                    ValueChanged="CheckSelector_ValueChanged" />
+                
+                <VsCheckSelector:VsCheckSelector
+                    x:Name="chkRfRef"
+                    CheckText="RF REF"
+                    IsChecked="True"
+                    IsLeftChecked="True"
+                    LeftRadioText="Left"
+                    RightRadioText="Right"
+                    ValueChanged="CheckSelector_ValueChanged" />
+                
+                <VsCheckSelector:VsCheckSelector
+                    x:Name="chkVacuum"
+                    CheckText="VACUUM"
+                    IsChecked="True"
+                    IsRightChecked="True"
+                    LeftRadioText="Left"
+                    RightRadioText="Right"
+                    ValueChanged="CheckSelector_ValueChanged" />
+                
+                <VsCheckSelector:VsCheckSelector
+                    x:Name="chkGas1"
+                    CheckText="GAS1"
+                    IsChecked="True"
+                    IsRightChecked="True"
+                    LeftRadioText="Left"
+                    RightRadioText="Right"
+                    ValueChanged="CheckSelector_ValueChanged" />
+                
+                <VsCheckSelector:VsCheckSelector
+                    x:Name="chkGas2"
+                    CheckText="GAS2"
+                    IsChecked="True"
+                    IsRightChecked="True"
+                    LeftRadioText="Left"
+                    RightRadioText="Right"
+                    ValueChanged="CheckSelector_ValueChanged" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="2"
+            Padding="3"
+            vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+            vsl:VsLocalization.LocalizationKey="GroupBox_Day"
+            Header="Start Day">
+            <Calendar x:Name="calStartDay" SelectionMode="SingleDate" />
+        </GroupBox>
+
+        <Grid
+            Grid.Row="2"
+            Grid.Column="2"
+            Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="97.04" />
+            </Grid.RowDefinitions>
+
+            <GroupBox
+                Grid.Row="0"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="GroupBox_Time"
+                Header="Time">
+                <StackPanel>
+                    <VSControls:VsTimeSpinner HorizontalAlignment="Right" Time="{Binding Time, Mode=TwoWay, RelativeSource={RelativeSource AncestorType=UserControl}}" />
+                    <VSControls:VsButton
+                        Margin="0,4,0,0"
+                        vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vsl:VsLocalization.LocalizationKey="Time_Reset"
+                        Click="TimeClear_Click" />
+                </StackPanel>
+            </GroupBox>
+
+
+            <GroupBox
+                Grid.Row="1"
+                Padding="0,8"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="GroupBox_ChamberSelection"
+                Header="Chamber Selection">
+                <StackPanel>
+                    <VSControls:VsRadioButton
+                        x:Name="rbTop"
+                        Margin="0,0,0,5"
+                        vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vsl:VsLocalization.LocalizationKey="ChamberSelection_TopChamber"
+                        Content="Top Chamber"
+                        GroupName="Chamber"
+                        IsChecked="True" />
+                    
+                    <VSControls:VsRadioButton
+                        x:Name="rbBottom"
+                        vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vsl:VsLocalization.LocalizationKey="ChamberSelection_BottomChamber"
+                        Content="Bottom Chamber"
+                        GroupName="Chamber" />
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Grid.Column="3">
+            <VSControls:VsButton
+                Margin="2"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="CSV_Open"
+                Command="{Binding OpenCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                Content="Open"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/Ok.png"
+                IsEnabled="{Binding IsOpenEnabled, RelativeSource={RelativeSource AncestorType=UserControl}}" />
+            <VSControls:VsButton
+                Margin="2"
+                vsl:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                vsl:VsLocalization.LocalizationKey="CSV_Reset"
+                Click="ResetData_Click"
+                Content="Reset"
+                Cursor="Hand"
+                ImageSource="/VSLibrary;component/UIComponent/Resources/Cancel.png" />
+        </StackPanel>
+    </Grid>
+</UserControl>

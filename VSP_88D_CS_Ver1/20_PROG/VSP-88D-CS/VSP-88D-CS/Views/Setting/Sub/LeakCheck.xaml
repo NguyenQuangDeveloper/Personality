@@ -1,0 +1,239 @@
+﻿<Window x:Class="VSP_88D_CS.Views.Setting.Sub.LeakCheck"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Title="Leak Check" Height="465" Width="420">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!--#region ROW 1-->
+        <Border Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Background="White" Padding="5" Margin="5" Width="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="65*"/>
+                    <ColumnDefinition Width="35*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--#region ROW 1: LEFT -->
+                <Grid Grid.Column="0" Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75*"/>
+                        <ColumnDefinition Width="25*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <!--#1-->
+                    <Border Grid.Row="0" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Grid.Row="0" Grid.Column="0" Content="{Binding LanguageResources[TimeCount(Sec)], FallbackValue='Time Count (Sec.)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2" Margin="0,2,2,2">
+                        <TextBox Grid.Row="0" Grid.Column="1" TextAlignment="Right" IsEnabled="False"
+                                 Text="{Binding Data.TimeCount}"/>
+                    </Border>
+                    <!--#2-->
+                    <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Grid.Row="1" Grid.Column="0" Content="{Binding LanguageResources[OverPumpingTime(Sec)], FallbackValue='Over Pumping Time (Sec.)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2" Margin="0,2,2,2">
+                        <TextBox Grid.Row="1" Grid.Column="1" TextAlignment="Right"
+                                 Text="{Binding Data.OverPumpingTime}"/>
+                    </Border>
+                    <!--#3-->
+                    <Border Grid.Row="2" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1"  CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Grid.Row="2" Grid.Column="0" Content="{Binding LanguageResources[StableTime(Sec)], FallbackValue='Stable Time (Sec.)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1"  CornerRadius="2" Margin="0,2,2,2">
+                        <TextBox Grid.Row="2" Grid.Column="1" TextAlignment="Right"
+                                 Text="{Binding Data.StableTime}"/>
+                    </Border>
+                    <!--#4-->
+                    <Border Grid.Row="3" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1"  CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Grid.Row="3" Grid.Column="0" Content="{Binding LanguageResources[LeakCheckTime(Sec)], FallbackValue='Leak Check Time (Sec.)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="3" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2" Margin="0,2,2,2">
+                        <TextBox Grid.Row="3" Grid.Column="1" TextAlignment="Right"
+                                 Text="{Binding Data.LeakCheckTime}"/>
+                    </Border>
+                    <!--#5-->
+                    <Border Grid.Row="4" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1"  CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Grid.Row="4" Grid.Column="0" Content="{Binding LanguageResources[LeakAlarmRate(Torr)], FallbackValue='Leak Alarm Rate (Torr)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2" Margin="0,2,2,2">
+                        <TextBox Grid.Row="4" Grid.Column="1" TextAlignment="Right"
+                                 Text="{Binding Data.LeakAlarmRate}"/>
+                    </Border>
+                </Grid>
+                <!--#endregion ROW 1: LEFT-->
+                <!--#region ROW 1: RIGHT-->
+                <Grid Grid.Column="1" Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Height="63" Width="120" Margin="5" Command="{Binding OkCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/Icons/Ok.png" Width="22" Height="22" Margin="0,0,5,0"/>
+                            <TextBlock TextAlignment="Right" Text="{Binding LanguageResources[OK], FallbackValue='OK'}"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Grid.Row="1" Height="63" Width="120" Margin="5" Command="{Binding CancelCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/Icons/Cancel.png" Width="22" Height="22" Margin="0,0,5,0"/>
+                            <TextBlock TextAlignment="Right" Text="{Binding LanguageResources[Cancel], FallbackValue='CANCEL'}"/>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <!--#endregion ROW 1: RIGHT-->
+            </Grid>
+        </Border>
+        <!--#endregion ROW 1 -->
+        
+        <!--#region ROW 2 -->
+        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="2" Margin="5">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="50*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <!--#region ROW 2: LEFT -->
+                <Border Grid.Row="0" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                    <Label Content="{Binding LanguageResources[LeakCheckStartTime], FallbackValue='Leak Check Start Time'}" FontWeight="Bold"/>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                    <TextBox TextAlignment="Right" IsEnabled="False"
+                             Text="{Binding Data.LeakCheckStartTime}"/>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.2" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                    <Label Content="{Binding LanguageResources[LeakCheckEndTime], FallbackValue='Leak Check End Time'}" FontWeight="Bold"/>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                    <TextBox TextAlignment="Right" IsEnabled="False"
+                             Text="{Binding Data.LeakCheckEndTime}"/>
+                </Border>
+                <!--#endregion ROW 2: LEFT-->
+            </Grid>
+        </Border>
+        <!--#endregion ROW 2-->
+        
+        <!--#region ROW 3-->
+        <Border Grid.Row="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="2" Margin="5">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="20*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!--#region ROW 3: LEFT -->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="20*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Content="{Binding LanguageResources[StartPressure(Torr)], FallbackValue='Start Pressure (Torr)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <TextBox TextAlignment="Right" IsEnabled="False"
+                                 Text="{Binding Data.StartPressure}"/>
+                    </Border>
+
+                    <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.2" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Content="{Binding LanguageResources[EndPressure(Torr)], FallbackValue='End Pressure (Torr)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <TextBox TextAlignment="Right" IsEnabled="False"
+                                 Text="{Binding Data.EndPressure}"/>
+                    </Border>
+
+                    <Border Grid.Row="2" Grid.Column="0" BorderBrush="Gray" BorderThickness="0.2" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <Label Content="{Binding LanguageResources[LeakRate(Torr/Min)], FallbackValue='Leak Rate (Torr/Min)'}" FontWeight="Bold"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" CornerRadius="2,0,0,2" Margin="2,2,0,2">
+                        <TextBox TextAlignment="Right" IsEnabled="False"
+                                 Text="{Binding Data.LeakRate}"/>
+                    </Border>
+
+                </Grid>
+                <!--#endregion ROW 3: LEFT -->
+
+                <!--#region ROW 3: RIGHT -->
+                <Grid Grid.Column="1" Margin="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Height="40" Width="120" Margin="0" Command="{Binding OkCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <!--<Image Source="" Width="22" Height="22" Margin="0,0,5,0"/>-->
+                            <TextBlock Text="{Binding LanguageResources[Open], FallbackValue='Open'}"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Grid.Row="1" Height="40" Width="120" Margin="5" Command="{Binding CancelCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <!--<Image Source="" Width="22" Height="22" Margin="0,0,5,0"/>-->
+                            <TextBlock Text="{Binding LanguageResources[Close], FallbackValue='Close'}"/>
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <!--#endregion ROW 3: RIGHT --> 
+            </Grid>
+        </Border>
+        <!--#endregion ROW 3-->
+        
+        <!--#region ROW 4 -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Height="Auto" Margin="5" Command="{Binding StartCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <!--<Image Source="" Width="22" Height="22" Margin="0,0,5,0"/>-->
+                    <TextBlock Text="{Binding LanguageResources[Start], FallbackValue='Start'}"/>
+                </StackPanel>
+            </Button>
+            
+            <Button Grid.Column="1" Height="Auto" Margin="5" Command="{Binding CloseCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Resources/Icons/Cancel.png" Width="22" Height="22" Margin="0,0,5,0"/>
+                    <TextBlock Text="{Binding LanguageResources[Close], FallbackValue='Close'}"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+        <!--#endregion ROW 4-->
+
+    </Grid>
+        
+
+   </Window>

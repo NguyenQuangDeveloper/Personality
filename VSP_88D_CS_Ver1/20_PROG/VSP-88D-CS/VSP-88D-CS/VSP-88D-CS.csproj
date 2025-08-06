@@ -1,0 +1,365 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>VSP_88D_CS</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="LIB\**" />
+		<Compile Remove="Sequence\Profiles\Buffers\Customers\**" />
+		<EmbeddedResource Remove="LIB\**" />
+		<EmbeddedResource Remove="Sequence\Profiles\Buffers\Customers\**" />
+		<None Remove="LIB\**" />
+		<None Remove="Sequence\Profiles\Buffers\Customers\**" />
+		<Page Remove="LIB\**" />
+		<Page Remove="Sequence\Profiles\Buffers\Customers\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Common\Database\LanguageRepository.cs" />
+	  <Compile Remove="Common\ViewModelBaseWithLanguage.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="LANG\UI_Chinese.INI" />
+		<None Remove="LANG\UI_English.INI" />
+		<None Remove="LANG\UI_Korean.INI" />
+		<None Remove="LANG\UI_Vietnamese.INI" />
+		<None Remove="Resources\CreateFile.png" />
+		<None Remove="Resources\DirectPlasma70Db.mdb" />
+		<None Remove="Resources\DLLs\EZGemPlusCS_64.dll" />
+		<None Remove="Resources\Dn_2Col.ICO" />
+		<None Remove="Resources\Fonts\digital-7.ttf" />
+		<None Remove="Resources\Icons\AddFile.png" />
+		<None Remove="Resources\Icons\AddStep.png" />
+		<None Remove="Resources\Icons\arrow_down.png" />
+		<None Remove="Resources\Icons\arrow_left.ico" />
+		<None Remove="Resources\Icons\arrow_left.png" />
+		<None Remove="Resources\Icons\arrow_left24.ico" />
+		<None Remove="Resources\Icons\arrow_right.png" />
+		<None Remove="Resources\Icons\arrow_up.png" />
+		<None Remove="Resources\Icons\Cancel.png" />
+		<None Remove="Resources\Icons\ChamberDn.png" />
+		<None Remove="Resources\Icons\ChamberUp.png" />
+		<None Remove="Resources\Icons\chart.png" />
+		<None Remove="Resources\Icons\CimConnected.png" />
+		<None Remove="Resources\Icons\CimDisconnected.png" />
+		<None Remove="Resources\Icons\CimLocal.png" />
+		<None Remove="Resources\Icons\CimOffline.png" />
+		<None Remove="Resources\Icons\CimRemote.png" />
+		<None Remove="Resources\Icons\Clean.Png" />
+		<None Remove="Resources\Icons\Close.png" />
+		<None Remove="Resources\Icons\DeleteFile.png" />
+		<None Remove="Resources\Icons\DeleteStep.png" />
+		<None Remove="Resources\Icons\Device.png" />
+		<None Remove="Resources\Icons\Edit.png" />
+		<None Remove="Resources\Icons\EditFile.png" />
+		<None Remove="Resources\Icons\Exit.png" />
+		<None Remove="Resources\Icons\gear.ico" />
+		<None Remove="Resources\Icons\gear_16.ico" />
+		<None Remove="Resources\Icons\Image1.png" />
+		<None Remove="Resources\Icons\Init.png" />
+		<None Remove="Resources\Icons\led_lamp.png" />
+		<None Remove="Resources\Icons\Left.ICO" />
+		<None Remove="Resources\Icons\Left_24.ICO" />
+		<None Remove="Resources\Icons\Left_G.ICO" />
+		<None Remove="Resources\Icons\Left_G24.ICO" />
+		<None Remove="Resources\Icons\Link_32.png" />
+		<None Remove="Resources\Icons\Link_broken_32.png" />
+		<None Remove="Resources\Icons\Log.png" />
+		<None Remove="Resources\Icons\Login.png" />
+		<None Remove="Resources\Icons\Main.png" />
+		<None Remove="Resources\Icons\Manual.png" />
+		<None Remove="Resources\Icons\MesLog.png" />
+		<None Remove="Resources\Icons\Next.png" />
+		<None Remove="Resources\Icons\Ok.png" />
+		<None Remove="Resources\Icons\Parameter.png" />
+		<None Remove="Resources\Icons\p_close.png" />
+		<None Remove="Resources\Icons\QrCode.png" />
+		<None Remove="Resources\Icons\Recipe.Png" />
+		<None Remove="Resources\Icons\Register.png" />
+		<None Remove="Resources\Icons\Report.png" />
+		<None Remove="Resources\Icons\Reset.png" />
+		<None Remove="Resources\Icons\Save.png" />
+		<None Remove="Resources\Icons\Search.png" />
+		<None Remove="Resources\Icons\Servo_L.ico" />
+		<None Remove="Resources\Icons\Servo_L_G.ico" />
+		<None Remove="Resources\Icons\SetMatrix.png" />
+		<None Remove="Resources\Icons\Setting.png" />
+		<None Remove="Resources\Icons\Stop.png" />
+		<None Remove="Resources\Icons\Tools4.ico" />
+		<None Remove="Resources\Icons\Tools4_16.ico" />
+		<None Remove="Resources\Icons\up.ico" />
+		<None Remove="Resources\Icons\up_G.ico" />
+		<None Remove="Resources\Icons\VisionIcon.ico" />
+		<None Remove="Resources\Icons\VS_LOGO.png" />
+		<None Remove="Resources\LeftRight.xcf" />
+		<None Remove="Resources\Left_2Col.ICO" />
+		<None Remove="Resources\LOg.bmp" />
+		<None Remove="Resources\MGZ.xcf" />
+		<None Remove="Resources\MGZ_NO.bmp" />
+		<None Remove="Resources\Right_2Col.ICO" />
+		<None Remove="Resources\Save.bmp" />
+		<None Remove="Resources\Servo_Up_2.ico" />
+		<None Remove="Resources\Thumbs.db" />
+		<None Remove="Resources\Up_2Col.ICO" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ini-parser" />
+		<PackageReference Include="Newtonsoft.Json" />
+		<PackageReference Include="ClosedXML" />
+		<PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\999. Utils\AlarmConfig\AlarmConfig.csproj" />
+		<ProjectReference Include="..\999. Utils\ConfigurationLib\ConfigurationLib.csproj" />
+		<ProjectReference Include="..\999. Utils\LoggerEngine\LoggerEngine.csproj" />
+		<ProjectReference Include="..\999. Utils\LoggerLib\LoggerLib.csproj" />
+		<ProjectReference Include="..\ChamberControl\ChamberControl.csproj" />
+		<ProjectReference Include="..\SequenceEngine\SequenceEngine.csproj" />
+		<ProjectReference Include="..\OpenSource\LiveChartsCore.SkiaSharp.WPF\LiveChartsCore.SkiaSharpView.WPF.csproj" />
+		<ProjectReference Include="..\OpenSource\LiveChartsCore.SkiaSharp\LiveChartsCore.SkiaSharpView.csproj" />
+		<ProjectReference Include="..\OpenSource\LiveChartsCore\LiveChartsCore.csproj" />
+		<ProjectReference Include="..\UserAccessLib\UserAccessLib.csproj" />
+		<ProjectReference Include="..\VSLibrary\VSLibrary.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Resources\DirectPlasma70Db.mdb">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Content Include="LANG\UI_Chinese.INI">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="LANG\UI_English.INI">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="LANG\UI_Korean.INI">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="LANG\UI_Vietnamese.INI">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\Fonts\digital-7.ttf">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<EmbeddedResource Include="Resources\DLLs\EZGemPlusCS_64.dll">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</EmbeddedResource>
+		<Reference Include="EZGemPlusCS_64">
+		  <HintPath>Resources\DLLs\EZGemPlusCS_64.dll</HintPath>
+		</Reference>
+		<Resource Include="Resources\Icons\AddFile.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\AddStep.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_down.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_left.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_left.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_left24.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_right.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\arrow_up.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Cancel.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\ChamberDn.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\ChamberUp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\chart.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\CimConnected.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\CimDisconnected.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\CimLocal.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\CimOffline.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\CimRemote.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Clean.Png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Close.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\DeleteFile.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\DeleteStep.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Device.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Edit.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\EditFile.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Exit.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\gear.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\gear_16.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Image1.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Init.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\led_lamp.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Left.ICO">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Left_24.ICO">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Left_G.ICO">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Left_G24.ICO">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Link_32.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Link_broken_32.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Log.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Login.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Main.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Manual.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\MesLog.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Next.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Ok.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Parameter.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\p_close.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\QrCode.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Recipe.Png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Register.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Report.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Reset.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Save.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Search.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Servo_L.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Servo_L_G.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\SetMatrix.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Setting.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Stop.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Tools4.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\Tools4_16.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\up.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\up_G.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\VisionIcon.ico">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Icons\VS_LOGO.png">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\LeftRight.xcf">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\MGZ.xcf">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Resources\Thumbs.db">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="NLog.config">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+	
+</Project>

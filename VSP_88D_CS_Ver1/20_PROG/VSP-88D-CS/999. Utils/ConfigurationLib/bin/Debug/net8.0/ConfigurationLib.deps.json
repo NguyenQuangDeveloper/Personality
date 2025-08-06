@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConfigurationLib/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "3.5.8"
+        },
+        "runtime": {
+          "ConfigurationLib.dll": {}
+        }
+      },
+      "Newtonsoft.Json/3.5.8": {
+        "runtime": {
+          "lib/35/Newtonsoft.Json.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConfigurationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/3.5.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xmri4q9s1NjuiBtOFkWMU9sUZdw5V7kFSf3CQQ3TlDyzWQHo94d5cHNxsSlnezGAZSPfdEG5k7bOrkzTe6rUOQ==",
+      "path": "newtonsoft.json/3.5.8",
+      "hashPath": "newtonsoft.json.3.5.8.nupkg.sha512"
+    }
+  }
+}

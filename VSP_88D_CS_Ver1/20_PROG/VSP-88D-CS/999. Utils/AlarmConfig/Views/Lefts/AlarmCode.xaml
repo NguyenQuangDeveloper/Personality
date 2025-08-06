@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="AlarmConfig.Views.Lefts.AlarmCode"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:AlarmConfig.Views.Lefts"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:lefts="clr-namespace:AlarmConfig.ViewModels.Lefts"
+             d:DataContext="{d:DesignInstance Type=lefts:AlarmCodeViewModel}"
+             d:DesignHeight="600"
+             d:DesignWidth="400"
+             mc:Ignorable="d">
+    <Grid>
+        <Border Background="#FF45ACCB">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label HorizontalContentAlignment="Center"
+                           VerticalContentAlignment="Center"
+                           Background="White"
+                           BorderBrush="OrangeRed"
+                           BorderThickness="1"
+                           Content="{Binding LanguageResources[AlarmCode], FallbackValue='Alarm Code'}"
+                           FontSize="30"
+                           FontWeight="ExtraBlack" />
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+
+                    <ScrollViewer Grid.Row="0"
+                                  VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding AlarmCodes}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Button Width="73"
+                                            Height="50"
+                                            Margin="2"
+                                            HorizontalContentAlignment="Center"
+                                            VerticalContentAlignment="Center"
+                                            BorderBrush="#FFF5DADA"
+                                            BorderThickness="2"
+                                            Command="{Binding DataContext.AlarmCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}"
+                                            Content="{Binding Content}"
+                                            FontSize="20"
+                                            FontWeight="DemiBold"
+                                            Foreground="Black">
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="Background"
+                                                        Value="White" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsSelected}"
+                                                                 Value="True">
+                                                        <Setter Property="Background"
+                                                                Value="Orange" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                    </Button>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+
+                    <Button Grid.Row="1"
+                            Background="White"
+                            BorderBrush="Transparent"
+                            Command="{Binding DisplayAlarmCommand}">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="pack://application:,,,/AlarmConfig;component/Resources/Images/displayAlarm.png" />
+                            <TextBlock Margin="10,0,0,0"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       FontSize="16"
+                                       FontWeight="Bold"
+                                       Text="Display Alarm" />
+                        </StackPanel>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

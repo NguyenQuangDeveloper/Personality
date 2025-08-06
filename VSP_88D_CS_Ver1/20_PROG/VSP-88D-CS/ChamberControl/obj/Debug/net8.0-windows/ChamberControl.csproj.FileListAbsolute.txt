@@ -1,0 +1,32 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\ChamberControl.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\ChamberControl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\ChamberControl.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\Views\Chamber.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl_MarkupCompile.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl_MarkupCompile.lref
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\Views\Chamber.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.g.resources
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberC.5F97AE04.Up2Date
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\refint\ChamberControl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ChamberControl.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\ChamberControl\obj\Debug\net8.0-windows\ref\ChamberControl.dll

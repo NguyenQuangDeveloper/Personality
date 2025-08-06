@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VSLibrary.Common.MVVM.Behaviors.RegionBehavior">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQEAAABQAAAgCAAAgEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Behaviors\RegionBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.ViewModels.BlazorViewModelBase">
+    <Position X="0.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>kAAACAAAAAAAAAAAAAAAAAABgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\ViewModels\BlazorViewModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.ViewModels.ViewModelBase">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABEAABAAAACAAAAAAEAAAAACAAAAAAAQAA=</HashCode>
+      <FileName>Common\MVVM\ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Locators.ViewModelLocator">
+    <Position X="0.5" Y="9.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAQACABACAAEAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Common\MVVM\Locators\ViewModelLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Locators.ViewModelLocatorConverter">
+    <Position X="0.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Locators\ViewModelLocatorConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Core.RegionManager">
+    <Position X="4.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAEAQECAAAgIAiAAAAAAIEQAAAAABQAAAQAAA=</HashCode>
+      <FileName>Common\MVVM\Core\RegionManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Core.RelayCommand">
+    <Position X="7.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Core\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Core.RelayCommand&lt;T&gt;">
+    <Position X="10" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Core\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Core.VSContainer">
+    <Position X="7.5" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>gAAEBAAAHACIgQCQAAAACAggAAABAACAUAghGABAAAU=</HashCode>
+      <FileName>Common\MVVM\Core\VSContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.MVVM.Core.ViewManager">
+    <Position X="12.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Common\MVVM\Core\ViewManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.IActivatable">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Interfaces\IActivatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.IContainer">
+    <Position X="7.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAADACAgAAAAAAAAAgAAAABAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Common\MVVM\Interfaces\IContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.IRegionAware">
+    <Position X="4.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Interfaces\IRegionAware.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.IRegionManager">
+    <Position X="4.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAACAAAgAACAAAAAAIAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Interfaces\IRegionManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.INavigator">
+    <Position X="2.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Interfaces\INavigator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.MVVM.Interfaces.IViewManager">
+    <Position X="12.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\MVVM\Interfaces\IViewManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,253 @@
+﻿<UserControl
+    x:Class="VSP_88D_CS.Views.Setting.Sub.SystemParameter.EtcSystemParameter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub.SystemParameter"
+    xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="400"
+    d:DesignWidth="520"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Thickness x:Key="DefaultMargin">5</Thickness>
+    </UserControl.Resources>
+    <Grid>
+        <GroupBox
+            Padding="2"
+            FontSize="11"
+            FontWeight="Bold"
+            Header="ETC.">
+            <Border
+                BorderBrush="Gray"
+                BorderThickness="1"
+                CornerRadius="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <!--  ROW 1  -->
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="ON ELEVATOR ORDER" />
+                    </Border>
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="Work top first"
+                            IsChecked="{Binding EtcParam.OnTopFirst}" />
+                    </Border>
+
+                    <!--  ROW 2  -->
+                    <Border
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="OUT ELEVATOR ORDER" />
+                    </Border>
+                    <Border
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="Work top first"
+                            IsChecked="{Binding EtcParam.OutTopFirst}" />
+                    </Border>
+
+                    <!--  ROW 3  -->
+                    <Border
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="MGZ SLOT MATCHING" />
+                    </Border>
+                    <Border
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="Use slot matching"
+                            IsChecked="{Binding EtcParam.UseSlotMatching}" />
+                    </Border>
+
+                    <!--  ROW 4  -->
+                    <Border
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="INPUT BUFFER DIRECT FWD" />
+                    </Border>
+                    <Border
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="USE"
+                            IsChecked="{Binding EtcParam.InBufDirFwd}" />
+                    </Border>
+
+                    <!--  ROW 5  -->
+                    <!--<Border Grid.Column="0" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0,0,0,1" Margin="2,0,0,0">
+                        <Label  Content="PLASMA SKIP" Margin="{StaticResource DefaultMargin}"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+                        <CheckBox Content="Skip" Margin="{StaticResource DefaultMargin}"/>
+                    </Border>
+                    <Border Grid.Column="2" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+                    </Border>-->
+
+                    <!--  ROW 6  -->
+                    <!--<Border Grid.Column="0" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0,0,0,1" Margin="2,0,0,0">
+                        <Label  Content="DRY RUN" Margin="{StaticResource DefaultMargin}"/>
+                    </Border>
+                    <Border Grid.Column="1" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+                        <CheckBox Content="USE" Margin="{StaticResource DefaultMargin}"/>
+                    </Border>
+                    <Border Grid.Column="2" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+                    </Border>-->
+
+                    <!--  ROW 7  -->
+                    <Border
+                        Grid.Row="6"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="CHECK RF OVER-RANGE" />
+                    </Border>
+                    <Border
+                        Grid.Row="6"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="USE"
+                            IsChecked="{Binding EtcParam.UseRfOverCheck}" />
+                    </Border>
+
+                    <!--  ROW 8  -->
+                    <Border
+                        Grid.Row="7"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="USE N2 ALARM" />
+                    </Border>
+                    <Border
+                        Grid.Row="7"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="USE"
+                            IsChecked="{Binding EtcParam.UseN2Alarm}" />
+                    </Border>
+
+                    <!--  ROW 9  -->
+                    <Border
+                        Grid.Row="8"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="USE e-CIM" />
+                    </Border>
+                    <Border
+                        Grid.Row="8"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsCheckBox
+                            Margin="{StaticResource DefaultMargin}"
+                            Content="USE"
+                            IsChecked="{Binding EtcParam.UseESim}" />
+                    </Border>
+
+                    <!--  ROW 10  -->
+                    <Border
+                        Grid.Row="9"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="GAUGE PROTECTION VALVE OPEN DELAY (3 ~ 30)" />
+                    </Border>
+                    <Border
+                        Grid.Row="9"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <StackPanel Orientation="Horizontal">
+                            <VSControls:VsTextBox
+                                Width="50"
+                                Margin="{StaticResource DefaultMargin}"
+                                Text="{Binding EtcParam.GaugeValveOpenDelay}" />
+                            <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(sec)" />
+                        </StackPanel>
+                    </Border>
+
+                    <!--  ROW 11  -->
+                    <Border
+                        Grid.Row="10"
+                        Grid.Column="0"
+                        Margin="2,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="IN BUFFER EMPTY TIME (500 ~ 2000)" />
+                    </Border>
+                    <Border
+                        Grid.Row="10"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <StackPanel Orientation="Horizontal">
+                            <VSControls:VsTextBox
+                                Width="50"
+                                Margin="{StaticResource DefaultMargin}"
+                                Text="{Binding EtcParam.InBufEmptyTime}" />
+                            <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(msec)" />
+                        </StackPanel>
+                    </Border>
+
+                </Grid>
+            </Border>
+        </GroupBox>
+    </Grid>
+</UserControl>

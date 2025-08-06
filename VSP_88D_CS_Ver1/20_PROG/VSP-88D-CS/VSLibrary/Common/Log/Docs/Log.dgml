@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Common.Log" Group="Expanded" Label="Common.Log" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.Common.Log.NLogProvider" Label="NLogProvider" Category="CodeSchema_Class" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.LogOptions" Label="LogOptions" Category="CodeSchema_Class" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.BaseLogWriter" Label="BaseLogWriter" Category="CodeSchema_Class" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.ILogProvider" Label="ILogProvider" Category="CodeSchema_Interface" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.ILogWriter" Label="ILogWriter" Category="CodeSchema_Interface" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.ILogManager" Label="ILogManager" Category="CodeSchema_Interface" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.LogManager" Label="LogManager" Category="CodeSchema_Class" Group="Common.Log" />
+    <Node Id="VSLibrary.Common.Log.LogManagerProxy" Label="LogManagerProxy" Category="CodeSchema_Class" Group="Common.Log" />
+  </Nodes>
+  <Links>
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.NLogProvider" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.LogOptions" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.BaseLogWriter" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.ILogProvider" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.ILogWriter" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.ILogManager" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.LogManager" Category="Contains" />
+    <Link Source="Common.Log" Target="VSLibrary.Common.Log.LogManagerProxy" Category="Contains" />
+    <Link Source="VSLibrary.Common.Log.NLogProvider" Target="VSLibrary.Common.Log.ILogProvider" Category="Implements" />
+    <Link Source="VSLibrary.Common.Log.BaseLogWriter" Target="VSLibrary.Common.Log.ILogWriter" Category="Implements" />
+    <Link Source="VSLibrary.Common.Log.LogManager" Target="VSLibrary.Common.Log.BaseLogWriter" Category="Uses" />
+    <Link Source="VSLibrary.Common.Log.LogManager" Target="VSLibrary.Common.Log.ILogManager" Category="Uses" />
+    <Link Source="VSLibrary.Common.Log.LogManager" Target="VSLibrary.Common.Log.ILogWriter" Category="Uses" />
+    <Link Source="VSLibrary.Common.Log.LogManager" Target="VSLibrary.Common.Log.ILogProvider" Category="Uses" />
+    <Link Source="VSLibrary.Common.Log.LogManagerProxy" Target="VSLibrary.Common.Log.ILogManager" Category="Implements" />
+    <Link Source="VSLibrary.Common.Log.LogManagerProxy" Target="VSLibrary.Common.Log.BaseLogWriter" Category="Uses" />
+    <Link Source="VSLibrary.Common.Log.LogManagerProxy" Target="VSLibrary.Common.Log.ILogWriter" Category="Uses" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" />
+    <Category Id="Inheritance" Background="#FF00FF00" />
+    <Category Id="Implementation" Background="#FFFFFF00" />
+    <Category Id="Composes" Background="#FF008000" />
+    <Category Id="Aggregates" Background="#FFFFA500" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

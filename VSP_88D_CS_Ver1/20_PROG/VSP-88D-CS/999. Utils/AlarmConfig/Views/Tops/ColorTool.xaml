@@ -1,0 +1,228 @@
+﻿<UserControl
+    x:Class="AlarmConfig.Views.Tops.ColorTool"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:AlarmConfig.Views.Tops"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="150"
+    d:DesignWidth="200"
+    mc:Ignorable="d">
+    <Grid>
+        <Border BorderBrush="LightGray" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60" />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="10" />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label
+                            Margin="10"
+                            Background="{Binding SelectedColor}"
+                            BorderBrush="Gray"
+                            BorderThickness="1" />
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Margin="1"
+                            Background="Black"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Black" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Margin="1"
+                            Background="Gray"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Gray" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="2"
+                            Margin="1"
+                            Background="Brown"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Brown" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="3"
+                            Margin="1"
+                            Background="Red"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Red" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="4"
+                            Margin="1"
+                            Background="Orange"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Orange" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="5"
+                            Margin="1"
+                            Background="OrangeRed"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="OrangeRed" />
+                        <Button
+                            Grid.Row="0"
+                            Grid.Column="6"
+                            Margin="1"
+                            Background="White"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="White" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Margin="1"
+                            Background="Green"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Green" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="1"
+                            Background="GreenYellow"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="GreenYellow" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            Margin="1"
+                            Background="White"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="White" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="3"
+                            Margin="1"
+                            Background="Blue"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Blue" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="4"
+                            Margin="1"
+                            Background="Yellow"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="Yellow" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="5"
+                            Margin="1"
+                            Background="YellowGreen"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="YellowGreen" />
+                        <Button
+                            Grid.Row="1"
+                            Grid.Column="6"
+                            Margin="1"
+                            Background="DarkCyan"
+                            Command="{Binding SetColorDrawCommand}"
+                            CommandParameter="DarkCyan" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="2"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="3"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="4"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="5"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="2"
+                            Grid.Column="6"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="2"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="3"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="4"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="5"
+                            Margin="1"
+                            Background="White" />
+                        <Button
+                            Grid.Row="3"
+                            Grid.Column="6"
+                            Margin="1"
+                            Background="White" />
+                    </Grid>
+                </Grid>
+                <Label
+                    Grid.Row="2"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Bottom"
+                    Content="{Binding LanguageResources[Color], FallbackValue='Color'}"
+                    FontWeight="DemiBold"
+                    Foreground="Gray" />
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

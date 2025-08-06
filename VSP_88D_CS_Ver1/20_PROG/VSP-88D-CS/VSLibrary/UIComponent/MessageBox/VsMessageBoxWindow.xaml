@@ -1,0 +1,124 @@
+﻿<Window
+    x:Class="VSLibrary.UIComponent.MessageBox.VsMessageBoxWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:vsmvvm="clr-namespace:VSLibrary.Common.MVVM.Behaviors"
+    Title="Message"
+    Width="500"
+    Height="240"  
+    BorderBrush="Gray"
+    BorderThickness="1"
+    FontSize="14"
+    ResizeMode="NoResize"
+    Topmost="True"
+    WindowStartupLocation="CenterOwner"
+    AllowsTransparency="True"
+    Background="#CCFFFFFF"  
+    WindowStyle="None">
+<!--
+    ▣ Resource 등록 영역
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    ⦿ VsMessageBox 전용 버튼 스타일 정의
+    ⦿ 경로: /UIComponent/Styles/VsMessageBoxButtonStyle.xaml
+
+    ⟶ 메시지박스 내부에서만 사용되므로 App.xaml 전역 등록 불필요
+    ⟶ 디자인 타임에서도 정상 적용됨
+    ⟶ 구성 요소:
+        · OK / Cancel / Yes / No 버튼 스타일
+        · 마우스 오버 / 클릭 시 효과 포함
+-->
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/VSLibrary;component/UIComponent/Styles/VsMessageBoxButtonStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Border
+        Padding="0"
+        BorderBrush="Gray"
+        BorderThickness="1"
+        CornerRadius="6">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--  Title  -->
+            <Grid Grid.Row="0" Background="#2C3E50">
+                <i:Interaction.Behaviors>
+                    <vsmvvm:WindowDragBehavior />
+                </i:Interaction.Behaviors>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock
+                    x:Name="TxtIcon"
+                    Margin="10,0"
+                    VerticalAlignment="Center"
+                    Foreground="White"
+                    Text="🔔" />
+                <TextBlock
+                    x:Name="TxtTitle"
+                    Grid.Column="1"
+                    Margin="6,0"
+                    VerticalAlignment="Center"
+                    FontWeight="Bold"
+                    Foreground="White"
+                    Text="알림" />
+            </Grid>
+
+            <!--  Message  -->
+            <ScrollViewer
+                Grid.Row="1"
+                Margin="20,10"
+                VerticalScrollBarVisibility="Auto">
+                <TextBlock
+                    x:Name="TxtMessage"
+                    Text="메시지 내용이 여기에 표시됩니다."
+                    TextTrimming="CharacterEllipsis"
+                    TextWrapping="Wrap" />
+            </ScrollViewer>
+
+            <!--  Buttons  -->
+            <StackPanel
+                Grid.Row="2"
+                Margin="20,10"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal">
+                <Button
+                    x:Name="BtnYes"
+                    MinWidth="80"
+                    Margin="0,0,10,0"
+                    Click="BtnYes_Click"
+                    Content="Yes"
+                    Style="{StaticResource VsMessageBoxButtonStyle}" />
+                <Button
+                    x:Name="BtnNo"
+                    MinWidth="80"
+                    Margin="0,0,10,0"
+                    Click="BtnNo_Click"
+                    Content="No"
+                    Style="{StaticResource VsMessageBoxButtonStyle}" />
+                <Button
+                    x:Name="BtnCancel"
+                    MinWidth="80"
+                    Margin="0,0,10,0"
+                    Click="BtnCancel_Click"
+                    Content="Cancel"
+                    Style="{StaticResource VsMessageBoxButtonStyle}" />
+                <Button
+                    x:Name="BtnOk"
+                    MinWidth="80"
+                    Click="BtnOk_Click"
+                    Content="OK"
+                    Style="{StaticResource VsMessageBoxButtonStyle}" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

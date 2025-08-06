@@ -1,0 +1,176 @@
+﻿<UserControl x:Class="ChamberControl.Views.Chamber"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChamberControl.Views.Base"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="700">
+    <UserControl.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisible"/>
+        <local:BoolToVisibilityInverseConverter x:Key="InverseBoolToVisible"/>
+        <Style TargetType="TextBlock" x:Key="TextBlockNormal">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="Margin"  Value="5"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="LableNormal">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="Margin"  Value="3 3 0 3"></Setter>
+            <Setter Property="BorderThickness"  Value="0"></Setter>
+            <Setter Property="Background"  Value="WhiteSmoke"></Setter>
+        </Style>
+        <Style TargetType="Label" x:Key="LableResult">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="13"></Setter>
+            <Setter Property="Margin"  Value="0 3 3 3"></Setter>
+            <Setter Property="Width"  Value="50"></Setter>
+            <Setter Property="HorizontalContentAlignment"  Value="Center"></Setter>
+            <Setter Property="BorderThickness"  Value="0"></Setter>
+            <Setter Property="Background"  Value="Yellow"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TextBlockSmall">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Margin"  Value="2"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+        </Style>
+        <Style x:Key="ImageButtonStyle" TargetType="Button">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Width="{TemplateBinding Width}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                            <Image Source="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Tag}" Stretch="Fill"  Height="30"  />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+        <Style x:Key="AdvancedImageButtonStyle" BasedOn="{StaticResource ImageButtonStyle}" TargetType="Button">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="AliceBlue"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Viewbox Stretch="Uniform">
+        <Grid  >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="105"></ColumnDefinition>
+                <ColumnDefinition Width="120"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--Gas valve-->
+            <Grid>
+                <ItemsControl ItemsSource="{Binding LstPlasmaValve, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical"></StackPanel>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0 10 0 0">
+                                <TextBlock  Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockNormal}"></TextBlock>
+                                <StackPanel  Orientation="Horizontal" HorizontalAlignment="Right" >
+                                    <Button  Tag="/ChamberControl;component/Assets/Images/LeftArrow.bmp" Visibility="{Binding IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource ImageButtonStyle}"></Button>
+                                    <Button  Command="{Binding Path=ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveOpenIn.bmp" Visibility="{Binding IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                                    <Button   Command="{Binding Path=ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveClose.bmp" Visibility="{Binding IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource InverseBoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Grid>
+            <!--chamber-->
+            <Border Grid.Column="1" BorderThickness="1" Height="{Binding Gauge.RectangleHeight, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" BorderBrush="Brown"  >
+                <Grid>
+                    <Rectangle VerticalAlignment="Bottom" Fill="Aqua" Height="{Binding Gauge.RectangleValue, UpdateSourceTrigger=PropertyChanged}" ></Rectangle>
+                    <TextBlock Style="{StaticResource TextBlockNormal}">CHAMBER</TextBlock>
+
+                    <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource TextBlockSmall}">0</TextBlock>
+                        <TextBlock Text="{Binding Path=Gauge.Unit, UpdateSourceTrigger=PropertyChanged, FallbackValue=Torr}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                    <StackPanel VerticalAlignment="Top" Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=Gauge.MaxValue, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                        <TextBlock Text="{Binding Path=Gauge.Unit, UpdateSourceTrigger=PropertyChanged, FallbackValue=Torr}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <!--Right-->
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <TextBlock Margin="18 0 0 0" VerticalAlignment="Top" Height="15" FontSize="12">Vacuum</TextBlock>
+                    <StackPanel Margin="0 12 0 0" Orientation="Horizontal">
+                        <Grid>
+                            <Image Height="25" Source="/ChamberControl;component/Assets/Images/VacuumGauge.bmp"></Image>
+                            <TextBox Text="{Binding Path=Gauge.CurrentValue, UpdateSourceTrigger=PropertyChanged, StringFormat=F3,FallbackValue=0.123}" IsReadOnly="True" HorizontalContentAlignment="Center" Foreground="Red" Margin="10 0 0 0" Width="45" Height="20"></TextBox>
+                        </Grid>
+                        <TextBlock Text="{Binding Path=Gauge.Unit, UpdateSourceTrigger=PropertyChanged, FallbackValue=Torr}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                </Grid>
+                <!--exhaust valve-->
+                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                    <StackPanel   Orientation="Horizontal" HorizontalAlignment="Left" >
+                        <Button  Command="{Binding Path=ExhaustValve.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveOpenOut.bmp" Visibility="{Binding ExhaustValve.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                        <Button Command="{Binding Path=ExhaustValve.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveClose.bmp" Visibility="{Binding ExhaustValve.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource InverseBoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                        <Button  Tag="/ChamberControl;component/Assets/Images/RightArrow.bmp" Visibility="{Binding ExhaustValve.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource ImageButtonStyle}"></Button>
+                    </StackPanel>
+                    <TextBlock Text="{Binding ExhaustValve.Name, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockNormal}"></TextBlock>
+                </StackPanel>
+                <!--Counts-->
+                <StackPanel Grid.Row="2" Orientation="Horizontal">
+                    <Label Content="{Binding PlasmaCount.Title, UpdateSourceTrigger=PropertyChanged, FallbackValue=Plasma Counts for 1 Hour}" Style="{StaticResource LableNormal}"></Label>
+                    <Label  Content="{Binding PlasmaCount.Value, UpdateSourceTrigger=PropertyChanged, FallbackValue=0}" Style="{StaticResource LableResult}"></Label>
+                </StackPanel>
+                <!--Pump Block-->
+                <StackPanel Orientation="Horizontal" Grid.Row="3">
+                    <StackPanel>
+                        <StackPanel   Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <Button Width="60"  Command="{Binding Path=PumpBlock.Valve.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveOpenIn.bmp" Visibility="{Binding PumpBlock.Valve.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                            <Button   Width="60"  Command="{Binding Path=PumpBlock.Valve.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/ValveClose.bmp" Visibility="{Binding PumpBlock.Valve.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource InverseBoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                        </StackPanel>
+                        <TextBlock Text="{Binding PumpBlock.Valve.Name, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Visibility="{Binding PumpBlock.Pump.Visible,UpdateSourceTrigger=PropertyChanged}">
+                        <StackPanel   Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <Button  Command="{Binding Path=PumpBlock.Pump.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/PumpOn.bmp" Visibility="{Binding PumpBlock.Pump.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                            <Button   Command="{Binding Path=PumpBlock.Pump.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/PumpOff.bmp" Visibility="{Binding PumpBlock.Pump.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource InverseBoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                        </StackPanel>
+                        <TextBlock  Text="{Binding PumpBlock.Pump.Name, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Visibility="{Binding PumpBlock.Booster.Visible,UpdateSourceTrigger=PropertyChanged}">
+                        <StackPanel   Orientation="Horizontal" HorizontalAlignment="Left" >
+                            <Button  Command="{Binding Path=PumpBlock.Booster.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/PumpOn.bmp" Visibility="{Binding PumpBlock.Booster.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource BoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                            <Button  Command="{Binding Path=PumpBlock.Booster.ChangeStatusCommand}" Tag="/ChamberControl;component/Assets/Images/PumpOff.bmp" Visibility="{Binding PumpBlock.Booster.IsOpen, UpdateSourceTrigger=PropertyChanged,Converter={StaticResource InverseBoolToVisible}}"  Style="{StaticResource AdvancedImageButtonStyle}"></Button>
+                        </StackPanel>
+                        <TextBlock  Text="{Binding PumpBlock.Booster.Name, UpdateSourceTrigger=PropertyChanged}" Style="{StaticResource TextBlockSmall}"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Viewbox>
+</UserControl>

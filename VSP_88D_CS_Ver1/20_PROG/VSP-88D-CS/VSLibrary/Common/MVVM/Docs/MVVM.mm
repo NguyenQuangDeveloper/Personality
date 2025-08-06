@@ -1,0 +1,44 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1750138550729" ID="ID_812983528" MODIFIED="1750138937262" TEXT="VSLibrary">
+<node CREATED="1750141831103" ID="ID_178657255" LINK="../" MODIFIED="1750141831103" POSITION="right" TEXT="Common">
+<node CREATED="1750138564609" ID="ID_269508035" LINK="file:/D:/Source/VSLibraryV1/20_PROG/VSLibrary/Common/MVVM/" MODIFIED="1750210967642" TEXT="MVVM">
+<node CREATED="1750639023398" ID="ID_17427531" LINK="" MODIFIED="1750639186662" TEXT="Docs">
+<node CREATED="1750639029091" ID="ID_1826553637" LINK="MVVM" MODIFIED="1750639034755" TEXT="MVVM (Doxygen &#xc124;&#xc815; &#xd30c;&#xc77c;)"/>
+<node CREATED="1750639038127" ID="ID_38830645" LINK="MVVM.cd" MODIFIED="1750639053536" TEXT="MVVM.cd (&#xd074;&#xb798;&#xc2a4; &#xb2e4;&#xc774;&#xc5b4;&#xadf8;&#xb7a8;)"/>
+<node CREATED="1750901580850" ID="ID_362932769" LINK="MVVM.dgml" MODIFIED="1750901591673" TEXT="MVVM.dgml (&#xd074;&#xb798;&#xc2a4; &#xb2e4;&#xc774;&#xc5b4;&#xadf8;&#xb7a8; + &#xacc4;&#xce35;&#xb3c4;)"/>
+<node CREATED="1750639058665" ID="ID_1822563599" LINK="MVVM.md" MODIFIED="1750639065296" TEXT="MVVM.md ( &#xac04;&#xb2e8;&#xd55c; &#xc0ac;&#xc6a9; &#xc124;&#xba85;)"/>
+<node CREATED="1750639073729" ID="ID_42160071" LINK="MVVM.mm" MODIFIED="1750639084778" TEXT="MVVM.mm (&#xd504;&#xb9ac;&#xb9c8;&#xc778; &#xb2e4;&#xc774;&#xc5b4;&#xadf8;&#xb7a8;)"/>
+<node CREATED="1750639092568" ID="ID_1077086339" LINK="MVVMMain.c" MODIFIED="1750639108925" TEXT="MVVMMain.c (&#xb3c5;&#xc2dc;&#xc820; &#xba54;&#xc778; &#xd398;&#xc774;&#xc9c0;)"/>
+<node CREATED="1750639162194" ID="ID_89570203" LINK="Todo.md" MODIFIED="1750639173790" TEXT="Todo.md (Todo &#xae30;&#xb85d;&#xc6a9;)"/>
+</node>
+<node CREATED="1750138570457" ID="ID_1772171035" LINK="file:/D:/Source/VSLibraryV1/20_PROG/VSLibrary/Common/MVVM/Behaviors/" MODIFIED="1750138570457" TEXT="Behaviors">
+<node CREATED="1750138575829" ID="ID_1572428792" LINK="file:/D:/Source/VSLibraryV1/20_PROG/VSLibrary/Common/MVVM/Behaviors/RegionBehavior.cs" MODIFIED="1750298327443" TEXT="RegionBehavior.cs"/>
+<node CREATED="1750921401497" LINK="../Behaviors/WindowDragBehavior.cs" MODIFIED="1750921401497" TEXT="WindowDragBehavior.cs"/>
+</node>
+<node CREATED="1750138881361" ID="ID_785302577" LINK="Core/" MODIFIED="1750138908865" TEXT="Core">
+<node CREATED="1750138885521" ID="ID_587286377" LINK="Core/RegionManager.cs" MODIFIED="1750298330185" TEXT="RegionManager.cs"/>
+<node CREATED="1750138896713" ID="ID_1514418785" LINK="Core/RelayCommand.cs" MODIFIED="1750298331940" TEXT="RelayCommand.cs"/>
+<node CREATED="1750138907885" ID="ID_994282499" LINK="Core/VSContainer.cs" MODIFIED="1750298334592" TEXT="VSContainer.cs"/>
+<node CREATED="1750990018825" LINK="../Core/ViewManager.cs" MODIFIED="1750990018825" TEXT="ViewManager.cs"/>
+</node>
+<node CREATED="1750138984929" ID="ID_1570191472" LINK="Interfaces/" MODIFIED="1750140845560" TEXT="Interfaces">
+<node CREATED="1750138988741" ID="ID_1933268329" LINK="Interfaces/IActivatable.cs" MODIFIED="1750298336918" TEXT="IActivatable.cs"/>
+<node CREATED="1750140831947" ID="ID_1973532797" LINK="Interfaces/IContainer.cs" MODIFIED="1750298338291" TEXT="IContainer.cs"/>
+<node CREATED="1750140838326" ID="ID_522840631" LINK="Interfaces/IRegionAware.cs" MODIFIED="1750298340496" TEXT="IRegionAware.cs"/>
+<node CREATED="1750140844500" ID="ID_1423067209" LINK="Interfaces/IRegionManager.cs" MODIFIED="1750298308967" TEXT="IRegionManager.cs"/>
+<node CREATED="1750990028157" LINK="../Interfaces/INavigator.cs" MODIFIED="1750990028157" TEXT="INavigator.cs"/>
+<node CREATED="1750990034358" LINK="../Interfaces/IViewManager.cs" MODIFIED="1750990034358" TEXT="IViewManager.cs"/>
+</node>
+<node CREATED="1750140863225" ID="ID_1061566205" LINK="Locators/" MODIFIED="1750140872221" TEXT="Locators">
+<node CREATED="1750140866697" ID="ID_618280081" LINK="Locators/ViewModelLocator.cs" MODIFIED="1750140866697" TEXT="ViewModelLocator.cs"/>
+<node CREATED="1750140871423" ID="ID_1056375367" LINK="Locators/ViewModelLocatorConverter.cs" MODIFIED="1750140871423" TEXT="ViewModelLocatorConverter.cs"/>
+</node>
+<node CREATED="1750140884574" ID="ID_800574422" LINK="ViewModels/" MODIFIED="1750140894229" TEXT="ViewModels">
+<node CREATED="1750140888119" ID="ID_1706632140" LINK="ViewModels/BlazorViewModelBase.cs" MODIFIED="1750140888119" TEXT="BlazorViewModelBase.cs"/>
+<node CREATED="1750140892957" ID="ID_1082973826" LINK="ViewModels/ViewModelBase.cs" MODIFIED="1750140892957" TEXT="ViewModelBase.cs"/>
+</node>
+</node>
+</node>
+</node>
+</map>

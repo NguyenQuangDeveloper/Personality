@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="UIComponent" Group="Expanded" Label="UIComponent" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.UIComponent.UIComponentManager" Label="UIComponentManager" Category="CodeSchema_Class" Group="UIComponent" />
+    <Node Id="UIComponent.Converters" Group="Expanded" Label="UIComponent.Converters" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.UIComponent.Converters.BooleanConverter" Label="BooleanConverter" Category="CodeSchema_Class" Group="UIComponent.Converters" />
+    <Node Id="VSLibrary.UIComponent.Converters.BooleanToIconConverter" Label="BooleanToIconConverter" Category="CodeSchema_Class" Group="UIComponent.Converters" />
+    <Node Id="VSLibrary.UIComponent.Converters.DoubleToStringConverter" Label="DoubleToStringConverter" Category="CodeSchema_Class" Group="UIComponent.Converters" />
+    <Node Id="VSLibrary.UIComponent.Converters.Int64ToInt32Converter" Label="Int64ToInt32Converter" Category="CodeSchema_Class" Group="UIComponent.Converters" />
+    <Node Id="VSLibrary.UIComponent.Converters.InverseBooleanConverter" Label="InverseBooleanConverter" Category="CodeSchema_Class" Group="UIComponent.Converters" />
+    <Node Id="UIComponent.KeyPads" Group="Expanded" Label="UIComponent.KeyPads" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.UIComponent.KeyPads.IKeyPadService" Label="IKeyPadService" Category="CodeSchema_Class" Group="UIComponent.KeyPads" />
+    <Node Id="VSLibrary.UIComponent.KeyPads.VsKeyPadNumberPad" Label="VsKeyPadNumberPad" Category="CodeSchema_Class" Group="UIComponent.KeyPads" />
+    <Node Id="VSLibrary.UIComponent.KeyPads.VsKeyPadService" Label="VsKeyPadService" Category="CodeSchema_Class" Group="UIComponent.KeyPads" />
+    <Node Id="VSLibrary.UIComponent.KeyPads.VsKeyPadTextKeyboard" Label="VsKeyPadTextKeyboard" Category="CodeSchema_Class" Group="UIComponent.KeyPads" />
+    <Node Id="UIComponent.VSControls" Group="Expanded" Label="UIComponent.VSControls" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.UIComponent.VSControls.VsTextBox" Label="VsTextBox" Category="CodeSchema_Class" Group="UIComponent.VSControls" />
+    <Node Id="UIComponent.VsGrids" Group="Expanded" Label="UIComponent.VsGrids" Category="CodeSchema_Namespace" />
+    <Node Id="VSLibrary.UIComponent.VsGrids.VsDataGrid" Label="VsDataGrid" Category="CodeSchema_Class" Group="UIComponent.VsGrids" />
+    <Node Id="VSLibrary.UIComponent.VsGrids.VsGridBase" Label="VsGridBase" Category="CodeSchema_Class" Group="UIComponent.VsGrids" />
+    <Node Id="VSLibrary.UIComponent.VsGrids.VsGridItem" Label="VsGridItem" Category="CodeSchema_Class" Group="UIComponent.VsGrids" />
+    <Node Id="VSLibrary.UIComponent.VsGrids.ParameterTemplateSelector" Label="ParameterTemplateSelector" Category="CodeSchema_Class" Group="UIComponent.VsGrids" />
+    <Node Id="VSLibrary.UIComponent.VsGrids.ITemplateItem" Label="ITemplateItem" Category="CodeSchema_Interface" Group="UIComponent.VsGrids" />
+  </Nodes>
+  <Links>
+    <Link Source="UIComponent" Target="VSLibrary.UIComponent.UIComponentManager" Category="Contains" />
+    <Link Source="UIComponent" Target="UIComponent.Converters" Category="Contains" />
+    <Link Source="UIComponent.Converters" Target="VSLibrary.UIComponent.Converters.BooleanConverter" Category="Contains" />
+    <Link Source="UIComponent.Converters" Target="VSLibrary.UIComponent.Converters.BooleanToIconConverter" Category="Contains" />
+    <Link Source="UIComponent.Converters" Target="VSLibrary.UIComponent.Converters.DoubleToStringConverter" Category="Contains" />
+    <Link Source="UIComponent.Converters" Target="VSLibrary.UIComponent.Converters.Int64ToInt32Converter" Category="Contains" />
+    <Link Source="UIComponent.Converters" Target="VSLibrary.UIComponent.Converters.InverseBooleanConverter" Category="Contains" />
+    <Link Source="UIComponent" Target="UIComponent.KeyPads" Category="Contains" />
+    <Link Source="UIComponent.KeyPads" Target="VSLibrary.UIComponent.KeyPads.IKeyPadService" Category="Contains" />
+    <Link Source="UIComponent.KeyPads" Target="VSLibrary.UIComponent.KeyPads.VsKeyPadNumberPad" Category="Contains" />
+    <Link Source="UIComponent.KeyPads" Target="VSLibrary.UIComponent.KeyPads.VsKeyPadService" Category="Contains" />
+    <Link Source="UIComponent.KeyPads" Target="VSLibrary.UIComponent.KeyPads.VsKeyPadTextKeyboard" Category="Contains" />
+    <Link Source="UIComponent" Target="UIComponent.VSControls" Category="Contains" />
+    <Link Source="UIComponent.VSControls" Target="VSLibrary.UIComponent.VSControls.VsTextBox" Category="Contains" />
+    <Link Source="UIComponent" Target="UIComponent.VsGrids" Category="Contains" />
+    <Link Source="UIComponent.VsGrids" Target="VSLibrary.UIComponent.VsGrids.VsDataGrid" Category="Contains" />
+    <Link Source="UIComponent.VsGrids" Target="VSLibrary.UIComponent.VsGrids.VsGridBase" Category="Contains" />
+    <Link Source="UIComponent.VsGrids" Target="VSLibrary.UIComponent.VsGrids.VsGridItem" Category="Contains" />
+    <Link Source="UIComponent.VsGrids" Target="VSLibrary.UIComponent.VsGrids.ParameterTemplateSelector" Category="Contains" />
+    <Link Source="UIComponent.VsGrids" Target="VSLibrary.UIComponent.VsGrids.ITemplateItem" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Contains" />
+    <Category Id="Inheritance" Background="#FF00FF00" />
+    <Category Id="Implementation" Background="#FFFFFF00" />
+    <Category Id="Composes" Background="#FF008000" />
+    <Category Id="Aggregates" Background="#FFFFA500" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

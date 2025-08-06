@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Communication" Category="CodeSchema_Namespace" Bounds="198.893333333333,568,703.093333333334,485.96" Group="Expanded" Label="Communication" />
+    <Node Id="Communication.CommunicationBase" Category="CodeSchema_Namespace" Bounds="218.893333333333,892,256.256666666667,86" Group="Expanded" Label="Communication.CommunicationBase" />
+    <Node Id="Communication.Packet.Modbus" Category="CodeSchema_Namespace" Bounds="581.296666666667,340,228.286666666667,198" Group="Expanded" Label="Communication.Packet.Modbus" />
+    <Node Id="Communication.Packet.Protocol.RFGenerator" Category="CodeSchema_Namespace" Bounds="93.1883333333334,340.02,426.503333333333,197.96" Group="Expanded" Label="Communication.Packet.Protocol.RFGenerator" />
+    <Node Id="Communication.Packet.Protocol.Test" Category="CodeSchema_Namespace" Bounds="345.753333333333,0,409.373333333333,310" Group="Expanded" Label="Communication.Packet.Protocol.Test" />
+    <Node Id="Communication.Packet.Protocol._2DIDBCR" Category="CodeSchema_Namespace" Bounds="931.986666666667,0,285.696666666667,142" Group="Expanded" Label="Communication.Packet.Protocol._2DIDBCR" />
+    <Node Id="Communication.Serial" Category="CodeSchema_Namespace" Bounds="218.893333333333,636,174.84,86" Group="Expanded" Label="Communication.Serial" />
+    <Node Id="Communication.Socket" Category="CodeSchema_Namespace" Bounds="424.553333333333,608,181.52,142" Group="Expanded" Label="Communication.Socket" />
+    <Node Id="IYoungshinRFGenerator" Category="CodeSchema_Interface" Bounds="0,798,168.88,25.96" Label="IYoungshinRFGenerator" />
+    <Node Id="VSLibrary.Communication.CommunicationBase" Category="CodeSchema_Class" Bounds="230.44,780,151.746666666667,26" Label="CommunicationBase" />
+    <Node Id="VSLibrary.Communication.CommunicationBase.PendingRequest" Category="CodeSchema_Class" Bounds="282.418333333333,932,129.206666666667,26" Label="PendingRequest" />
+    <Node Id="VSLibrary.Communication.CommunicationConfig" Category="CodeSchema_Class" Bounds="506.77,892,162.6,26" Label="CommunicationConfig" />
+    <Node Id="VSLibrary.Communication.CommunicationEventArgs" Category="CodeSchema_Class" Bounds="700.99,892,180.996666666667,26" Label="CommunicationEventArgs" />
+    <Node Id="VSLibrary.Communication.CommunicationManager" Category="CodeSchema_Class" Bounds="412.716666666667,780,175.193333333333,26" Label="CommunicationManager" />
+    <Node Id="VSLibrary.Communication.ICommunication" Category="CodeSchema_Interface" Bounds="393.251666666667,836.02,130.123333333333,25.96" Label="ICommunication" />
+    <Node Id="VSLibrary.Communication.ICommunicationConfig" Category="CodeSchema_Interface" Bounds="505.15,948,165.84,25.96" Label="ICommunicationConfig" />
+    <Node Id="VSLibrary.Communication.IDataProvider" Category="CodeSchema_Interface" Bounds="218.893333333333,1008,114.436666666667,25.96" Label="IDataProvider" />
+    <Node Id="VSLibrary.Communication.IModbusConfig" Category="CodeSchema_Interface" Bounds="363.33,1008,124.713333333333,25.96" Label="IModbusConfig" />
+    <Node Id="VSLibrary.Communication.IModbusMasterWrapper" Category="CodeSchema_Interface" Bounds="518.043333333333,1008,173.246666666667,25.96" Label="IModbusMasterWrapper" />
+    <Node Id="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Category="CodeSchema_Class" Bounds="638.305,492,114.27,26" Label="ModbusASCII" />
+    <Node Id="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Category="CodeSchema_Class" Bounds="638.305,436,107.91,26" Label="ModbusRTU" />
+    <Node Id="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Category="CodeSchema_Class" Bounds="638.305,380,106.626666666667,26" Label="ModbusTCP" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGenerator" Category="CodeSchema_Interface" Bounds="113.188333333333,436.02,161.32,25.96" Label="IPlasourceRfGenerator" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGeneratorData" Category="CodeSchema_Interface" Bounds="304.508333333333,436.02,186.543333333333,25.96" Label="IPlasourceRfGeneratorData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Category="CodeSchema_Class" Bounds="113.715,380.02,160.266666666667,26" Label="PlasourceRFGenerator" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRfGeneratorData" Category="CodeSchema_Class" Bounds="306.128333333333,380.02,183.303333333333,26" Label="PlasourceRfGeneratorData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Category="CodeSchema_Class" Bounds="113.188333333333,491.98,165.64,26" Label="YoungshinRFGenerator" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGeneratorData" Category="CodeSchema_Class" Bounds="308.828333333333,491.98,190.863333333333,26" Label="YoungshinRFGeneratorData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestModbusASCII" Category="CodeSchema_Class" Bounds="365.753333333333,208,136.43,26" Label="TestModbusASCII" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestModbusAsciiData" Category="CodeSchema_Class" Bounds="532.183333333334,208,157.816666666667,26" Label="TestModbusAsciiData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestModbusRTU" Category="CodeSchema_Class" Bounds="365.753333333333,152,130.07,26" Label="TestModbusRTU" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestModbusTCP" Category="CodeSchema_Class" Bounds="520.146666666667,96,128.786666666667,26" Label="TestModbusTCP" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSerial" Category="CodeSchema_Class" Bounds="365.753333333333,40,92.49,26" Label="TestSerial" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSerialData" Category="CodeSchema_Class" Bounds="617.413333333333,40,117.713333333333,26" Label="TestSerialData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSocket" Category="CodeSchema_Class" Bounds="488.243333333333,40,99.17,26" Label="TestSocket" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSocketData" Category="CodeSchema_Class" Bounds="365.753333333333,96,124.393333333333,26" Label="TestSocketData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServer" Category="CodeSchema_Class" Bounds="525.823333333333,152,132.866666666667,26" Label="TestSocketServer" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServerData" Category="CodeSchema_Class" Bounds="365.753333333333,264,158.09,26" Label="TestSocketServerData" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol._2DIDBCR.CognexBCR" Category="CodeSchema_Class" Bounds="1020.92666666667,40,103.906666666667,26" Label="CognexBCR" />
+    <Node Id="VSLibrary.Communication.Packet.Protocol._2DIDBCR.KeyenceBCR" Category="CodeSchema_Class" Bounds="1020.92666666667,96,107.816666666667,26" Label="KeyenceBCR" />
+    <Node Id="VSLibrary.Communication.PacketHelper" Category="CodeSchema_Class" Bounds="250.143333333333,836,112.34,26" Label="PacketHelper" />
+    <Node Id="VSLibrary.Communication.Serial.SerialBase" Category="CodeSchema_Class" Bounds="258.716666666666,676,95.1933333333334,26" Label="SerialBase" />
+    <Node Id="VSLibrary.Communication.Socket.SocketBase" Category="CodeSchema_Class" Bounds="447.528333333333,648,101.873333333333,26" Label="SocketBase" />
+    <Node Id="VSLibrary.Communication.Socket.SocketServerBase" Category="CodeSchema_Class" Bounds="447.528333333333,704,135.57,26" Label="SocketServerBase" />
+  </Nodes>
+  <Links>
+    <Link Source="Communication" Target="Communication.CommunicationBase" Category="Contains" />
+    <Link Source="Communication" Target="Communication.Serial" Category="Contains" />
+    <Link Source="Communication" Target="Communication.Socket" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.CommunicationBase" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.CommunicationConfig" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.CommunicationEventArgs" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.CommunicationManager" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.ICommunication" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.ICommunicationConfig" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.IDataProvider" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.IModbusConfig" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.IModbusMasterWrapper" Category="Contains" />
+    <Link Source="Communication" Target="VSLibrary.Communication.PacketHelper" Category="Contains" />
+    <Link Source="Communication.CommunicationBase" Target="VSLibrary.Communication.CommunicationBase.PendingRequest" Category="Contains" />
+    <Link Source="Communication.Packet.Modbus" Target="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Category="Contains" />
+    <Link Source="Communication.Packet.Modbus" Target="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Category="Contains" />
+    <Link Source="Communication.Packet.Modbus" Target="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGenerator" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGeneratorData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRfGeneratorData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.RFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGeneratorData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestModbusASCII" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestModbusAsciiData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestModbusRTU" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestModbusTCP" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSerial" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSerialData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSocket" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSocketData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServer" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol.Test" Target="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServerData" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol._2DIDBCR" Target="VSLibrary.Communication.Packet.Protocol._2DIDBCR.CognexBCR" Category="Contains" />
+    <Link Source="Communication.Packet.Protocol._2DIDBCR" Target="VSLibrary.Communication.Packet.Protocol._2DIDBCR.KeyenceBCR" Category="Contains" />
+    <Link Source="Communication.Serial" Target="VSLibrary.Communication.Serial.SerialBase" Category="Contains" />
+    <Link Source="Communication.Socket" Target="VSLibrary.Communication.Socket.SocketBase" Category="Contains" />
+    <Link Source="Communication.Socket" Target="VSLibrary.Communication.Socket.SocketServerBase" Category="Contains" />
+    <Link Source="VSLibrary.Communication.CommunicationBase" Target="VSLibrary.Communication.ICommunication" Category="Implements" Bounds="341.599060058594,806,73.0377502441406,26.9086303710938" />
+    <Link Source="VSLibrary.Communication.CommunicationBase" Target="VSLibrary.Communication.PacketHelper" Category="Inherits" Bounds="306.313323974609,806,0,21" />
+    <Link Source="VSLibrary.Communication.CommunicationConfig" Target="VSLibrary.Communication.ICommunicationConfig" Category="Implements" Bounds="588.070007324219,918,0,21" />
+    <Link Source="VSLibrary.Communication.CommunicationManager" Target="VSLibrary.Communication.ICommunication" Category="Uses" Bounds="473.448333740234,806,17.114990234375,22.8200073242188" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Target="VSLibrary.Communication.IModbusConfig" Category="Implements" Bounds="436.642310324429,517.999984741211,252.00131771603,482.02422895533" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Target="VSLibrary.Communication.IModbusMasterWrapper" Category="Implements" Bounds="608.509522399607,517.999984741211,84.6434661317804,481.13614652396" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Target="VSLibrary.Communication.Serial.SerialBase" Category="Inherits" Bounds="341.942234277109,517.999984741211,326.005125761038,154.152757407964" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Target="VSLibrary.Communication.IModbusConfig" Category="Implements" Bounds="435.537898630282,462,250.663414204638,537.842447300178" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Target="VSLibrary.Communication.IModbusMasterWrapper" Category="Implements" Bounds="608.016803801283,462,82.2523783643258,537.10372446484" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Target="VSLibrary.Communication.Serial.SerialBase" Category="Inherits" Bounds="334.861577432356,462,336.49298767944,209.247347390505" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Target="VSLibrary.Communication.IModbusConfig" Category="Implements" Bounds="434.692854761364,406,251.420332002712,593.712479729172" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Target="VSLibrary.Communication.IModbusMasterWrapper" Category="Implements" Bounds="607.698284916088,406,82.120019692111,593.085063307357" />
+    <Link Source="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Target="VSLibrary.Communication.Socket.SocketBase" Category="Inherits" Bounds="513.096584380224,406,169.152354792321,234.698689160501" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="195.551343158179,406.019989013672,77.6909091092252,593.056298091901" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGenerator" Category="Implements" Bounds="193.848327636719,406.019989013672,0,21" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRFGenerator" Target="VSLibrary.Communication.Serial.SerialBase" Category="Inherits" Bounds="198.788006587901,406.019989013672,99.3888813759087,261.566888952575" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.PlasourceRfGeneratorData" Target="VSLibrary.Communication.Packet.Protocol.RFGenerator.IPlasourceRfGeneratorData" Category="Implements" Bounds="397.779998779297,406.019989013672,0,21" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Target="IYoungshinRFGenerator" Category="Implements" Bounds="92.255443038558,517.980010986328,99.0130604756677,271.564455237996" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="198.026442112702,517.980010986328,74.6896052622719,481.126555135934" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.RFGenerator.YoungshinRFGenerator" Target="VSLibrary.Communication.Serial.SerialBase" Category="Inherits" Bounds="203.800776908812,517.980010986328,90.0929592060436,150.300573356476" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestModbusASCII" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="280.415286901933,234,150.987811553994,765.170303698131" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestModbusASCII" Target="VSLibrary.Communication.Packet.Modbus.ModbusASCII" Category="Inherits" Bounds="445.937107562326,234,231.43819195627,251.378832774983" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestModbusRTU" Target="VSLibrary.Communication.Packet.Modbus.ModbusRTU" Category="Inherits" Bounds="442.757107254529,178,231.438199980928,251.378847955656" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestModbusTCP" Target="VSLibrary.Communication.Packet.Modbus.ModbusTCP" Category="Inherits" Bounds="589.441472241039,122,94.1002318892803,249.578688688306" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSerial" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="279.18498502353,66,130.988386401549,933.087433506708" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSerial" Target="VSLibrary.Communication.Serial.SerialBase" Category="Inherits" Bounds="309.948879328488,66,99.8892261380224,601.121742635566" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSocket" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="281.970140149011,66,252.343330730744,933.311998072803" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSocket" Target="VSLibrary.Communication.Socket.SocketBase" Category="Inherits" Bounds="499.888110262504,66,37.0985727732293,573.018802972295" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServer" Target="VSLibrary.Communication.IDataProvider" Category="Implements" Bounds="284.023811739611,178,303.431475411469,821.557464379485" />
+    <Link Source="VSLibrary.Communication.Packet.Protocol.Test.TestSocketServer" Target="VSLibrary.Communication.Socket.SocketServerBase" Category="Inherits" Bounds="518.367893915882,178,72.0767012743411,517.08617940696" />
+    <Link Source="VSLibrary.Communication.Serial.SerialBase" Target="VSLibrary.Communication.CommunicationBase" Category="Inherits" Bounds="306.313339233398,702,0,69" />
+    <Link Source="VSLibrary.Communication.Socket.SocketBase" Target="VSLibrary.Communication.CommunicationBase" Category="Inherits" Bounds="332.655622046589,674,146.885347455253,100.903974268355" />
+    <Link Source="VSLibrary.Communication.Socket.SocketServerBase" Target="VSLibrary.Communication.CommunicationBase" Category="Inherits" Bounds="350.52147736262,730,129.041849222046,46.924312233893" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="클래스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="클래스" />
+    <Category Id="CodeSchema_Interface" Label="인터페이스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="인터페이스" />
+    <Category Id="CodeSchema_Namespace" Label="네임스페이스" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="네임스페이스" />
+    <Category Id="CodeSchema_Type" Label="형식" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="형식" />
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="Implements" Label="구현" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="구현자" OutgoingActionLabel="구현" />
+    <Category Id="Inherits" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="배경" Description="배경색입니다." DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="아이콘" Description="아이콘" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

@@ -1,0 +1,164 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:VSLibrary.UIComponent.Converters"
+    xmlns:local="clr-namespace:VSLibrary.UIComponent.VSControls">
+
+    <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+
+    <Style TargetType="{x:Type local:VsButton}">
+        <Setter Property="Padding" Value="16,6" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Cursor" Value="Hand" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Background" Value="#2C3E50" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:VsButton}">
+                    <Grid Background="Transparent">
+
+                        <!--  그림자  -->
+                        <Border Background="Transparent" CornerRadius="12">
+                            <Border.Effect>
+                                <DropShadowEffect
+                                    BlurRadius="8"
+                                    Direction="270"
+                                    Opacity="0.3"
+                                    ShadowDepth="2"
+                                    Color="Black" />
+                            </Border.Effect>
+                        </Border>
+
+                        <!--  배경  -->
+                        <Rectangle
+                            x:Name="GradientBackground"
+                            RadiusX="12"
+                            RadiusY="12">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                    <GradientStop Offset="0.0" Color="{Binding ShineColor.(SolidColorBrush.Color), RelativeSource={RelativeSource TemplatedParent}, FallbackValue=#5DADE2}" />
+                                    <GradientStop Offset="0.5" Color="{Binding ShineColorBottom.(SolidColorBrush.Color), RelativeSource={RelativeSource TemplatedParent}, FallbackValue=Transparent}" />
+                                    <GradientStop Offset="0.5" Color="{Binding BackgroundTop.(SolidColorBrush.Color), RelativeSource={RelativeSource TemplatedParent}, FallbackValue=Transparent}" />
+                                    <GradientStop Offset="1.0" Color="{Binding Background.(SolidColorBrush.Color), RelativeSource={RelativeSource TemplatedParent}, FallbackValue=#2C3E50}" />
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+
+                        <!--  메인 영역  -->
+                        <Border
+                            x:Name="MainBorder"
+                            Background="Transparent"
+                            BorderBrush="#2980B9"
+                            BorderThickness="1"
+                            CornerRadius="12">
+                            <Grid x:Name="LayoutGrid" Margin="{TemplateBinding Padding}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <!--  아이콘 (Image)  -->
+                                <Image
+                                    x:Name="IconImage"
+                                    Width="20"
+                                    Height="20"
+                                    Margin="4"
+                                    VerticalAlignment="Center"
+                                    Source="{TemplateBinding ImageSource}"
+                                    Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=ImageSource, Converter={StaticResource NullToVisibilityConverter}}" />
+
+                                <!--  아이콘 (Path)  -->
+                                <Path
+                                    x:Name="IconPath"
+                                    Width="20"
+                                    Height="20"
+                                    Margin="4"
+                                    VerticalAlignment="Center"
+                                    Data="{TemplateBinding IconPath}"
+                                    Fill="{TemplateBinding Foreground}"
+                                    Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=IconPath, Converter={StaticResource NullToVisibilityConverter}}" />
+
+                                <!--  텍스트  -->
+                                <ContentPresenter
+                                    x:Name="contentPresenter"
+                                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                    Content="{TemplateBinding Content}"
+                                    ContentTemplate="{TemplateBinding ContentTemplate}" />
+                            </Grid>
+                        </Border>
+                    </Grid>
+
+                    <!--  트리거  -->
+                    <ControlTemplate.Triggers>
+                        <!--  Hover  -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="MainBorder" Property="BorderBrush" Value="#1ABC9C" />
+                            <Setter TargetName="MainBorder" Property="Background" Value="#E8F8F5" />
+                        </Trigger>
+                        <!--  Pressed  -->
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="MainBorder" Property="BorderBrush" Value="#16A085" />
+                            <Setter TargetName="MainBorder" Property="Background" Value="#A2DED0" />
+                        </Trigger>
+                        <!--  Disabled  -->
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Foreground" Value="#AAA" />
+                            <Setter TargetName="GradientBackground" Property="Opacity" Value="0.3" />
+                        </Trigger>
+
+                        <!--  🔽 위치 조정 트리거  -->
+                        <!--  Top  -->
+                        <Trigger Property="local:VsButton.ImagePosition" Value="Top">
+                            <Setter TargetName="IconImage" Property="Grid.Row" Value="0" />
+                            <Setter TargetName="IconImage" Property="Grid.ColumnSpan" Value="2" />
+                            <Setter TargetName="contentPresenter" Property="Grid.Row" Value="1" />
+                            <Setter TargetName="contentPresenter" Property="Grid.ColumnSpan" Value="2" />
+                        </Trigger>
+
+                        <!--  Left  -->
+                        <Trigger Property="local:VsButton.ImagePosition" Value="Left">
+                            <Setter TargetName="IconImage" Property="Grid.Row" Value="0" />
+                            <Setter TargetName="IconImage" Property="Grid.Column" Value="0" />
+                            <Setter TargetName="IconImage" Property="Grid.RowSpan" Value="2" />
+                            <Setter TargetName="contentPresenter" Property="Grid.Row" Value="0" />
+                            <Setter TargetName="contentPresenter" Property="Grid.Column" Value="1" />
+                            <Setter TargetName="contentPresenter" Property="Grid.RowSpan" Value="2" />
+                        </Trigger>
+
+                        <!--  Right  -->
+                        <Trigger Property="local:VsButton.ImagePosition" Value="Right">
+                            <Setter TargetName="IconImage" Property="Grid.Column" Value="1" />
+                            <Setter TargetName="IconImage" Property="Grid.RowSpan" Value="2" />
+                            <Setter TargetName="contentPresenter" Property="Grid.Column" Value="0" />
+                            <Setter TargetName="contentPresenter" Property="Grid.RowSpan" Value="2" />
+                        </Trigger>
+
+                        <!--  Bottom  -->
+                        <Trigger Property="local:VsButton.ImagePosition" Value="Bottom">
+                            <Setter TargetName="IconImage" Property="Grid.Row" Value="1" />
+                            <Setter TargetName="IconImage" Property="Grid.ColumnSpan" Value="2" />
+                            <Setter TargetName="contentPresenter" Property="Grid.Row" Value="0" />
+                            <Setter TargetName="contentPresenter" Property="Grid.ColumnSpan" Value="2" />
+                        </Trigger>
+
+                        <!--  선택된 버튼 강조  -->
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter TargetName="MainBorder" Property="BorderBrush" Value="Blue" />
+                            <Setter TargetName="MainBorder" Property="BorderThickness" Value="3" />
+                            <Setter Property="FontWeight" Value="ExtraBold" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

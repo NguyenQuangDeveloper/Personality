@@ -1,0 +1,11 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\bin\Debug\net8.0\LiveChartsCore.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\bin\Debug\net8.0\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\bin\Debug\net8.0\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\refint\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore\obj\Debug\net8.0\ref\LiveChartsCore.dll

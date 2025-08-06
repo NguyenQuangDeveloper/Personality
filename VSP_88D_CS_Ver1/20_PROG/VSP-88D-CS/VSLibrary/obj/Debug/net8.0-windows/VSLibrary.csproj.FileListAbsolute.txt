@@ -1,0 +1,191 @@
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.deps.json
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.pdb
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.pdb
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.pdb
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.AssemblyReference.cache
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\KeyPadStyles.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsGridStyles.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsMessageBoxButtonStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.cache
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.lref
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsButtonStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsChartStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsCheckBoxStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsComboBoxStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsDataGridStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsLabelStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsListBoxStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRadioButtonStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRTChartStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTabControlStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBlockStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBoxStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTimeSpinnerStyle.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.baml
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.g.resources
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfoInputs.cache
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfo.cs
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.CoreCompileInputs.cache
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.Up2Date
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\refint\VSLibrary.dll
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.pdb
+D:\Working\VSLibraryV1\20_PROG\VSLibrary\obj\Debug\net8.0-windows\ref\VSLibrary.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.deps.json
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.pdb
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.pdb
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.pdb
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.AssemblyReference.cache
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\KeyPadStyles.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsGridStyles.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsMessageBoxButtonStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsLogin\VsLoginControl.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.cache
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.lref
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsButtonStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsChartStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsCheckBoxStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsComboBoxStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsDataGridStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsLabelStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsListBoxStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsPasswordBoxStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRadioButtonStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRTChartStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTabControlStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBlockStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBoxStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTimeSpinnerStyle.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsLogin\VsLoginControl.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.baml
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.g.resources
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfoInputs.cache
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfo.cs
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.CoreCompileInputs.cache
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.Up2Date
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\refint\VSLibrary.dll
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.pdb
+D:\Working\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\ref\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\bin\Debug\net8.0-windows\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\CustomButtonStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\CustomGroupBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\KeyPadStyles.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsGridStyles.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsMessageBoxButtonStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\UIResources.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Common\ButtonMenu.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsLogin\VsLoginControl.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary_MarkupCompile.lref
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Common\ButtonMenu.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadNumberPad.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\KeyPads\VsKeyPadTextKeyboard.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Parameter\VsParameter.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\CenterPanel\Report\VsPlasmaLog.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\LayoutPanels\TopPanel\VsTopPanel.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\MessageBox\VsMessageBoxWindow.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsButtonStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsChartStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsCheckBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsComboBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsDataGridStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsLabelStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsListBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsPasswordBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRadioButtonStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsRTChartStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTabControlStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBlockStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTextBoxStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\Styles\VsTimeSpinnerStyle.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VSCustomControls\VsCheckSelector.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsLogin\VsLoginControl.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\UIComponent\VsNavigations\VsNavigationBar.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.g.resources
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.csproj.Up2Date
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\refint\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\VSLibrary.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSLibrary\obj\Debug\net8.0-windows\ref\VSLibrary.dll

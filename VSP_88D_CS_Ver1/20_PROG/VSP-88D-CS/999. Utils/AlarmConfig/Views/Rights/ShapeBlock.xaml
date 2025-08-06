@@ -1,0 +1,272 @@
+﻿<UserControl
+    x:Class="AlarmConfig.Views.Rights.ShapeBlock"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:AlarmConfig.Views.Rights"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="600"
+    d:DesignWidth="80"
+    mc:Ignorable="d">
+    <Grid Background="#FF3EABF7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="180" />
+            <RowDefinition Height="180" />
+            <RowDefinition Height="100" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border
+            Grid.Row="1"
+            BorderBrush="LightGray"
+            BorderThickness="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Label
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="{Binding LanguageResources[Animations], FallbackValue='Animations'}"
+                    FontSize="12"
+                    Foreground="White" />
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Button
+                        Grid.Row="0"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Ellipse_Animation"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Ellipse_Animation" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/elip.png"
+                            Stretch="Uniform" />
+                    </Button>
+                    <Button
+                        Grid.Row="1"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Rectangle_Animation"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Rectangle_Animation" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/rec.png"
+                            Stretch="Uniform" />
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border
+            Grid.Row="2"
+            BorderBrush="LightGray"
+            BorderThickness="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Label
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="{Binding LanguageResources[Shapes], FallbackValue='Shapes'}"
+                    FontSize="12"
+                    Foreground="White" />
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Button
+                        Grid.Row="0"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Ellipse_Normal"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Ellipse_Normal" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/elip.png"
+                            Stretch="Uniform" />
+                    </Button>
+                    <Button
+                        Grid.Row="1"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Rectangle_Normal"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Rectangle_Normal" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/rec.png"
+                            Stretch="Uniform" />
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border
+            Grid.Row="3"
+            BorderBrush="LightGray"
+            BorderThickness="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Label
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="{Binding LanguageResources[Text], FallbackValue='Text'}"
+                    FontSize="12"
+                    Foreground="White" />
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Button
+                        Grid.Row="0"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Text_Normal"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Text_Normal" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/text.png"
+                            Stretch="Fill" />
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+        <Border
+            Grid.Row="0"
+            BorderBrush="LightGray"
+            BorderThickness="0.5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Label
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="{Binding LanguageResources[Select], FallbackValue='Select'}"
+                    FontSize="12"
+                    Foreground="White" />
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Button
+                        Grid.Row="0"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Bottom"
+                        BorderBrush="Transparent"
+                        Command="{Binding SetShapeDrawCommand}"
+                        CommandParameter="Pointer"
+                        FontSize="8"
+                        Foreground="LightCyan">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Style.Triggers>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding ShapeTypeDraw}" Value="Pointer" />
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter Property="Background" Value="LightCyan" />
+                                    </MultiDataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Image
+                            Margin="5"
+                            Source="pack://application:,,,/AlarmConfig;component/Resources/Images/selected.png"
+                            Stretch="Fill" />
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

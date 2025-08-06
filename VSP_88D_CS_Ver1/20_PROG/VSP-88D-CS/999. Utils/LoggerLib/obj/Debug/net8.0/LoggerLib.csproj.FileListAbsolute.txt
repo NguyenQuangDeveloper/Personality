@@ -1,0 +1,24 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\bin\Debug\net8.0\LoggerLib.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\bin\Debug\net8.0\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\bin\Debug\net8.0\LoggerLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\refint\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\LoggerLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\obj\Debug\net8.0\ref\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\bin\Debug\net8.0\LoggerLib.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\bin\Debug\net8.0\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\bin\Debug\net8.0\LoggerLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\refint\LoggerLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\LoggerLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerLib\obj\Debug\net8.0\ref\LoggerLib.dll

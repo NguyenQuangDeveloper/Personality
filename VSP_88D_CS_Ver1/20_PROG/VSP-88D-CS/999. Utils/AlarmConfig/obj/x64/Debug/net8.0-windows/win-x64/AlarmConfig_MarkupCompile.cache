@@ -1,0 +1,20 @@
+﻿AlarmConfig
+
+
+library
+C#
+.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\x64\Debug\net8.0-windows\win-x64\
+AlarmConfig
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+
+11982988683
+
+41-1715172265
+242430874684
+Services\Dialog\AlarmDialog.xaml;Views\Alarm.xaml;Views\Bottoms\AlarmInfo.xaml;Views\Centers\DrawingArea.xaml;Views\Lefts\AlarmCode.xaml;Views\Rights\ShapeBlock.xaml;Views\Tops\ColorTool.xaml;Views\Tops\FileTool.xaml;Views\Tops\FontTool.xaml;Views\Tops\ImageTool.xaml;Views\Tops\ZoomTool.xaml;
+
+True
+

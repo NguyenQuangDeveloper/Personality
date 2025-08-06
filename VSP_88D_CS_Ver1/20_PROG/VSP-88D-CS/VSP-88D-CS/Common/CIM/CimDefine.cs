@@ -1,0 +1,356 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace VSP_88D_CS.Common.CIM
+{
+    public enum CIMTYPE { CIM_NONE = 0, CIM_GEM, CIM_ATK, CIM_CNT };
+    public enum CIM_RCMD { CIM_RCMD_DEFAULT, CIM_RCMD_S2F41, CIM_RCMD_S2F49 };
+    public enum IDLE_TIME_SET_TYPE
+    {
+        TIME_SET_MANUAL,
+        TIME_SET_NORMAL,
+        TIME_SET_MAX
+    }
+
+    public static class Constants
+    {
+        public static readonly string[] STR_IDLE_TIME_SET_TYPE = { "MANUAL", "NORMAL" };
+        public const string SGemIniFile = "CIM_CONFIG.INI";
+        public const int CIM_ALARM_START = 4000;
+        public const int SVID_PM_OFFSET = 8;
+        public const int CEID_PM_OFFSET = 8;
+        public const int MAX_LGIT_CPNAME = 9;
+
+        public static readonly string[] STR_LGIT_RCMD = {
+        "LGIT_PP_SELECT",
+        "LGIT_PP_UPLOAD_CONFIRM",
+        "LGIT_PP_UPLOAD_FAIL",
+        "LGIT_LOT_START",
+        "LGIT_TRAY_ID_CONFIRM",
+        "LGIT_TRAY_ID_FAIL",
+        "LGIT_LOT_ID_FAIL",
+        "LGIT_ABORT",
+        "LGIT_STOP",
+        "LGIT_MGZ_CONFIRM",
+        "LGIT_MGZ_ID_FAIL",
+        "LGIT_PC_ID_CONFIRM",
+        "LGIT_PC_ID_FAIL",
+        "LGIT_SPEC_IN",
+        "LGIT_SPEC_OUT"
+    };
+
+        public static readonly string[] STR_LGIT_CPNAME = {
+        "RECIPEID",
+        "TRAYID",
+        "LOTID",
+        "LOTCOUNT",
+        "TRAYCOUNT",
+        "PCID",
+        "CODE",
+        "TEXT",
+        "MGZID"
+    };
+    }
+
+    public enum CIM_DLG_POPUP_TYPE { AUTO_POPUP, MANUAL_POPUP }
+    public enum CIM_MSG_TYPE { CIM_TYPE_CHANGE, CIM_STT_UPDATE, CIM_PLASMA_STEP, CIM_CTRL_STATE, CIM_LAN_STATE, CIM_ECID_CHANGE }
+
+    public enum COMM_STATE
+    {
+        COMM_UNKNOWN = 0,
+        COMM_DISABLED = 1,
+        COMM_ENABLED_NOT_COMMUNICATING = 2,
+        COMM_WAIT_CR_FROM_HOST = 3,
+        COMM_WAIT_TX_FROM_HOST = 4,
+        COMM_WAIT_EQ_FROM_HOST = 5,
+        COMM_WAIT_DELAY = 6,
+        COMM_COMMUNICATING = 7
+    }
+
+    public enum DEFAULT_COMM_STATE { DFFAULT_DISABLED = 1, DEFAULT_NOT_COMMUNICATION = 2, DEFAULT_COMMUNICATION = 3 }
+    public enum CONTROL_STATE { CONTROL_EQUIPMENT_OFFLINE = 1, CONTROL_ONLINE_LOCAL = 4, CONTROL_ONLINE_REMOTE = 5 }
+    public enum DEFAULT_CONTROL_STATE { DFFAULT_EQUIPMENT_OFFLINE = 1, DEFAULT_ONLINE_LOCAL = 2, DEFAULT_ONLINE_REMOTE = 3 }
+    public enum PROCESS_STATE { STATE_IDLE, STATE_RUN, STATE_PAUSE, STATE_DOWN, STATE_STOP }
+    public enum PROCESS_STATE_OTHER { STATE_IDLE_STARVED, STATE_IDLE_BLOCK, STATE_RUN_OTHER, STATE_DOWN_OTHER }
+    public enum MACHINE_STATE_PLS { CIM_SEQ_START, CIM_PLS_START, CIM_PLS_END, CIM_SEQ_END, CIM_MANUAL_STOP, CIM_IDLE, CIM_MULTI_LOT_START, CIM_MULTI_LOT_END, CIM_REPORT_MAX }
+
+    public enum ITEMTYPE
+    {
+        ITEM_LIST = 0, ITEM_BINARY = 10, ITEM_BOOLEAN = 11,
+        ITEM_ASCII = 20, ITEM_JIS8 = 21, ITEM_INT8B = 30,
+        ITEM_INT1B = 31, ITEM_INT2B = 32, ITEM_INT4B = 34,
+        ITEM_FLOAT8B = 40, ITEM_FLOAT4B = 44, ITEM_UINT8B = 50,
+        ITEM_UINT1B = 51, ITEM_UINT2B = 52, ITEM_UINT4B = 54,
+        ITEM_NULL = -1
+    }
+
+    public enum HOST_COMMAND_PARAM_ACK_CODE
+    {
+        HCACK_COMMAND_PERFORMED,
+        HCACK_COMMAND_NOT_EXIST,
+        HCACK_CANNOT_PERFORM_NOW,
+        HCACK_INVALID_PARAMETER,
+        HCACK_COMMAND_PERFORM_LATER,
+        HCACK_ALREADY_DESIRED_CONDITION,
+        HCACK_OBJECT_NOT_EXIST
+    }
+
+    public enum COMMAND_PARAM_ACK_CODE
+    {
+        CPACK_COMMAND_PARAM_OK,
+        CPACK_PARAM_NAME_NOT_EXIST,
+        CPACK_PARAM_ILLEGAL_VALUE,
+        CPACK_PARAM_ILLEGAL_FORMAT,
+        CPACK_PARAM_NAME_NOT_DESIRED,
+        CPACK_PARAM_VALUE_NOT_DESIRED,
+        CPACK_OTHER_EQUIP_SPEC_ERROR
+    }
+
+    public enum LOT_PPID_STATUS { PPID_WRONG, PPID_EMPTY, LOT_ID_FAIL, LOT_STOP, LOAD_TRAY_ID_FAIL, UNLD_TRAY_ID_FAIL, LOAD_MGZ_ID_FAIL, UNLD_MGZ_ID_FAIL, PLASMA_CARRIER_ID_FAIL, APD_SPEC_OUT }
+
+    public enum ECID
+    {
+        ECID_PORT = 3001,
+        ECID_DEVICEID = 3002,
+        ECID_T3 = 3003,
+        ECID_T5 = 3005,
+        ECID_T6 = 3006,
+        ECID_T7 = 3007,
+        ECID_T8 = 3008,
+        ECID_LINKTEST = 3009,
+        ECID_RETRY = 3010,
+        ECID_DEFAULT_COMM_STATE = 3100,
+        ECID_DEFAULT_CONTROL_STATE = 3101,
+        ECID_ESTABLISH_TIMEOUT = 3102,
+        ECID_MDLN = 3103,
+        ECID_SOFTREV = 3104,
+        ECID_MAXSPOOL_TRANSMIT = 3201,
+        ECID_SPOOL_OVERWRITE = 3202,
+        ECID_SPOOLING_MODE = 3203,
+        ECID_MAX_SPOOL_SIZE = 3204,
+        ECID_TIME_FORMAT = 3300
+    }
+    public enum SVID
+    {
+        SVID_COMMSTATE = 0,
+        SVID_CONTROLSTATE,
+        SVID_PREV_CONTROLSTATE,
+        SVID_ALID,
+        SVID_ALARM_ENABLED,
+        SVID_ALARM_DISABLED,
+        SVID_ALARM_SET,
+        SVID_EVENT_ENABLED,
+        SVID_EVENT_DISABLED,
+        SVID_CLOCK,
+        SVID_OFFLINE_REASON,
+        SVID_LOCAL_REASON,
+        SVID_REMOTE_REASON,
+        SVID_SPOOLCOUNT_TOTAL,
+        SVID_SPOOLCOUNT_ACTUAL,
+        SVID_SPOOL_FULLTIME,
+        SVID_SPOOL_STARTTIME,
+        SVID_SPOOL_STATE,
+        SVID_ECID_CHANGED,
+        SVID_ECV_CHANGED,
+        SVID_PORT_STATUS,
+        SVID_PROC_STATE,
+        SVID_PREV_PROCSTATE,
+        SVID_PP_BODY,
+        SVID_PPID,
+        SVID_PPID_CHANGE,
+        SVID_JOB_END_MODE,
+        SVID_PPID_STATUS,
+        SVID_PORT_ID,
+        SVID_CARRIER_ID,
+        SVID_CARRIER_ID_LOAD,
+        SVID_CARRIER_ID_UNLD,
+        SVID_EQP_ID,
+        SVID_OPERATOR_ID,
+        SVID_CANCEL_REPORT_ID,
+        SVID_UNIT_ID,
+        SVID_PERMIT_REPORT_ID,
+        SVID_LOT_ID,
+        SVID_STRIP_UNLD_TIME,
+        SVID_LANE1_STRIP_ID,
+        SVID_LANE2_STRIP_ID,
+        SVID_LANE3_STRIP_ID,
+        SVID_LANE4_STRIP_ID,
+        SVID_LANE5_STRIP_ID,
+        SVID_LANE6_STRIP_ID,
+        SVID_READ_ACF_CARRIER_ID,
+        SVID_TRAY_POCKET_ID,
+        SVID_TRAY_POCKET_RESULT,
+        SVID_STRIP_SLOT_ID,
+        SVID_STRIP_RESERVE_QTY,
+        SVID_STRIP_WORK_QTY,
+        SVID_STRIP_WORK_GOOD_QTY,
+        SVID_STRIP_WORK_LOST_QTY,
+        SVID_JOB_START_MODE,
+        SVID_SET_RF_POWER,
+        SVID_SET_CLEANTIME,
+        SVID_SET_VACUUM,
+        SVID_SET_GAS1,
+        SVID_SET_GAS2,
+        SVID_SET_GAS3,
+        SVID_SET_GAS4,
+        SVID_ACT_RF_FWD,
+        SVID_ACT_RF_REF,
+        SVID_ACT_GAS1,
+        SVID_ACT_GAS2,
+        SVID_ACT_GAS3,
+        SVID_ACT_GAS4,
+        SVID_ACT_VACUUM,
+        SVID_ACT_CLEAN_TIME,
+        SVID_STRIP_LANE_ID,
+        SVID_IDLE_START_TIME,
+        SVID_IDLE_END_TIME,
+        SVID_MODULE_PLASMA_FLAG,
+        SVID_IDLE_REASON_CODE,
+        SVID_STRIP_ID,
+        SVID_PROCESS_STRIP_ID,
+        SVID_LOT_PROCESS_DATA_LIST,
+        SVID_MODULE_ID_1,
+        SVID_MODULE_ID_2,
+        SVID_MODULE_ID_3,
+        SVID_MODULE_ID_4,
+        SVID_MODULE_ID_5,
+        SVID_MODULE_ID_6,
+        SVID_MODULE_ID_7,
+        SVID_MODULE_ID_8,
+        SVID_MODULE_DATA_LIST,
+
+    };
+    public enum CEID
+    {
+        CEID_OFFLINE = 0,
+        CEID_LOCAL,
+        CEID_REMOTE,
+        CEID_PROCSTATE_CHANGE,
+        CEID_JOB_START,
+        CEID_PROCESS_STARTED,
+        CEID_PROCESS_END,
+        CEID_JOB_END,
+        CEID_JOB_CANCEL,
+        CEID_JOB_PROCESS_DATA,
+        CEID_ALARM_SET,
+        CEID_ALARM_CLEAR,
+        CEID_OPER_CHANGE_EQCONSTANT,
+        CEID_VACUUM_STARTED_2,
+        CEID_VACUUM_COMPLETED_2,
+        CEID_PLASMA_STARTED_2,
+        CEID_PLASMA_COMPLETED_2,
+        CEID_VAC_PURGE_STARTED_2,
+        CEID_VAC_PURGE_COMPLETED_2,
+        CEID_VACUUM_STARTED,
+        CEID_VACUUM_COMPLETED,
+        CEID_PLASMA_STARTED,
+        CEID_PLASMA_COMPLETED,
+        CEID_VAC_PURGE_STARTED,
+        CEID_VAC_PURGE_COMPLETED,
+        CEID_PP_CHANGED,
+        CEID_PP_SELECTED,
+        CEID_PP_UPLOADED,
+        CEID_SPOOLSTATE_CHANGE,
+        CEID_SPOOL_ACTIVE,
+        CEID_SPOOL_INACTIVE,
+        CEID_SPOOL_FAILED,
+        CEID_ECID_CHANGED,
+        CEID_HOSTMSG_ACK,
+        CEID_LOAD_REQUEST,
+        CEID_LOAD_COMPLETE,
+        CEID_UNLD_REQUEST,
+        CEID_UNLD_COMPLETE,
+        CEID_READ_STRIP_ID,
+        CEID_READ_STRIP_ID_LOAD_LANE_1,
+        CEID_READ_STRIP_ID_LOAD_LANE_2,
+        CEID_READ_STRIP_ID_UNLD_LANE_1,
+        CEID_READ_STRIP_ID_UNLD_LANE_2,
+        CEID_READ_FAIL_STRIP_ID,
+        CEID_READ_CARRIER_ID_LOAD,
+        CEID_READ_FAIL_CARRIER_ID_LOAD,
+        CEID_READ_CARRIER_ID_UNLD,
+        CEID_READ_FAIL_CARRIER_ID_UNLD,
+        CEID_LOTINFO_CONFIRM_ACK,
+        CEID_DOOR_OPEN,
+        CEID_DOOR_CLOSED,
+        CEID_READ_LOT_ID,
+        CEID_PP_DOWNLOADED,
+        CEID_LOADER_CARRIER_LOAD,
+        CEID_LOADER_CARRIER_UNLD,
+        CEID_STRIP_LOAD,
+        CEID_STRIP_UNLD,
+        CEID_UNLDER_CARRIER_LOAD,
+        CEID_UNLDER_CARRIER_UNLD,
+        CEID_STRIP_UNIT_COUNT,
+        CEID_IDLE_REASON_SET,
+        CEID_IDLE_REASON_RESET,
+        CEID_BCR_READER_DISABLE,
+        CEID_READ_ACF_TRAY_ID,
+        CEID_LOAD_MODULE_ACF_TRAY,
+        CEID_UNLD_ACF_TRAY,
+        CEID_IDLE_REASON_REPORT,
+        CEID_MODULE_ID_REPORT
+
+    };
+    public enum LGIT_RCMD
+    {
+        RCMD_LGIT_PP_SELECT,
+        RCMD_LGIT_PP_UPLOAD_CONFIRM,
+        RCMD_LGIT_PP_UPLOAD_FAIL,
+        RCMD_LGIT_LOT_START,
+        RCMD_LGIT_TRAY_ID_CONFIRM,
+        RCMD_LGIT_TRAY_ID_FAIL,
+        RCMD_LGIT_LOT_ID_FAIL,
+        RCMD_LOT_ABORT,
+        RCMD_LOT_STOP,
+        RCMD_LGIT_MGZ_CONFIRM,
+        RCMD_LGIT_MGZ_ID_FAIL,
+        RCMD_LGIT_PC_ID_CONFIRM,
+        RCMD_LGIT_PC_ID_FAIL,
+        RCMD_LGIT_SPEC_IN,
+        RCMD_LGIT_SPEC_OUT,
+        RCMD_MAX
+    }
+
+    public enum RCMD_TIMEOUT
+    {
+        RCMD_LOAD_MGZ_ID_CONFIRM_TIME_OUT = 10,
+        RCMD_UNLD_MGZ_ID_CONFIRM_TIME_OUT,
+        RCMD_PPID_SELECT_TIME_OUT,
+        RCMD_RECIPE_BODY_VALIDATION_TIME_OUT,
+        RCMD_PP_UPLOAD_CONFRIM_TIMEOUT,
+        RCMD_LOT_START_TIME_OUT,
+        RCMD_LOAD_TRAY_ID_VALIDATION_TIME_OUT,
+        RCMD_UNLD_TRAY_ID_VALIDATION_TIME_OUT,
+        RCMD_LOTID_VALIDATION_TIME_OUT,
+        RCMD_PLASMA_CARRIER_ID_VALIDATION_TIME_OUT
+    }
+
+    public struct PARMPVSINFO
+    {
+        public short nAck;
+        public string sSeq;
+        public string sErr;
+
+        public override bool Equals(object obj)
+        {
+            if (obj is PARMPVSINFO other)
+            {
+                return nAck == other.nAck && sSeq == other.sSeq && sErr == other.sErr;
+            }
+            return false;
+        }
+
+        public override int GetHashCode() => (nAck, sSeq, sErr).GetHashCode();
+
+        public static bool operator ==(PARMPVSINFO left, PARMPVSINFO right) => left.Equals(right);
+        public static bool operator !=(PARMPVSINFO left, PARMPVSINFO right) => !(left == right);
+    }
+    public class CimDefine
+    {
+
+    }
+}

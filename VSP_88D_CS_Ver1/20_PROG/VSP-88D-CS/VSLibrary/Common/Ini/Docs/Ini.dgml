@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Common.Ini" Category="CodeSchema_Namespace" Bounds="0,0,437.336666666667,253.92" Group="Expanded" Label="Common.Ini" />
+    <Node Id="VSLibrary.Common.Ini.IIniManager" Category="CodeSchema_Interface" Bounds="185.783333333333,207.96,105.68,25.96" Label="IIniManager" />
+    <Node Id="VSLibrary.Common.Ini.IIniProvider" Category="CodeSchema_Interface" Bounds="20,96,102.343333333333,25.96" Label="IIniProvider" />
+    <Node Id="VSLibrary.Common.Ini.IniBase" Category="CodeSchema_Class" Bounds="31.675,40,78.9933333333333,26" Label="IniBase" />
+    <Node Id="VSLibrary.Common.Ini.IniLine" Category="CodeSchema_Class" Bounds="341.133333333333,151.96,76.2033333333333,26" Label="IniLine" />
+    <Node Id="VSLibrary.Common.Ini.VsIniManager" Category="CodeSchema_Class" Bounds="20,151.96,115.246666666667,26" Label="VsIniManager" />
+    <Node Id="VSLibrary.Common.Ini.VsIniManagerProxy" Category="CodeSchema_Class" Bounds="166.113333333333,151.96,145.02,26" Label="VsIniManagerProxy" />
+  </Nodes>
+  <Links>
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.IIniManager" Category="Contains" />
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.IIniProvider" Category="Contains" />
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.IniBase" Category="Contains" />
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.IniLine" Category="Contains" />
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.VsIniManager" Category="Contains" />
+    <Link Source="Common.Ini" Target="VSLibrary.Common.Ini.VsIniManagerProxy" Category="Contains" />
+    <Link Source="VSLibrary.Common.Ini.IniBase" Target="VSLibrary.Common.Ini.IIniProvider" Category="Implements" Bounds="71.1716690063477,66,0,21" />
+    <Link Source="VSLibrary.Common.Ini.VsIniManager" Target="VSLibrary.Common.Ini.IIniManager" Category="Uses" Bounds="115.011688232422,177.960006713867,77.7800140380859,27.0442504882813" />
+    <Link Source="VSLibrary.Common.Ini.VsIniManagerProxy" Target="VSLibrary.Common.Ini.IIniManager" Category="Implements" Bounds="238.623336791992,177.960006713867,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="클래스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="클래스" />
+    <Category Id="CodeSchema_Interface" Label="인터페이스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="인터페이스" />
+    <Category Id="CodeSchema_Namespace" Label="네임스페이스" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="네임스페이스" />
+    <Category Id="CodeSchema_Type" Label="형식" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="형식" />
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="Implements" Label="구현" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="구현자" OutgoingActionLabel="구현" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="배경" Description="배경색입니다." DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

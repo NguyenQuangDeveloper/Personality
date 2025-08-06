@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Controller" Category="CodeSchema_Namespace" Bounds="1.13686837721616E-13,-1.61693711532791,1001.645,655.537037115328" Group="Expanded" Label="Controller" />
+    <Node Id="Controller.AnlogIO" Category="CodeSchema_Namespace" Bounds="154.094992167155,38.3831628846721,158.236666666667,142.000306811523" Group="Expanded" Label="Controller.AnlogIO" />
+    <Node Id="Controller.DigitalIO" Category="CodeSchema_Namespace" Bounds="394.663333129883,38.3831628846721,161.1,142.000306811523" Group="Expanded" Label="Controller.DigitalIO" />
+    <Node Id="Controller.Motion" Category="CodeSchema_Namespace" Bounds="716.781666666667,212,264.863333333333,142" Group="Expanded" Label="Controller.Motion" />
+    <Node Id="VSLibrary.Controller.AIOBase" Category="CodeSchema_Class" Bounds="166.071666463216,268.383354437406,86.2833333333333,26" Label="AIOBase" />
+    <Node Id="VSLibrary.Controller.AIOData" Category="CodeSchema_Class" Bounds="36.8916666666666,98.0000000000001,86.6433333333333,26" Label="AIOData" />
+    <Node Id="VSLibrary.Controller.AIODataBase" Category="CodeSchema_Class" Bounds="24.4600000000001,270,111.506666666667,26" Label="AIODataBase" />
+    <Node Id="VSLibrary.Controller.AnlogIO.ADLinkAIO" Category="CodeSchema_Class" Bounds="183.325004984538,78.3832628846721,99.6466666666667,26" Label="ADLinkAIO" />
+    <Node Id="VSLibrary.Controller.AnlogIO.AjinAxtAIO" Category="CodeSchema_Class" Bounds="183.324992167155,134.383369696196,99.7766666666667,26" Label="AjinAxtAIO" />
+    <Node Id="VSLibrary.Controller.AxisDataBase" Category="CodeSchema_Class" Bounds="744.856666666667,440,112.713333333333,26" Label="AxisDataBase" />
+    <Node Id="VSLibrary.Controller.AxtAxisData" Category="CodeSchema_Class" Bounds="751.481666666667,384,105.463333333333,26" Label="AxtAxisData" />
+    <Node Id="VSLibrary.Controller.ControllerManager" Category="CodeSchema_Class" Bounds="282.614999796549,268.383354437406,143.196666666667,26" Label="ControllerManager" />
+    <Node Id="VSLibrary.Controller.DIOBase" Category="CodeSchema_Class" Bounds="456.718333333333,270,86.9900000000001,26" Label="DIOBase" />
+    <Node Id="VSLibrary.Controller.DIOData" Category="CodeSchema_Class" Bounds="586.538333333333,98,87.35,26" Label="DIOData" />
+    <Node Id="VSLibrary.Controller.DIODataBase" Category="CodeSchema_Class" Bounds="574.106666666667,270,112.213333333333,26" Label="DIODataBase" />
+    <Node Id="VSLibrary.Controller.DigitalIO.AjinAxtDIO" Category="CodeSchema_Class" Bounds="420.50334370931,78.3832628846721,100.483333333333,26" Label="AjinAxtDIO" />
+    <Node Id="VSLibrary.Controller.DigitalIO.ComizoaDIO" Category="CodeSchema_Class" Bounds="420.503333129883,134.383369696195,109.42,26" Label="ComizoaDIO" />
+    <Node Id="VSLibrary.Controller.IAIOBase" Category="CodeSchema_Interface" Bounds="170.451666463216,382.403354437406,89.5233333333333,25.96" Label="IAIOBase" />
+    <Node Id="VSLibrary.Controller.IAnalogIOData" Category="CodeSchema_Interface" Bounds="20.0000000000001,384.02,120.426666666667,25.96" Label="IAnalogIOData" />
+    <Node Id="VSLibrary.Controller.IAxisData" Category="CodeSchema_Interface" Bounds="842.668333333333,496,91.09,25.96" Label="IAxisData" />
+    <Node Id="VSLibrary.Controller.IAxisSettinglist" Category="CodeSchema_Interface" Bounds="828.496666666667,551.96,119.433333333333,25.96" Label="IAxisSettinglist" />
+    <Node Id="VSLibrary.Controller.IDIOBase" Category="CodeSchema_Interface" Bounds="451.098333333333,384.02,90.2299999999999,25.96" Label="IDIOBase" />
+    <Node Id="VSLibrary.Controller.IDigitalIOData" Category="CodeSchema_Interface" Bounds="571.688333333333,384.02,117.05,25.96" Label="IDigitalIOData" />
+    <Node Id="VSLibrary.Controller.IIOSettinglist" Category="CodeSchema_Interface" Bounds="200.722897135417,451.759028996292,110.326666666667,25.96" Label="IIOSettinglist" UseManualLocation="True" />
+    <Node Id="VSLibrary.Controller.IMotionBase" Category="CodeSchema_Interface" Bounds="299.956666463216,508.933278656156,108.513333333333,25.96" Label="IMotionBase" />
+    <Node Id="VSLibrary.Controller.LibraryInitializer" Category="CodeSchema_Class" Bounds="20,607.92,126.136666666667,26" Label="LibraryInitializer" />
+    <Node Id="VSLibrary.Controller.Motion.AxlMotion" Category="CodeSchema_Class" Bounds="736.781666666667,252,96.84,26" Label="AxlMotion" />
+    <Node Id="VSLibrary.Controller.Motion.AxtMotion" Category="CodeSchema_Class" Bounds="863.621666666667,252,98.0233333333333,26" Label="AxtMotion" />
+    <Node Id="VSLibrary.Controller.Motion.ComizoaMotion" Category="CodeSchema_Class" Bounds="736.781666666667,308,127.703333333333,26" Label="ComizoaMotion" />
+    <Node Id="VSLibrary.Controller.MotionBase" Category="CodeSchema_Class" Bounds="609.576666666667,440,105.273333333333,26" Label="MotionBase" />
+  </Nodes>
+  <Links>
+    <Link Source="Controller" Target="Controller.AnlogIO" Category="Contains" />
+    <Link Source="Controller" Target="Controller.DigitalIO" Category="Contains" />
+    <Link Source="Controller" Target="Controller.Motion" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.AIOBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.AIOData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.AIODataBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.AxisDataBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.AxtAxisData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.ControllerManager" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.DIOBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.DIOData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.DIODataBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IAIOBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IAnalogIOData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IAxisData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IAxisSettinglist" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IDIOBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IDigitalIOData" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IIOSettinglist" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.IMotionBase" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.LibraryInitializer" Category="Contains" />
+    <Link Source="Controller" Target="VSLibrary.Controller.MotionBase" Category="Contains" />
+    <Link Source="Controller.AnlogIO" Target="VSLibrary.Controller.AnlogIO.ADLinkAIO" Category="Contains" />
+    <Link Source="Controller.AnlogIO" Target="VSLibrary.Controller.AnlogIO.AjinAxtAIO" Category="Contains" />
+    <Link Source="Controller.DigitalIO" Target="VSLibrary.Controller.DigitalIO.AjinAxtDIO" Category="Contains" />
+    <Link Source="Controller.DigitalIO" Target="VSLibrary.Controller.DigitalIO.ComizoaDIO" Category="Contains" />
+    <Link Source="Controller.Motion" Target="VSLibrary.Controller.Motion.AxlMotion" Category="Contains" />
+    <Link Source="Controller.Motion" Target="VSLibrary.Controller.Motion.AxtMotion" Category="Contains" />
+    <Link Source="Controller.Motion" Target="VSLibrary.Controller.Motion.ComizoaMotion" Category="Contains" />
+    <Link Source="VSLibrary.Controller.AIOBase" Target="VSLibrary.Controller.IAIOBase" Category="Implements" Bounds="209.897543656199,294.383354437406,4.15960208084252,79.0324395360074" />
+    <Link Source="VSLibrary.Controller.AIOData" Target="VSLibrary.Controller.AIODataBase" Category="Inherits" Bounds="80.2133333333334,124,2.55795384873636E-13,137" />
+    <Link Source="VSLibrary.Controller.AIODataBase" Target="VSLibrary.Controller.IAIOBase" Category="Uses" Bounds="95.8295249494383,296,96.8747115936694,80.6452227071126" />
+    <Link Source="VSLibrary.Controller.AIODataBase" Target="VSLibrary.Controller.IAnalogIOData" Category="Implements" Bounds="80.2133333333336,296,7.105427357601E-14,79.02" />
+    <Link Source="VSLibrary.Controller.AnlogIO.ADLinkAIO" Target="VSLibrary.Controller.AIOBase" Category="Inherits" Bounds="211.975864007633,106,19.5348114309632,155.070573297809" />
+    <Link Source="VSLibrary.Controller.AnlogIO.AjinAxtAIO" Target="VSLibrary.Controller.AIOBase" Category="Inherits" Bounds="213.128383444837,162,17.7565916795415,99.1409702107742" />
+    <Link Source="VSLibrary.Controller.AxisDataBase" Target="VSLibrary.Controller.IAxisData" Category="Implements" Bounds="821.416941401201,466.000128571492,39.055299799577,25.1301102104634" />
+    <Link Source="VSLibrary.Controller.AxisDataBase" Target="VSLibrary.Controller.IMotionBase" Category="Uses" Bounds="417.364914164672,461.688532608634,327.491752501996,50.4888034170157" />
+    <Link Source="VSLibrary.Controller.AxtAxisData" Target="VSLibrary.Controller.AxisDataBase" Category="Inherits" Bounds="802.391212296212,410.000028571492,1.12569370931351,21.0129867636439" />
+    <Link Source="VSLibrary.Controller.ControllerManager" Target="VSLibrary.Controller.IAIOBase" Category="Uses" Bounds="237.998743504111,294.383354437406,100.363712432789,82.3126850168198" />
+    <Link Source="VSLibrary.Controller.ControllerManager" Target="VSLibrary.Controller.IDIOBase" Category="Uses" Bounds="370.179892215403,294.383354437406,103.112236237267,83.9541609375357" />
+    <Link Source="VSLibrary.Controller.ControllerManager" Target="VSLibrary.Controller.IMotionBase" Category="Uses" Bounds="354.213333129883,294.383361816406,0,205.549937744141" />
+    <Link Source="VSLibrary.Controller.DIOBase" Target="VSLibrary.Controller.IDIOBase" Category="Implements" Bounds="496.984367191022,296,2.77282579143423,79.0255350558741" />
+    <Link Source="VSLibrary.Controller.DIOData" Target="VSLibrary.Controller.DIODataBase" Category="Inherits" Bounds="630.213333333333,124,3.41060513164848E-13,137" />
+    <Link Source="VSLibrary.Controller.DIODataBase" Target="VSLibrary.Controller.IDIOBase" Category="Uses" Bounds="518.325455134406,296,96.607176444542,82.1881948856548" />
+    <Link Source="VSLibrary.Controller.DIODataBase" Target="VSLibrary.Controller.IDigitalIOData" Category="Implements" Bounds="630.213333333333,296,2.27373675443232E-13,79.02" />
+    <Link Source="VSLibrary.Controller.DigitalIO.AjinAxtDIO" Target="VSLibrary.Controller.DIOBase" Category="Inherits" Bounds="472.761254385964,106,24.0564479505189,155.106332580687" />
+    <Link Source="VSLibrary.Controller.DigitalIO.ComizoaDIO" Target="VSLibrary.Controller.DIOBase" Category="Inherits" Bounds="477.638707372652,162.00005,18.4986280064796,99.152609117474" />
+    <Link Source="VSLibrary.Controller.IAnalogIOData" Target="VSLibrary.Controller.IIOSettinglist" Category="Implements" Bounds="113.875377779564,409.98,99.9514640680849,38.5410341215629" />
+    <Link Source="VSLibrary.Controller.IAxisData" Target="VSLibrary.Controller.IAxisSettinglist" Category="Implements" Bounds="888.213333333333,521.960228571492,2.27373675443232E-13,21.0001000000002" />
+    <Link Source="VSLibrary.Controller.IDigitalIOData" Target="VSLibrary.Controller.IIOSettinglist" Category="Implements" Bounds="319.905692690952,407.579847148081,251.843221754413,45.5740917659309" />
+    <Link Source="VSLibrary.Controller.Motion.AxlMotion" Target="VSLibrary.Controller.MotionBase" Category="Inherits" Bounds="675.644921201239,278,101.052233054081,154.468471108375" />
+    <Link Source="VSLibrary.Controller.Motion.AxtMotion" Target="VSLibrary.Controller.AxtAxisData" Category="Uses" Bounds="820.603413734395,277.999728571484,81.3522165937181,99.0455358424254" />
+    <Link Source="VSLibrary.Controller.Motion.AxtMotion" Target="VSLibrary.Controller.IAxisData" Category="Uses" Bounds="890.408832255704,277.999728571484,20.9233315169475,209.045245092975" />
+    <Link Source="VSLibrary.Controller.Motion.AxtMotion" Target="VSLibrary.Controller.IDIOBase" Category="Implements" Bounds="545.74050127281,277.999728571484,325.881855784375,103.300738238236" />
+    <Link Source="VSLibrary.Controller.Motion.AxtMotion" Target="VSLibrary.Controller.IDigitalIOData" Category="Uses" Bounds="666.13796315154,277.999728571484,218.681336466051,102.209460271473" />
+    <Link Source="VSLibrary.Controller.Motion.AxtMotion" Target="VSLibrary.Controller.MotionBase" Category="Inherits" Bounds="686.727028133203,277.999728571484,208.590053605049,156.59686404855" />
+    <Link Source="VSLibrary.Controller.Motion.ComizoaMotion" Target="VSLibrary.Controller.MotionBase" Category="Inherits" Bounds="682.358795932044,333.999828571484,104.642282378238,99.7890421369647" />
+    <Link Source="VSLibrary.Controller.MotionBase" Target="VSLibrary.Controller.IMotionBase" Category="Implements" Bounds="416.497299843609,464.664387323097,193.583407120115,43.3132185584664" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="클래스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="클래스" />
+    <Category Id="CodeSchema_Interface" Label="인터페이스" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" NavigationActionLabel="인터페이스" />
+    <Category Id="CodeSchema_Namespace" Label="네임스페이스" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="네임스페이스" />
+    <Category Id="CodeSchema_Type" Label="형식" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="형식" />
+    <Category Id="Contains" Label="포함" Description="링크 소스에 대상 개체가 포함되는지 여부입니다." CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="포함 위치" IsContainment="True" OutgoingActionLabel="포함" />
+    <Category Id="Implements" Label="구현" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="구현자" OutgoingActionLabel="구현" />
+    <Category Id="Inherits" />
+    <Category Id="Uses" Background="#FF000000" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="배경" Description="배경색입니다." DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="그룹" Description="그룹으로 노드가 표시됩니다." DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="아이콘" Description="아이콘" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="레이블" Description="Annotatable 개체의 표시 가능 레이블입니다." DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Inherits" ValueLabel="True">
+      <Condition Expression="HasCategory('Inherits')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="2" />
+      <Setter Property="StrokeDashArray" Value="4,2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Composes" ValueLabel="True">
+      <Condition Expression="HasCategory('Composes')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Aggregates" ValueLabel="True">
+      <Condition Expression="HasCategory('Aggregates')" />
+      <Setter Property="Stroke" Value="#FFFFA500" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="2,4" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses" ValueLabel="True">
+      <Condition Expression="HasCategory('Uses')" />
+      <Setter Property="Stroke" Value="#FF000000" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="StrokeDashArray" Value="1,2" />
+    </Style>
+  </Styles>
+</DirectedGraph>

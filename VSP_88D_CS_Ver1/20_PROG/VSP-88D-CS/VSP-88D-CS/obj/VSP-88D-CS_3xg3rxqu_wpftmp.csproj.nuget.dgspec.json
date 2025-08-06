@@ -1,0 +1,1407 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSP-88D-CS\\VSP-88D-CS.csproj": {}
+  },
+  "projects": {
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\LoggerEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\LoggerEngine.csproj",
+        "projectName": "LoggerEngine",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\LoggerEngine.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "CommunityToolkit.Mvvm": "8.4.0",
+            "MaterialDesignThemes": "5.2.1",
+            "Newtonsoft.Json": "13.0.3",
+            "System.Management": "9.0.4"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\ChamberControl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\ChamberControl.csproj",
+        "projectName": "ChamberControl",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\ChamberControl.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\LoggerLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\LoggerLib.csproj",
+        "projectName": "LoggerLib",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\LoggerLib.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.0-rc1, )",
+              "versionCentrallyManaged": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.0-rc1",
+            "NLog": "5.4.0",
+            "Serilog": "4.2.0",
+            "Serilog.Sinks.Console": "6.0.0",
+            "Serilog.Sinks.File": "6.0.0"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\VSFrameWork.AnalogIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\VSFrameWork.AnalogIO.csproj",
+        "projectName": "VSFrameWork.AnalogIO",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\VSFrameWork.AnalogIO.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj",
+        "projectName": "VSFrameWork.Commons",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\VSFrameWork.Device.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\VSFrameWork.Device.csproj",
+        "projectName": "VSFrameWork.Device",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\VSFrameWork.Device.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\VSFrameWork.DigitalIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\VSFrameWork.DigitalIO.csproj",
+        "projectName": "VSFrameWork.DigitalIO",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\VSFrameWork.DigitalIO.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj",
+        "projectName": "VSFrameWork.License",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\VSFrameWork.Motion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\VSFrameWork.Motion.csproj",
+        "projectName": "VSFrameWork.Motion",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\VSFrameWork.Motion.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj",
+        "projectName": "VSFrameWork",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.License\\VSFrameWork.License.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MessagePack": {
+              "target": "Package",
+              "version": "[2.5.192, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView.WPF",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "SkiaSharp.HarfBuzz": {
+              "target": "Package",
+              "version": "[3.119.0, )"
+            },
+            "SkiaSharp.Views.WPF": {
+              "target": "Package",
+              "version": "[3.119.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj",
+        "projectName": "LiveChartsCore.SkiaSharpView",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.9, )"
+            },
+            "SkiaSharp.HarfBuzz": {
+              "target": "Package",
+              "version": "[2.88.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+      "version": "2.0.0-rc5.4",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj",
+        "projectName": "LiveChartsCore",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\UserAccessLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\UserAccessLib.csproj",
+        "projectName": "UserAccessLib",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\UserAccessLib.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Commons\\VSFrameWork.Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj",
+        "projectName": "VSLibrary",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp.WPF\\LiveChartsCore.SkiaSharpView.WPF.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore.SkiaSharp\\LiveChartsCore.SkiaSharpView.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\OpenSource\\LiveChartsCore\\LiveChartsCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "Microsoft-WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "NModbus4.NetCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.8.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSP-88D-CS\\VSP-88D-CS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSP-88D-CS\\VSP-88D-CS.csproj",
+        "projectName": "VSP-88D-CS",
+        "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSP-88D-CS\\VSP-88D-CS.csproj",
+        "packagesPath": "C:\\Users\\minhl\\.nuget\\packages\\",
+        "outputPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSP-88D-CS\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\minhl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\LoggerEngine.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\999. Utils\\LoggerEngine\\LoggerEngine.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\ChamberControl.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\ChamberControl\\ChamberControl.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\LoggerLib.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\Common\\LoggerLib\\LoggerLib.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\VSFrameWork.AnalogIO.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.AnalogIO\\VSFrameWork.AnalogIO.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\VSFrameWork.Device.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Device\\VSFrameWork.Device.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\VSFrameWork.DigitalIO.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.DigitalIO\\VSFrameWork.DigitalIO.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\VSFrameWork.Motion.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork.Motion\\VSFrameWork.Motion.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\Library\\VSFrameWork\\VSFrameWork.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\UserAccessLib.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\UserAccessLib\\UserAccessLib.csproj"
+              },
+              "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj": {
+                "projectPath": "D:\\01. ARAM VINA\\04. PROJECT CLONE\\10. VSP-88D-CS-VER1\\VSP_88D_CS_Ver1\\20_PROG\\VSP-88D-CS\\VSLibrary\\VSLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.0-rc1, )",
+              "versionCentrallyManaged": true
+            },
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-rc5.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )",
+              "versionCentrallyManaged": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "ini-parser": {
+              "target": "Package",
+              "version": "[2.5.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "ClosedXML": "0.104.0-rc1",
+            "ini-parser": "2.5.2",
+            "LiveChartsCore.SkiaSharpView.WPF": "2.0.0-rc5.4",
+            "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+            "Newtonsoft.Json": "13.0.3"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Configurations>Debug;Release;Remote</Configurations>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="OpenSource\**" />
+		<EmbeddedResource Remove="OpenSource\**" />
+		<None Remove="OpenSource\**" />
+		<Page Remove="OpenSource\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="UIComponent\Resources\Cancel.png" />
+		<None Remove="UIComponent\Resources\Left.png" />
+		<None Remove="UIComponent\Resources\Ok.png" />
+		<None Remove="UIComponent\Resources\Right.png" />
+		<None Remove="UIComponent\Resources\user.png" />
+		<None Remove="UIComponent\Resources\zoomin.png" />
+		<None Remove="UIComponent\Resources\zoomout.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="LICENSE\LICENSE.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="3rd Party Files\Controller\Ajin\AxlLib\" />
+		<Folder Include="Controller\" />
+		<Folder Include="CIM\" />
+		<Folder Include="Communication\" />
+		<Folder Include="DataStructure\" />
+		<Folder Include="UIComponent\Helper\" />
+		<Folder Include="UIComponent\LayoutPanels\CenterPanel\Main\" />
+		<Folder Include="UIComponent\LayoutPanels\CenterPanel\Report\" />
+		<Folder Include="UIComponent\VsNavigations\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignThemes" Version="5.2.1" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+		<PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
+		<PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.6" />
+		<PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+		<PackageReference Include="MySql.Data" Version="9.3.0" />
+		<PackageReference Include="NLog" Version="5.5.0" />
+		<PackageReference Include="NModbus4.NetCore" Version="3.0.0" />
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.8.0" />
+		<PackageReference Include="System.IO.Ports" Version="9.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.Components" Version="8.0.13" />
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSource\LiveChartsCore.SkiaSharp.WPF\LiveChartsCore.SkiaSharpView.WPF.csproj" />
+		<ProjectReference Include="..\OpenSource\LiveChartsCore.SkiaSharp\LiveChartsCore.SkiaSharpView.csproj" />
+		<ProjectReference Include="..\OpenSource\LiveChartsCore\LiveChartsCore.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="UIComponent\Resources\Cancel.png" />
+		<Resource Include="UIComponent\Resources\Left.png" />
+		<Resource Include="UIComponent\Resources\Ok.png" />
+		<Resource Include="UIComponent\Resources\Right.png" />
+		<Resource Include="UIComponent\Resources\user.png" />
+		<Resource Include="UIComponent\Resources\zoomin.png" />
+		<Resource Include="UIComponent\Resources\zoomout.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

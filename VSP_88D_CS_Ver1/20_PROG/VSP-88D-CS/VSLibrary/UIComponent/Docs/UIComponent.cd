@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="사용자 어플리 케이션&#xA;&#xA;// A안 - 정적 직접 접근&#xA;VsIniManager.Initialize(@&quot;D:\Config\app.ini&quot;);&#xA;var timeout = VsIniManager.Get(&quot;SYSTEM&quot;, &quot;TIMEOUT&quot;);&#xA;var langs = VsIniManager.GetList(&quot;SYSTEM&quot;, &quot;LANGUAGE&quot;);&#xA; VsIniManager.Set(&quot;SYSTEM&quot;, &quot;RESET_DOOR_ALARM_SKIP_TIME&quot;, &quot;0&quot;);&#xA;VsIniManager.Save();">
+    <Position X="6.156" Y="3.781" Height="1.823" Width="6.345" />
+  </Comment>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

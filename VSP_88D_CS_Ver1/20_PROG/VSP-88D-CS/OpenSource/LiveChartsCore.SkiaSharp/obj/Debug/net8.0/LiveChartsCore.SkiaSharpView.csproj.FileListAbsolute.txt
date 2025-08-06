@@ -1,0 +1,15 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\bin\Debug\net8.0\LiveChartsCore.SkiaSharpView.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\bin\Debug\net8.0\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\bin\Debug\net8.0\LiveChartsCore.SkiaSharpView.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\bin\Debug\net8.0\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\bin\Debug\net8.0\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChar.B3B2DEA0.Up2Date
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\refint\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\LiveChartsCore.SkiaSharpView.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\OpenSource\LiveChartsCore.SkiaSharp\obj\Debug\net8.0\ref\LiveChartsCore.SkiaSharpView.dll

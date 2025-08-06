@@ -1,0 +1,1003 @@
+10:50:54(317) , [EZNET:EVENT]  =========================================================
+10:50:54(318) , [EZNET:EVENT]  
+10:50:54(333) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+10:50:54(333) , [EZNET:EVENT]  
+10:50:54(333) , [EZNET:EVENT]  =========================================================
+10:50:54(333) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+10:50:54(333) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+10:50:54(349) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+10:50:54(349) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+10:50:54(349) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+10:50:54(349) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+10:50:54(349) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+10:50:54(364) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+10:52:45(634) , [EZNET:EVENT]  =========================================================
+10:52:45(634) , [EZNET:EVENT]  
+10:52:45(653) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+10:52:45(653) , [EZNET:EVENT]  
+10:52:45(653) , [EZNET:EVENT]  =========================================================
+10:52:45(653) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+10:52:45(653) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+10:52:45(667) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+10:52:45(667) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+10:52:45(667) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+10:52:45(667) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+10:52:45(667) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+10:52:45(686) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:06:36(146) , [EZNET:EVENT]  =========================================================
+11:06:36(147) , [EZNET:EVENT]  
+11:06:36(165) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:06:36(165) , [EZNET:EVENT]  
+11:06:36(165) , [EZNET:EVENT]  =========================================================
+11:06:36(165) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:06:36(165) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:06:36(185) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:06:36(185) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:06:36(185) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:06:36(185) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:06:36(185) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:06:36(198) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:09:49(038) , [EZNET:EVENT]  =========================================================
+11:09:49(039) , [EZNET:EVENT]  
+11:09:49(056) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:09:49(056) , [EZNET:EVENT]  
+11:09:49(056) , [EZNET:EVENT]  =========================================================
+11:09:49(056) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:09:49(056) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:09:49(065) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:09:49(065) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:09:49(065) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:09:49(065) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:09:49(065) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:09:49(084) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:15:17(025) , [EZNET:EVENT]  =========================================================
+11:15:17(025) , [EZNET:EVENT]  
+11:15:17(037) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:15:17(037) , [EZNET:EVENT]  
+11:15:17(037) , [EZNET:EVENT]  =========================================================
+11:15:17(037) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:15:17(037) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:15:17(054) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:15:17(054) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:15:17(054) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:15:17(054) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:15:17(054) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:15:17(065) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:15:48(024) , [EZNET:EVENT]  =========================================================
+11:15:48(024) , [EZNET:EVENT]  
+11:15:48(043) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:15:48(043) , [EZNET:EVENT]  
+11:15:48(043) , [EZNET:EVENT]  =========================================================
+11:15:48(043) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:15:48(043) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:15:48(058) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:15:48(058) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:15:48(058) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:15:48(058) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:15:48(058) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:15:48(064) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:17:12(018) , [EZNET:EVENT]  =========================================================
+11:17:12(018) , [EZNET:EVENT]  
+11:17:12(028) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:17:12(028) , [EZNET:EVENT]  
+11:17:12(028) , [EZNET:EVENT]  =========================================================
+11:17:12(028) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:17:12(028) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:17:12(033) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:17:12(033) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:17:12(033) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:17:12(033) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:17:12(033) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:17:12(038) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:33:19(131) , [EZNET:EVENT]  =========================================================
+11:33:19(132) , [EZNET:EVENT]  
+11:33:19(153) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:33:19(153) , [EZNET:EVENT]  
+11:33:19(153) , [EZNET:EVENT]  =========================================================
+11:33:19(153) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:33:19(153) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:33:19(164) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:33:19(164) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:33:19(164) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:33:19(164) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:33:19(164) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:33:19(181) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:34:20(491) , [EZNET:EVENT]  =========================================================
+11:34:20(491) , [EZNET:EVENT]  
+11:34:20(507) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:34:20(507) , [EZNET:EVENT]  
+11:34:20(507) , [EZNET:EVENT]  =========================================================
+11:34:20(507) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:34:20(507) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:34:20(523) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:34:20(523) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:34:20(523) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:34:20(523) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:34:20(523) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:34:20(540) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:36:18(983) , [EZNET:EVENT]  =========================================================
+11:36:18(984) , [EZNET:EVENT]  
+11:36:18(994) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:36:18(994) , [EZNET:EVENT]  
+11:36:18(994) , [EZNET:EVENT]  =========================================================
+11:36:18(994) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:36:18(994) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:36:19(011) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:36:19(011) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:36:19(011) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:36:19(011) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:36:19(011) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:36:19(020) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:36:55(880) , [EZNET:EVENT]  =========================================================
+11:36:55(880) , [EZNET:EVENT]  
+11:36:55(887) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:36:55(887) , [EZNET:EVENT]  
+11:36:55(887) , [EZNET:EVENT]  =========================================================
+11:36:55(887) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:36:55(887) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:36:55(899) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:36:55(899) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:36:55(899) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:36:55(899) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:36:55(899) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:36:55(914) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+11:39:26(166) , [EZNET:EVENT]  =========================================================
+11:39:26(166) , [EZNET:EVENT]  
+11:39:26(182) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+11:39:26(182) , [EZNET:EVENT]  
+11:39:26(182) , [EZNET:EVENT]  =========================================================
+11:39:26(182) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+11:39:26(182) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+11:39:26(202) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+11:39:26(202) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+11:39:26(202) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:39:26(202) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+11:39:26(202) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+11:39:26(219) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:11:14(087) , [EZNET:EVENT]  =========================================================
+12:11:14(087) , [EZNET:EVENT]  
+12:11:14(100) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:11:14(100) , [EZNET:EVENT]  
+12:11:14(100) , [EZNET:EVENT]  =========================================================
+12:11:14(100) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:11:14(100) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:11:14(122) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:11:14(122) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:11:14(122) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:11:14(122) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:11:14(122) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:11:14(141) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:17:57(765) , [EZNET:EVENT]  =========================================================
+12:17:57(766) , [EZNET:EVENT]  
+12:17:57(788) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:17:57(788) , [EZNET:EVENT]  
+12:17:57(788) , [EZNET:EVENT]  =========================================================
+12:17:57(788) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:17:57(788) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:17:57(808) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:17:57(808) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:17:57(808) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:17:57(808) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:17:57(808) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:17:57(828) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:19:29(935) , [EZNET:EVENT]  =========================================================
+12:19:29(936) , [EZNET:EVENT]  
+12:19:29(955) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:19:29(955) , [EZNET:EVENT]  
+12:19:29(955) , [EZNET:EVENT]  =========================================================
+12:19:29(955) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:19:29(955) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:19:29(982) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:19:29(982) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:19:29(982) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:19:29(982) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:19:29(982) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:19:30(000) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:20:17(987) , [EZNET:EVENT]  =========================================================
+12:20:17(987) , [EZNET:EVENT]  
+12:20:18(007) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:20:18(007) , [EZNET:EVENT]  
+12:20:18(007) , [EZNET:EVENT]  =========================================================
+12:20:18(007) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:20:18(007) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:20:18(028) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:20:18(028) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:20:18(028) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:20:18(028) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:20:18(028) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:20:18(049) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:21:42(258) , [EZNET:EVENT]  =========================================================
+12:21:42(258) , [EZNET:EVENT]  
+12:21:42(278) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:21:42(278) , [EZNET:EVENT]  
+12:21:42(278) , [EZNET:EVENT]  =========================================================
+12:21:42(278) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:21:42(278) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:21:42(296) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:21:42(296) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:21:42(296) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:21:42(296) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:21:42(296) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:21:42(314) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:22:04(050) , [EZNET:EVENT]  =========================================================
+12:22:04(050) , [EZNET:EVENT]  
+12:22:04(070) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:22:04(070) , [EZNET:EVENT]  
+12:22:04(070) , [EZNET:EVENT]  =========================================================
+12:22:04(070) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:22:04(070) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:22:04(086) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:22:04(086) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:22:04(086) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:22:04(086) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:22:04(086) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:22:04(096) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+12:57:57(361) , [EZNET:EVENT]  =========================================================
+12:57:57(361) , [EZNET:EVENT]  
+12:57:57(383) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+12:57:57(383) , [EZNET:EVENT]  
+12:57:57(383) , [EZNET:EVENT]  =========================================================
+12:57:57(383) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+12:57:57(383) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+12:57:57(403) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+12:57:57(403) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+12:57:57(403) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:57:57(403) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+12:57:57(403) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+12:57:57(420) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:07:02(604) , [EZNET:EVENT]  =========================================================
+13:07:02(604) , [EZNET:EVENT]  
+13:07:02(618) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:07:02(618) , [EZNET:EVENT]  
+13:07:02(618) , [EZNET:EVENT]  =========================================================
+13:07:02(618) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:07:02(618) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:07:02(634) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:07:02(634) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:07:02(634) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:07:02(634) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:07:02(634) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:07:02(648) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:07:34(057) , [EZNET:EVENT]  =========================================================
+13:07:34(057) , [EZNET:EVENT]  
+13:07:34(082) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:07:34(082) , [EZNET:EVENT]  
+13:07:34(082) , [EZNET:EVENT]  =========================================================
+13:07:34(082) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:07:34(082) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:07:34(090) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:07:34(090) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:07:34(090) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:07:34(090) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:07:34(090) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:07:34(113) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:15:27(452) , [EZNET:EVENT]  =========================================================
+13:15:27(453) , [EZNET:EVENT]  
+13:15:27(471) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:15:27(471) , [EZNET:EVENT]  
+13:15:27(471) , [EZNET:EVENT]  =========================================================
+13:15:27(471) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:15:27(471) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:15:27(487) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:15:27(487) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:15:27(487) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:15:27(487) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:15:27(487) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:15:27(506) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:16:37(803) , [EZNET:EVENT]  =========================================================
+13:16:37(803) , [EZNET:EVENT]  
+13:16:37(815) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:16:37(815) , [EZNET:EVENT]  
+13:16:37(815) , [EZNET:EVENT]  =========================================================
+13:16:37(815) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:16:37(815) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:16:37(832) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:16:37(832) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:16:37(832) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:16:37(832) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:16:37(832) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:16:37(850) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:22:12(593) , [EZNET:EVENT]  =========================================================
+13:22:12(593) , [EZNET:EVENT]  
+13:22:12(607) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:22:12(607) , [EZNET:EVENT]  
+13:22:12(607) , [EZNET:EVENT]  =========================================================
+13:22:12(607) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:22:12(607) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:22:12(612) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:22:12(612) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:22:12(612) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:22:12(612) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:22:12(612) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:22:12(630) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:29:01(882) , [EZNET:EVENT]  =========================================================
+13:29:01(882) , [EZNET:EVENT]  
+13:29:01(894) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:29:01(894) , [EZNET:EVENT]  
+13:29:01(894) , [EZNET:EVENT]  =========================================================
+13:29:01(894) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:29:01(894) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:29:01(910) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:29:01(910) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:29:01(910) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:29:01(910) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:29:01(910) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:29:01(929) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:35:15(753) , [EZNET:EVENT]  =========================================================
+13:35:15(753) , [EZNET:EVENT]  
+13:35:15(770) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:35:15(770) , [EZNET:EVENT]  
+13:35:15(770) , [EZNET:EVENT]  =========================================================
+13:35:15(770) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:35:15(770) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:35:15(787) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:35:15(787) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:35:15(787) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:35:15(787) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:35:15(787) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:35:15(807) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:41:07(434) , [EZNET:EVENT]  =========================================================
+13:41:07(434) , [EZNET:EVENT]  
+13:41:07(454) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:41:07(454) , [EZNET:EVENT]  
+13:41:07(454) , [EZNET:EVENT]  =========================================================
+13:41:07(454) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:41:07(454) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:41:07(464) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:41:07(464) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:41:07(464) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:41:07(464) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:41:07(464) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:41:07(483) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:41:35(846) , [EZNET:EVENT]  =========================================================
+13:41:35(846) , [EZNET:EVENT]  
+13:41:35(862) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:41:35(862) , [EZNET:EVENT]  
+13:41:35(862) , [EZNET:EVENT]  =========================================================
+13:41:35(862) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:41:35(862) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:41:35(869) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:41:35(869) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:41:35(869) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:41:35(869) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:41:35(869) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:41:35(885) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:44:55(566) , [EZNET:EVENT]  =========================================================
+13:44:55(567) , [EZNET:EVENT]  
+13:44:55(589) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:44:55(589) , [EZNET:EVENT]  
+13:44:55(589) , [EZNET:EVENT]  =========================================================
+13:44:55(589) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:44:55(589) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:44:55(601) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:44:55(601) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:44:55(601) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:44:55(601) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:44:55(601) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:44:55(620) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:45:28(572) , [EZNET:EVENT]  =========================================================
+13:45:28(572) , [EZNET:EVENT]  
+13:45:28(595) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:45:28(595) , [EZNET:EVENT]  
+13:45:28(595) , [EZNET:EVENT]  =========================================================
+13:45:28(595) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:45:28(595) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:45:28(617) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:45:28(617) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:45:28(617) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:45:28(617) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:45:28(617) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:45:28(648) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:46:15(202) , [EZNET:EVENT]  =========================================================
+13:46:15(202) , [EZNET:EVENT]  
+13:46:15(218) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:46:15(218) , [EZNET:EVENT]  
+13:46:15(218) , [EZNET:EVENT]  =========================================================
+13:46:15(218) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:46:15(218) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:46:15(230) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:46:15(230) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:46:15(230) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:46:15(230) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:46:15(230) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:46:15(246) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+13:52:41(463) , [EZNET:EVENT]  =========================================================
+13:52:41(463) , [EZNET:EVENT]  
+13:52:41(488) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+13:52:41(488) , [EZNET:EVENT]  
+13:52:41(488) , [EZNET:EVENT]  =========================================================
+13:52:41(488) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+13:52:41(488) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+13:52:41(507) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+13:52:41(507) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+13:52:41(507) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:52:41(507) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+13:52:41(507) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+13:52:41(512) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:26:10(150) , [EZNET:EVENT]  =========================================================
+14:26:10(150) , [EZNET:EVENT]  
+14:26:10(167) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:26:10(167) , [EZNET:EVENT]  
+14:26:10(167) , [EZNET:EVENT]  =========================================================
+14:26:10(167) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:26:10(167) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:26:10(181) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:26:10(181) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:26:10(181) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:26:10(181) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:26:10(181) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:26:10(203) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:30:08(956) , [EZNET:EVENT]  =========================================================
+14:30:08(956) , [EZNET:EVENT]  
+14:30:08(968) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:30:08(968) , [EZNET:EVENT]  
+14:30:08(968) , [EZNET:EVENT]  =========================================================
+14:30:08(968) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:30:08(968) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:30:08(972) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:30:08(972) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:30:08(972) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:30:08(972) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:30:08(972) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:30:08(990) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:33:16(429) , [EZNET:EVENT]  =========================================================
+14:33:16(429) , [EZNET:EVENT]  
+14:33:16(444) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:33:16(444) , [EZNET:EVENT]  
+14:33:16(444) , [EZNET:EVENT]  =========================================================
+14:33:16(444) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:33:16(444) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:33:16(450) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:33:16(450) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:33:16(450) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:33:16(450) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:33:16(450) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:33:16(465) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:37:06(588) , [EZNET:EVENT]  =========================================================
+14:37:06(589) , [EZNET:EVENT]  
+14:37:06(604) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:37:06(604) , [EZNET:EVENT]  
+14:37:06(604) , [EZNET:EVENT]  =========================================================
+14:37:06(604) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:37:06(604) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:37:06(610) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:37:06(610) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:37:06(610) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:37:06(610) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:37:06(610) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:37:06(626) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:46:26(261) , [EZNET:EVENT]  =========================================================
+14:46:26(262) , [EZNET:EVENT]  
+14:46:26(281) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:46:26(281) , [EZNET:EVENT]  
+14:46:26(281) , [EZNET:EVENT]  =========================================================
+14:46:26(281) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:46:26(281) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:46:26(293) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:46:26(293) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:46:26(293) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:46:26(293) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:46:26(293) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:46:26(308) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:47:24(626) , [EZNET:EVENT]  =========================================================
+14:47:24(626) , [EZNET:EVENT]  
+14:47:24(646) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:47:24(646) , [EZNET:EVENT]  
+14:47:24(646) , [EZNET:EVENT]  =========================================================
+14:47:24(646) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:47:24(646) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:47:24(665) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:47:24(665) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:47:24(665) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:47:24(665) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:47:24(665) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:47:24(684) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:50:51(927) , [EZNET:EVENT]  =========================================================
+14:50:51(927) , [EZNET:EVENT]  
+14:50:51(948) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:50:51(948) , [EZNET:EVENT]  
+14:50:51(948) , [EZNET:EVENT]  =========================================================
+14:50:51(948) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:50:51(948) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:50:51(966) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:50:51(966) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:50:51(966) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:50:51(966) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:50:51(966) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:50:51(985) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:52:05(828) , [EZNET:EVENT]  =========================================================
+14:52:05(829) , [EZNET:EVENT]  
+14:52:05(848) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:52:05(848) , [EZNET:EVENT]  
+14:52:05(848) , [EZNET:EVENT]  =========================================================
+14:52:05(848) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:52:05(848) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:52:05(868) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:52:05(868) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:52:05(868) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:52:05(868) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:52:05(868) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:52:05(884) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:52:50(566) , [EZNET:EVENT]  =========================================================
+14:52:50(566) , [EZNET:EVENT]  
+14:52:50(579) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:52:50(579) , [EZNET:EVENT]  
+14:52:50(579) , [EZNET:EVENT]  =========================================================
+14:52:50(579) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:52:50(579) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:52:50(590) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:52:50(590) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:52:50(590) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:52:50(590) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:52:50(590) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:52:50(609) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:55:25(213) , [EZNET:EVENT]  =========================================================
+14:55:25(213) , [EZNET:EVENT]  
+14:55:25(230) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:55:25(230) , [EZNET:EVENT]  
+14:55:25(230) , [EZNET:EVENT]  =========================================================
+14:55:25(230) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:55:25(230) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:55:25(235) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:55:25(235) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:55:25(235) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:55:25(235) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:55:25(235) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:55:25(248) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:56:51(661) , [EZNET:EVENT]  =========================================================
+14:56:51(661) , [EZNET:EVENT]  
+14:56:51(680) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:56:51(680) , [EZNET:EVENT]  
+14:56:51(680) , [EZNET:EVENT]  =========================================================
+14:56:51(680) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:56:51(680) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:56:51(684) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:56:51(684) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:56:51(684) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:56:51(684) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:56:51(684) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:56:51(705) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:57:55(995) , [EZNET:EVENT]  =========================================================
+14:57:55(995) , [EZNET:EVENT]  
+14:57:56(017) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:57:56(017) , [EZNET:EVENT]  
+14:57:56(017) , [EZNET:EVENT]  =========================================================
+14:57:56(017) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:57:56(017) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:57:56(036) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:57:56(036) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:57:56(036) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:57:56(036) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:57:56(036) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:57:56(055) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:59:16(150) , [EZNET:EVENT]  =========================================================
+14:59:16(150) , [EZNET:EVENT]  
+14:59:16(171) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:59:16(171) , [EZNET:EVENT]  
+14:59:16(171) , [EZNET:EVENT]  =========================================================
+14:59:16(171) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:59:16(171) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:59:16(191) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:59:16(191) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:59:16(191) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:59:16(191) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:59:16(191) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:59:16(208) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+14:59:49(706) , [EZNET:EVENT]  =========================================================
+14:59:49(706) , [EZNET:EVENT]  
+14:59:49(730) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+14:59:49(730) , [EZNET:EVENT]  
+14:59:49(730) , [EZNET:EVENT]  =========================================================
+14:59:49(730) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+14:59:49(730) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+14:59:49(750) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+14:59:49(750) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+14:59:49(750) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:59:49(750) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+14:59:49(750) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+14:59:49(758) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+15:04:06(553) , [EZNET:EVENT]  =========================================================
+15:04:06(553) , [EZNET:EVENT]  
+15:04:06(573) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+15:04:06(573) , [EZNET:EVENT]  
+15:04:06(573) , [EZNET:EVENT]  =========================================================
+15:04:06(573) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+15:04:06(573) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+15:04:06(589) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+15:04:06(589) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+15:04:06(589) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:04:06(589) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+15:04:06(589) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:04:06(603) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+15:24:06(560) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+15:34:06(916) , [EZNET:EVENT]  =========================================================
+15:34:06(917) , [EZNET:EVENT]  
+15:34:06(929) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+15:34:06(929) , [EZNET:EVENT]  
+15:34:06(929) , [EZNET:EVENT]  =========================================================
+15:34:06(929) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+15:34:06(929) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+15:34:06(942) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+15:34:06(942) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+15:34:06(942) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:34:06(942) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+15:34:06(942) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:34:06(956) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+15:51:56(366) , [EZNET:EVENT]  =========================================================
+15:51:56(366) , [EZNET:EVENT]  
+15:51:56(388) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+15:51:56(388) , [EZNET:EVENT]  
+15:51:56(388) , [EZNET:EVENT]  =========================================================
+15:51:56(388) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+15:51:56(388) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+15:51:56(404) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+15:51:56(404) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+15:51:56(404) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:51:56(404) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+15:51:56(404) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:51:56(427) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+15:54:57(549) , [EZNET:EVENT]  =========================================================
+15:54:57(549) , [EZNET:EVENT]  
+15:54:57(556) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+15:54:57(556) , [EZNET:EVENT]  
+15:54:57(556) , [EZNET:EVENT]  =========================================================
+15:54:57(556) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+15:54:57(556) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+15:54:57(571) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+15:54:57(571) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+15:54:57(571) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:54:57(571) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+15:54:57(571) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+15:54:57(590) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+16:06:14(012) , [EZNET:EVENT]  =========================================================
+16:06:14(012) , [EZNET:EVENT]  
+16:06:14(021) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+16:06:14(021) , [EZNET:EVENT]  
+16:06:14(021) , [EZNET:EVENT]  =========================================================
+16:06:14(021) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+16:06:14(021) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+16:06:14(037) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+16:06:14(037) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+16:06:14(037) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:06:14(037) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+16:06:14(037) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:06:14(059) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+16:18:37(513) , [EZNET:EVENT]  =========================================================
+16:18:37(513) , [EZNET:EVENT]  
+16:18:37(536) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+16:18:37(536) , [EZNET:EVENT]  
+16:18:37(536) , [EZNET:EVENT]  =========================================================
+16:18:37(536) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+16:18:37(536) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+16:18:37(552) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+16:18:37(552) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+16:18:37(552) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:18:37(552) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+16:18:37(552) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:18:37(572) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+16:18:48(995) , [EZNET:EVENT]  =========================================================
+16:18:48(995) , [EZNET:EVENT]  
+16:18:49(009) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+16:18:49(009) , [EZNET:EVENT]  
+16:18:49(009) , [EZNET:EVENT]  =========================================================
+16:18:49(009) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+16:18:49(009) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+16:18:49(026) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+16:18:49(026) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+16:18:49(026) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:18:49(026) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+16:18:49(026) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:18:49(039) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+16:22:46(595) , [EZNET:EVENT]  =========================================================
+16:22:46(596) , [EZNET:EVENT]  
+16:22:46(611) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+16:22:46(611) , [EZNET:EVENT]  
+16:22:46(611) , [EZNET:EVENT]  =========================================================
+16:22:46(611) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+16:22:46(611) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+16:22:46(627) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+16:22:46(627) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+16:22:46(627) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:22:46(627) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+16:22:46(627) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+16:22:46(647) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:23:40(304) , [EZNET:EVENT]  =========================================================
+17:23:40(304) , [EZNET:EVENT]  
+17:23:40(316) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:23:40(316) , [EZNET:EVENT]  
+17:23:40(316) , [EZNET:EVENT]  =========================================================
+17:23:40(316) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:23:40(316) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:23:40(331) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:23:40(331) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:23:40(331) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:23:40(331) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:23:40(331) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:23:40(350) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:37:50(662) , [EZNET:EVENT]  =========================================================
+17:37:50(662) , [EZNET:EVENT]  
+17:37:50(680) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:37:50(680) , [EZNET:EVENT]  
+17:37:50(680) , [EZNET:EVENT]  =========================================================
+17:37:50(680) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:37:50(680) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:37:50(693) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:37:50(693) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:37:50(693) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:37:50(693) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:37:50(693) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:37:50(711) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:38:02(865) , [EZNET:EVENT]  =========================================================
+17:38:02(865) , [EZNET:EVENT]  
+17:38:02(879) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:38:02(879) , [EZNET:EVENT]  
+17:38:02(879) , [EZNET:EVENT]  =========================================================
+17:38:02(879) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:38:02(879) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:38:02(894) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:38:02(894) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:38:02(894) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:38:02(894) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:38:02(894) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:38:02(907) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:38:43(336) , [EZNET:EVENT]  =========================================================
+17:38:43(336) , [EZNET:EVENT]  
+17:38:43(357) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:38:43(357) , [EZNET:EVENT]  
+17:38:43(357) , [EZNET:EVENT]  =========================================================
+17:38:43(357) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:38:43(357) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:38:43(364) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:38:43(364) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:38:43(364) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:38:43(364) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:38:43(364) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:38:43(382) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:42:14(035) , [EZNET:EVENT]  =========================================================
+17:42:14(035) , [EZNET:EVENT]  
+17:42:14(045) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:42:14(045) , [EZNET:EVENT]  
+17:42:14(045) , [EZNET:EVENT]  =========================================================
+17:42:14(045) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:42:14(045) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:42:14(060) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:42:14(060) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:42:14(060) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:42:14(060) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:42:14(060) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:42:14(066) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:49:55(586) , [EZNET:EVENT]  =========================================================
+17:49:55(588) , [EZNET:EVENT]  
+17:49:55(608) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:49:55(608) , [EZNET:EVENT]  
+17:49:55(608) , [EZNET:EVENT]  =========================================================
+17:49:55(608) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:49:55(608) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:49:55(622) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:49:55(622) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:49:55(622) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:49:55(622) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:49:55(622) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:49:55(643) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:53:03(964) , [EZNET:EVENT]  =========================================================
+17:53:03(965) , [EZNET:EVENT]  
+17:53:03(988) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:53:03(988) , [EZNET:EVENT]  
+17:53:03(988) , [EZNET:EVENT]  =========================================================
+17:53:03(988) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:53:03(988) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:53:04(002) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:53:04(002) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:53:04(002) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:53:04(002) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:53:04(002) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:53:04(016) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:55:40(805) , [EZNET:EVENT]  =========================================================
+17:55:40(805) , [EZNET:EVENT]  
+17:55:40(825) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:55:40(825) , [EZNET:EVENT]  
+17:55:40(825) , [EZNET:EVENT]  =========================================================
+17:55:40(825) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:55:40(825) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:55:40(840) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:55:40(840) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:55:40(840) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:55:40(840) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:55:40(840) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:55:40(858) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+17:57:31(795) , [EZNET:EVENT]  =========================================================
+17:57:31(795) , [EZNET:EVENT]  
+17:57:31(809) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+17:57:31(809) , [EZNET:EVENT]  
+17:57:31(809) , [EZNET:EVENT]  =========================================================
+17:57:31(809) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+17:57:31(809) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+17:57:31(815) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+17:57:31(815) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+17:57:31(815) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:57:31(815) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+17:57:31(815) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+17:57:31(830) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:02:49(155) , [EZNET:EVENT]  =========================================================
+18:02:49(155) , [EZNET:EVENT]  
+18:02:49(171) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:02:49(171) , [EZNET:EVENT]  
+18:02:49(171) , [EZNET:EVENT]  =========================================================
+18:02:49(171) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:02:49(171) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:02:49(188) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:02:49(188) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:02:49(188) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:02:49(188) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:02:49(188) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:02:49(206) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:03:35(301) , [EZNET:EVENT]  =========================================================
+18:03:35(301) , [EZNET:EVENT]  
+18:03:35(314) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:03:35(314) , [EZNET:EVENT]  
+18:03:35(314) , [EZNET:EVENT]  =========================================================
+18:03:35(314) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:03:35(314) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:03:35(334) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:03:35(334) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:03:35(334) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:03:35(334) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:03:35(334) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:03:35(355) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:04:01(155) , [EZNET:EVENT]  =========================================================
+18:04:01(156) , [EZNET:EVENT]  
+18:04:01(171) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:04:01(171) , [EZNET:EVENT]  
+18:04:01(171) , [EZNET:EVENT]  =========================================================
+18:04:01(171) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:04:01(171) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:04:01(185) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:04:01(185) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:04:01(185) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:04:01(185) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:04:01(185) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:04:01(207) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:05:09(447) , [EZNET:EVENT]  =========================================================
+18:05:09(448) , [EZNET:EVENT]  
+18:05:09(464) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:05:09(464) , [EZNET:EVENT]  
+18:05:09(464) , [EZNET:EVENT]  =========================================================
+18:05:09(464) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:05:09(464) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:05:09(484) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:05:09(484) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:05:09(484) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:05:09(484) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:05:09(484) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:05:09(507) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:05:52(941) , [EZNET:EVENT]  =========================================================
+18:05:52(942) , [EZNET:EVENT]  
+18:05:52(951) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:05:52(951) , [EZNET:EVENT]  
+18:05:52(951) , [EZNET:EVENT]  =========================================================
+18:05:52(951) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:05:52(951) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:05:52(967) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:05:52(967) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:05:52(967) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:05:52(967) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:05:52(967) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:05:52(987) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:06:43(312) , [EZNET:EVENT]  =========================================================
+18:06:43(312) , [EZNET:EVENT]  
+18:06:43(319) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:06:43(319) , [EZNET:EVENT]  
+18:06:43(319) , [EZNET:EVENT]  =========================================================
+18:06:43(319) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:06:43(319) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:06:43(331) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:06:43(331) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:06:43(331) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:06:43(331) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:06:43(331) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:06:43(341) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:07:55(763) , [EZNET:EVENT]  =========================================================
+18:07:55(764) , [EZNET:EVENT]  
+18:07:55(778) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:07:55(778) , [EZNET:EVENT]  
+18:07:55(778) , [EZNET:EVENT]  =========================================================
+18:07:55(778) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:07:55(778) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:07:55(784) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:07:55(784) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:07:55(784) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:07:55(784) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:07:55(784) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:07:55(800) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:09:20(448) , [EZNET:EVENT]  =========================================================
+18:09:20(448) , [EZNET:EVENT]  
+18:09:20(476) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:09:20(476) , [EZNET:EVENT]  
+18:09:20(476) , [EZNET:EVENT]  =========================================================
+18:09:20(476) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:09:20(476) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:09:20(494) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:09:20(494) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:09:20(494) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:09:20(494) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:09:20(494) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:09:20(511) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:09:50(066) , [EZNET:EVENT]  =========================================================
+18:09:50(066) , [EZNET:EVENT]  
+18:09:50(085) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:09:50(085) , [EZNET:EVENT]  
+18:09:50(085) , [EZNET:EVENT]  =========================================================
+18:09:50(085) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:09:50(085) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:09:50(099) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:09:50(099) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:09:50(099) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:09:50(099) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:09:50(099) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:09:50(131) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:10:21(930) , [EZNET:EVENT]  =========================================================
+18:10:21(930) , [EZNET:EVENT]  
+18:10:21(946) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:10:21(946) , [EZNET:EVENT]  
+18:10:21(946) , [EZNET:EVENT]  =========================================================
+18:10:21(946) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:10:21(946) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:10:21(961) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:10:21(961) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:10:21(961) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:10:21(961) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:10:21(961) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:10:22(003) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:11:21(982) , [EZNET:EVENT]  =========================================================
+18:11:21(982) , [EZNET:EVENT]  
+18:11:21(994) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:11:21(994) , [EZNET:EVENT]  
+18:11:21(994) , [EZNET:EVENT]  =========================================================
+18:11:21(994) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:11:21(994) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:11:21(998) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:11:21(998) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:11:21(998) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:11:21(998) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:11:21(998) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:11:22(014) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:13:16(847) , [EZNET:EVENT]  =========================================================
+18:13:16(848) , [EZNET:EVENT]  
+18:13:16(868) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:13:16(868) , [EZNET:EVENT]  
+18:13:16(868) , [EZNET:EVENT]  =========================================================
+18:13:16(868) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:13:16(868) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:13:16(887) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:13:16(887) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:13:16(887) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:13:16(887) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:13:16(887) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:13:16(910) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:13:51(203) , [EZNET:EVENT]  =========================================================
+18:13:51(203) , [EZNET:EVENT]  
+18:13:51(231) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:13:51(231) , [EZNET:EVENT]  
+18:13:51(231) , [EZNET:EVENT]  =========================================================
+18:13:51(231) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:13:51(231) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:13:51(255) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:13:51(255) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:13:51(255) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:13:51(255) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:13:51(255) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:13:51(276) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:16:01(157) , [EZNET:EVENT]  =========================================================
+18:16:01(157) , [EZNET:EVENT]  
+18:16:01(174) , [EZNET:EVENT]  [ EZGEM PLUS(+) Version = 2.2.4 { 2025/05/25 } (DLL) ]
+18:16:01(174) , [EZNET:EVENT]  
+18:16:01(174) , [EZNET:EVENT]  =========================================================
+18:16:01(174) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION
+18:16:01(174) , [HSMS:EVENT ]  Waiting for a connection. (PORT=5000)
+18:16:01(190) , [EZNET:EVENT]  FormatCheck NOT Active.   Refer to SetFormatCheck()/SetFormatFile().
+18:16:01(190) , [EZNET:EVENT]  EZGEM.INI file NOT found (Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.INI
+18:16:01(190) , [EZNET:EVENT]  Reading Report File.  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:16:01(190) , [EZGEM:ASSIS]  [GEM:CONFIG] EZGEM.RPT File Not Found
+18:16:01(190) , [EZGEM:ASSIS]  Path=D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\bin\Debug\net8.0-windows\EZGEM.RPT
+18:16:01(207) , [EZNET:EVENT]  SVID=0, CEID=0, ECID=0, ALID=0
+18:36:01(165) , [EZNET:EVENT]  PRODUCT TYPE : EVALUATION

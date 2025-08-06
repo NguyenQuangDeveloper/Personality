@@ -1,0 +1,20 @@
+﻿VSP-88D-CS
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\obj\Release\net8.0-windows\
+VSP_88D_CS
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\VSP-88D-CS\App.xaml
+38333785709
+1-2038042391
+186-1791611774
+2751739334929
+Common\TextBox\VSTextBox.xaml;Styles\Controls\ButtonStyles.xaml;Views\Auto\AutoPanel.xaml;Views\Auto\Sub\Cim.xaml;Views\Auto\Sub\CimSetting.xaml;Views\Auto\Sub\Initial.xaml;Views\Auto\Sub\Production.xaml;Views\Auto\Sub\SelectJob.xaml;Views\Auto\Sub\SelectRecipe.xaml;Views\Auto\Sub\State.xaml;Views\Auto\Sub\SvPv.xaml;Views\Main.xaml;Views\Manual\ManualPanel.xaml;Views\Popup\Control\AnalogIO.xaml;Views\Popup\Control\DigitalIO.xaml;Views\Popup\VSIOWindow.xaml;Views\Report\PopUp\HowToStatistics.xaml;Views\Report\ReportPanel.xaml;Views\Report\Sub\ChartPage.xaml;Views\Report\Sub\LogPage.xaml;Views\Report\Sub\ReportMenu.xaml;Views\Setting\PopUp\LevelAliasSetting.xaml;Views\Setting\PopUp\UserAccessMatrix.xaml;Views\Setting\SettingPanel.xaml;Views\Setting\Sub\CleaningPage.xaml;Views\Setting\Sub\DevicePage.xaml;Views\Setting\Sub\LeakCheck.xaml;Views\Setting\Sub\MotionPara.xaml;Views\Setting\Sub\ParameterPage.xaml;Views\Setting\Sub\RecipePage.xaml;Views\Setting\Sub\RegisterPage.xaml;Views\Setting\Sub\SystemParam.xaml;Views\Setting\Sub\SystemParameter\EtcSystemParameter.xaml;Views\Setting\Sub\SystemParameter\MfcSystemParameter.xaml;Views\Setting\Sub\SystemParameter\RfGenSystemParameter.xaml;Views\Setting\Sub\SystemParameter\VacGaugeSystemParameter.xaml;Views\Setting\Sub\SystemParameter\VacPumpSystemParameter.xaml;Views\Setting\Sub\TowerLamp.xaml;
+
+True
+

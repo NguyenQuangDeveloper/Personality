@@ -1,0 +1,399 @@
+﻿<UserControl
+    x:Class="VSP_88D_CS.Views.Report.Sub.LogPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+    xmlns:controls="clr-namespace:VSP_88D_CS.Common.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    xmlns:local="clr-namespace:VSP_88D_CS.Views.Report.Sub"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sub="clr-namespace:VSP_88D_CS.ViewModels.Report.Sub"
+    xmlns:vs="clr-namespace:VSLibrary.UIComponent.Localization;assembly=VSLibrary"
+    d:DataContext="{d:DesignInstance Type=sub:LogPageViewModel}"
+    d:DesignHeight="600"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style x:Key="CenteredCellStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
+        </Style>
+        <Style x:Key="CenteredHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style x:Key="CustomElementStyle" TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+
+        </Style>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <VSControls:VsDataGrid
+                Margin="2"
+                AutoGenerateColumns="False"
+                BorderBrush="Gray"
+                BorderThickness="1"
+                CanUserAddRows="False"
+                IsReadOnly="True"
+                ItemsSource="{Binding LogDataModel}">
+
+                <VSControls:VsDataGrid.Columns>
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="DateTime"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding DateTime}"
+                        Header="DateTime"
+                        IsReadOnly="True" />
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="MsgCode"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding Kind}"
+                        Header="MsgCode"
+                        IsReadOnly="True" />
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="Contents"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding Contents}"
+                        Header="Contents"
+                        IsReadOnly="True" />
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="Term(Sec)"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding Interval}"
+                        Header="Term(Sec.)"
+                        IsReadOnly="True" />
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="Term(Sec)"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding WaitTime}"
+                        Header="Wait(Sec.)"
+                        IsReadOnly="True" />
+
+                    <!--
+                        vs:VsLocalization.LanguageType="{Binding Source={StaticResource LangProxy}, Path=CurrentLanguage}"
+                        vs:VsLocalization.LocalizationKey="Term(Sec)"
+                    -->
+                    <DataGridTextColumn
+                        Width="Auto"
+                        Binding="{Binding ErrNo}"
+                        Header="ErrNo"
+                        IsReadOnly="True" />
+                </VSControls:VsDataGrid.Columns>
+
+            </VSControls:VsDataGrid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <Border
+                Margin="2"
+                Padding="0"
+                BorderBrush="Gray"
+                BorderThickness="1"
+                CornerRadius="5">
+                <Grid
+                    Grid.Column="0"
+                    Margin="2"
+                    Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <VSControls:VsLabel
+                        Grid.Row="0"
+                        Grid.RowSpan="1"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        Background="White"
+                        Content="* If you want to get MTBA etc. , Select [All Logs]"
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="Red" />
+                    <Grid
+                        Grid.Row="1"
+                        Grid.RowSpan="6"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="4">
+                        <Border BorderBrush="Gray" BorderThickness="1">
+                            <DataGrid
+                                x:Name="StatisticsData"
+                                VerticalAlignment="Stretch"
+                                AutoGenerateColumns="False"
+                                CanUserAddRows="False"
+                                GridLinesVisibility="All"
+                                HeadersVisibility="None"
+                                HorizontalGridLinesBrush="Gray"
+                                IsReadOnly="True"
+                                ItemsSource="{Binding ViewStatistics}"
+                                ScrollViewer.CanContentScroll="False"
+                                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                                VerticalGridLinesBrush="Gray">
+                                <DataGrid.Resources>
+                                    <Style TargetType="DataGridRow">
+                                        <Setter Property="Background" Value="White" />
+
+                                    </Style>
+                                    <Style x:Key="HeaderCellStyle" TargetType="DataGridCell">
+                                        <Setter Property="FontWeight" Value="SemiBold" />
+                                        <Setter Property="Background" Value="LightGreen" />
+                                        <Setter Property="Foreground" Value="DarkBlue" />
+                                        <Setter Property="HorizontalAlignment" Value="Stretch" />
+                                        <Setter Property="VerticalAlignment" Value="Stretch" />
+                                    </Style>
+                                    <Style
+                                        x:Key="CellValueStyle"
+                                        BasedOn="{StaticResource CustomElementStyle}"
+                                        TargetType="TextBlock">
+                                        <Setter Property="Foreground" Value="Red" />
+                                    </Style>
+                                </DataGrid.Resources>
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn
+                                        Width="90"
+                                        Binding="{Binding LeftHeader}"
+                                        CanUserSort="False"
+                                        CellStyle="{StaticResource HeaderCellStyle}"
+                                        ElementStyle="{StaticResource CustomElementStyle}" />
+                                    <DataGridTextColumn
+                                        Width="80"
+                                        Binding="{Binding LeftValue}"
+                                        CanUserSort="False"
+                                        ElementStyle="{StaticResource CellValueStyle}" />
+                                    <DataGridTextColumn
+                                        Width="Auto"
+                                        Binding="{Binding RightHeader}"
+                                        CanUserSort="False"
+                                        CellStyle="{StaticResource HeaderCellStyle}"
+                                        ElementStyle="{StaticResource CustomElementStyle}" />
+                                    <!--<DataGridTextColumn CanUserSort="False"
+                                                Binding="{Binding RightValue}"
+                                                Width="*"
+                                                ElementStyle="{StaticResource CustomElementStyle}">
+
+                                    </DataGridTextColumn>-->
+                                    <DataGridTemplateColumn Width="*">
+                                        <DataGridTemplateColumn.CellStyle>
+                                            <Style TargetType="DataGridCell">
+                                                <Setter Property="Background" Value="Transparent" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding RightValue}" Value="-999">
+                                                        <Setter Property="Background" Value="LightGreen" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </DataGridTemplateColumn.CellStyle>
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding RightValue}">
+                                                    <TextBlock.Style>
+                                                        <Style BasedOn="{StaticResource CellValueStyle}" TargetType="TextBlock">
+                                                            <Style.Triggers>
+                                                                <DataTrigger Binding="{Binding RightValue}" Value="-999">
+                                                                    <Setter Property="Foreground" Value="LightGreen" />
+                                                                    <Setter Property="Background" Value="LightGreen" />
+                                                                </DataTrigger>
+                                                            </Style.Triggers>
+                                                        </Style>
+                                                    </TextBlock.Style>
+                                                </TextBlock>
+                                            </DataTemplate>
+
+                                        </DataGridTemplateColumn.CellTemplate>
+
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Column="1">
+                <Border
+                    Margin="2"
+                    Padding="0"
+                    Background="White"
+                    BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="5">
+                    <StackPanel Orientation="Vertical">
+                        <GroupBox
+                            Margin="5"
+                            Header="{Binding LanguageResources[StartDate], FallbackValue='Start Date'}"
+                            Style="{x:Null}">
+                            <StackPanel Orientation="Vertical">
+                                <UniformGrid Rows="1">
+                                    <DatePicker
+                                        x:Name="MyDatePicker"
+                                        Margin="5"
+                                        materialDesign:HintAssist.Hint="{Binding LanguageResources[PickDate], FallbackValue='Pick Date'}"
+                                        SelectedDate="{Binding FromDate}" />
+                                    <materialDesign:TimePicker
+                                        x:Name="MyTimePicker"
+                                        Margin="5"
+                                        materialDesign:HintAssist.Hint="{Binding LanguageResources[PickTime], FallbackValue='Pick Time'}"
+                                        Is24Hours="True"
+                                        SelectedTime="{Binding FromDate, UpdateSourceTrigger=LostFocus}" />
+                                </UniformGrid>
+                                <UniformGrid Rows="1">
+                                    <DatePicker
+                                        x:Name="MyDatePicker1"
+                                        Margin="5"
+                                        materialDesign:HintAssist.Hint="{Binding LanguageResources[PickDate], FallbackValue='Pick Date'}"
+                                        SelectedDate="{Binding ToDate}" />
+                                    <materialDesign:TimePicker
+                                        x:Name="MyTimePicker1"
+                                        Margin="5"
+                                        materialDesign:HintAssist.Hint="{Binding LanguageResources[PickTime], FallbackValue='Pick Time'}"
+                                        Is24Hours="True"
+                                        SelectedTime="{Binding ToDate, UpdateSourceTrigger=LostFocus}" />
+                                </UniformGrid>
+                            </StackPanel>
+
+                        </GroupBox>
+                        <GroupBox
+                            Margin="5"
+                            Header="{Binding LanguageResources[AlarmSearch], FallbackValue='Alarm Search'}"
+                            Style="{x:Null}">
+                            <UniformGrid Columns="2" Rows="1">
+                                <controls:ExtendedVsButton
+                                    Margin="5"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="1"
+                                    FontSize="15"
+                                    Text="{Binding SearchingAlarm}" />
+
+                                <controls:ExtendedVsButton
+                                    Margin="5"
+                                    Command="{Binding SearchBtnCommand}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                    ImageSource="pack://application:,,,/Resources/Icons/Search.png"
+                                    Text="{Binding LanguageResources[Search], FallbackValue='Search'}" />
+                            </UniformGrid>
+                        </GroupBox>
+
+                        <controls:ExtendedVsButton
+                            Width="150"
+                            Margin="5"
+                            Command="{Binding SaveBtnCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                            ImageSource="pack://application:,,,/Resources/Icons/Save.Png"
+                            Text="{Binding LanguageResources[SaveResult], FallbackValue='Save Result'}" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Column="2">
+                <Border
+                    Margin="2"
+                    Padding="0"
+                    Background="White"
+                    BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="5">
+                    <StackPanel Margin="5" Orientation="Vertical">
+                        <VSControls:VsButton
+                            Margin="5"
+                            Background="MediumPurple"
+                            BackgroundTop="MediumPurple"
+                            Command="{Binding HowToCalcCommand}"
+                            Content="{Binding LanguageResources[HowToCalc], FallbackValue='How To Calc.'}"
+                            ShineColor="MediumPurple"
+                            ShineColorBottom="MediumPurple" />
+                        <Border
+                            Margin="5"
+                            BorderBrush="Gray"
+                            BorderThickness="1"
+                            CornerRadius="8">
+                            <StackPanel Margin="5">
+                                <VSControls:VsRadioButton
+                                    Margin="0,0,0,5"
+                                    Content="{Binding LanguageResources[AllLog], FallbackValue='All log'}"
+                                    IsChecked="{Binding IsSelectAllLog}" />
+
+                                <VSControls:VsRadioButton
+                                    Margin="0,0,0,5"
+                                    Content="{Binding LanguageResources[Alarm], FallbackValue='Alarm'}"
+                                    IsChecked="{Binding IsSelectAllLog}" />
+
+                                <VSControls:VsRadioButton
+                                    Margin="0,0,0,5"
+                                    Content="{Binding LanguageResources[Product], FallbackValue='Product'}"
+                                    IsChecked="{Binding IsSelectAllLog}" />
+
+                                <VSControls:VsRadioButton
+                                    Margin="0,0,0,5"
+                                    Content="{Binding LanguageResources[RunAlarm], FallbackValue='Run &amp; Alarm'}"
+                                    IsChecked="{Binding IsSelectAllLog}" />
+                            </StackPanel>
+                        </Border>
+
+                        <controls:ExtendedVsButton
+                            Margin="5"
+                            Command="{Binding FilterCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                            ImageSource="pack://application:,,,/Resources/Icons/Ok.png"
+                            Text="{Binding LanguageResources[Confirm], FallbackValue='Confirm'}" />
+
+                        <controls:ExtendedVsButton
+                            Margin="5"
+                            Command="{Binding FilterCommand}"
+                            CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                            ImageSource="pack://application:,,,/Resources/Icons/Cancel.png"
+                            Text="{Binding LanguageResources[Cancel], FallbackValue='Cancel'}" />
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,9 @@
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\Views\LoginWindow.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\Views\LoginWindow.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib_MarkupCompile.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.g.resources
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\UserAccessLib\obj\x64\Debug\net8.0-windows\win-x64\UserAccessLib.csproj.CoreCompileInputs.cache

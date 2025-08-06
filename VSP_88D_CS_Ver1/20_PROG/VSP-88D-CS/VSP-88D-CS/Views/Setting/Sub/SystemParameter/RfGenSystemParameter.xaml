@@ -1,0 +1,148 @@
+﻿<UserControl
+    x:Class="VSP_88D_CS.Views.Setting.Sub.SystemParameter.RfGenSystemParameter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+    d:DesignHeight="230"
+    d:DesignWidth="520"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Thickness x:Key="DefaultMargin">5</Thickness>
+    </UserControl.Resources>
+    <Grid>
+        <GroupBox
+            Padding="2"
+            FontSize="11"
+            FontWeight="Bold"
+            Header="RF GENERATOR">
+            <Border
+                BorderBrush="Gray"
+                BorderThickness="1"
+                CornerRadius="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <!--  ROW 1  -->
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="3,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="RF GENERATOR CAL. (300 ~ 1000)" />
+                    </Border>
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsTextBox
+                            Width="70"
+                            Margin="{StaticResource DefaultMargin}"
+                            Text="{Binding RfGenParam.RfGenCal}" />
+                    </Border>
+                    <Border
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(Watt)" />
+                    </Border>
+
+                    <!--  ROW 2  -->
+                    <Border
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="3,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="RF POWER LIMIT" />
+                    </Border>
+                    <Border
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsTextBox
+                            Width="70"
+                            Margin="{StaticResource DefaultMargin}"
+                            Text="{Binding RfGenParam.RfPowerLimit}" />
+                    </Border>
+                    <Border
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(Watt)" />
+                    </Border>
+
+                    <!--  ROW 3  -->
+                    <Border
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Margin="3,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="RF POWER OFFSET(-50 ~ 50)" />
+                    </Border>
+                    <Border
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsTextBox
+                            Width="70"
+                            Margin="{StaticResource DefaultMargin}"
+                            Text="{Binding RfGenParam.RfPowerOffset}" />
+                    </Border>
+                    <Border
+                        Grid.Row="2"
+                        Grid.Column="2"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(Watt)" />
+                    </Border>
+
+                    <!--  ROW 4  -->
+                    <Border
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Margin="3,0,0,0"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="RF POWER OVER ERROR" />
+                    </Border>
+                    <Border
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsTextBox
+                            Width="70"
+                            Margin="{StaticResource DefaultMargin}"
+                            Text="{Binding RfGenParam.RfPowerOverError}" />
+                    </Border>
+                    <Border
+                        Grid.Row="3"
+                        Grid.Column="2"
+                        BorderBrush="LightGray"
+                        BorderThickness="0,0,0,1">
+                        <VSControls:VsLabel Margin="{StaticResource DefaultMargin}" Content="(Watt)" />
+                    </Border>
+                </Grid>
+            </Border>
+        </GroupBox>
+    </Grid>
+</UserControl>

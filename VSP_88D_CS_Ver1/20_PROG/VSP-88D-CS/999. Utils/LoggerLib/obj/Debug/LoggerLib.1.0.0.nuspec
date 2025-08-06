@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LoggerLib</id>
+    <version>1.0.0</version>
+    <authors>MS Jang</authors>
+    <description>Package Description</description>
+    <tags>VSFrameWork</tags>
+    <repository type="git" commit="3d4d4f9c8718f60984711238d90fe7cffc0984fa" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="ClosedXML" version="0.104.0-rc1" exclude="Build,Analyzers" />
+        <dependency id="NLog" version="5.4.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\Library\Common\LoggerLib\bin\Debug\net8.0\LoggerLib.dll" target="lib\net8.0\LoggerLib.dll" />
+  </files>
+</package>

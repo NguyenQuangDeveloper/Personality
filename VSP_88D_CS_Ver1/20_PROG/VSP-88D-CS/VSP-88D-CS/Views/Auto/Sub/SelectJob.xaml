@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Auto.Sub.SelectJob"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Auto.Sub"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+             xmlns:controls="clr-namespace:VSP_88D_CS.Common.Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="200"
+             d:DesignWidth="400">
+    <Border BorderThickness="1"
+            BorderBrush="#673AB7">
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           Text="{Binding LanguageResources[Recipe], FallbackValue='Recipe'}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           Foreground="Blue"
+                           FontWeight="DemiBold" />
+                <Button Grid.Column="1"
+                        Height="Auto"
+                        Margin="0,0,5,0"
+                        Background="#FFE3F0D9"
+                        Command="{Binding SelectRecipeShowCommand}"
+                        Content="{Binding NameSelectedRecipe, FallbackValue='1305'}"
+                        FontSize="16"
+                        FontWeight="DemiBold" />
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           Text="{Binding LanguageResources[Device], FallbackValue='Device'}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           Foreground="Blue"
+                           FontWeight="DemiBold" />
+                <TextBlock Grid.Column="1"
+                           Text="{Binding NameSelectDevice, FallbackValue='1305'}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="16"
+                           FontWeight="DemiBold" />
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <controls:UnifiedColorVsButton Grid.Column="0"
+                                               Margin="5"
+                                               Height="Auto"
+                                               Command="{Binding StartJobCommand}"
+                                               materialDesign:ButtonAssist.CornerRadius="5"
+                                               IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                               Style="{StaticResource MaterialDesignRaisedButton}"
+                                               Content="{Binding LanguageResources[Start], FallbackValue='Start'}">
+                </controls:UnifiedColorVsButton>
+
+                <VSControls:VsButton Grid.Column="1"
+                                     Margin="5"
+                                     Height="Auto"
+                                     Command="{Binding StopJobCommand}"
+                                     materialDesign:ButtonAssist.CornerRadius="5"
+                                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                     Style="{StaticResource MaterialDesignRaisedButton}">
+                    <TextBlock Text="{Binding LanguageResources[Stop], FallbackValue='Stop'}" />
+                </VSControls:VsButton>
+
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

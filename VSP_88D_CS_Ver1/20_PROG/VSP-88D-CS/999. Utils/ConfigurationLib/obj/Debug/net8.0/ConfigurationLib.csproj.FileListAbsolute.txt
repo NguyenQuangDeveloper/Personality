@@ -1,0 +1,24 @@
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.deps.json
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.AssemblyInfo.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\refint\ConfigurationLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\100. Library\20. Common\ConfigurationLib\obj\Debug\net8.0\ref\ConfigurationLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\bin\Debug\net8.0\ConfigurationLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\refint\ConfigurationLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ConfigurationLib.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\ConfigurationLib\obj\Debug\net8.0\ref\ConfigurationLib.dll

@@ -1,0 +1,181 @@
+﻿<UserControl
+    x:Class="AlarmConfig.Views.Bottoms.AlarmInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:AlarmConfig.Views.Bottoms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <Style x:Key="CustomComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="HorizontalContentAlignment" Value="Right" />
+            <Setter Property="Background" Value="#AEEEEE" />
+            <Setter Property="BorderBrush" Value="#76C7C0" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Grid>
+                            <Border
+                                x:Name="Border"
+                                Padding="{TemplateBinding Padding}"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="2">
+                                <Grid>
+                                    <ContentPresenter
+                                        x:Name="ContentPresenter"
+                                        Margin="5,0,15,0"
+                                        HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                        VerticalAlignment="Center"
+                                        Content="{TemplateBinding SelectionBoxItem}" />
+
+                                    <ToggleButton
+                                        x:Name="DropDownButton"
+                                        Grid.Column="1"
+                                        Width="40"
+                                        Height="30"
+                                        HorizontalAlignment="Right"
+                                        IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}" />
+                                </Grid>
+                            </Border>
+                            <Popup
+                                x:Name="PART_Popup"
+                                Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}"
+                                AllowsTransparency="True"
+                                IsOpen="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay}"
+                                Placement="Bottom"
+                                StaysOpen="False">
+                                <Border
+                                    Width="{Binding ActualWidth, RelativeSource={RelativeSource TemplatedParent}}"
+                                    Background="White"
+                                    BorderBrush="#76C7C0"
+                                    BorderThickness="1"
+                                    CornerRadius="5">
+                                    <ScrollViewer MaxHeight="250" VerticalScrollBarVisibility="Auto">
+                                        <ItemsPresenter />
+                                    </ScrollViewer>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="2">
+            <ComboBox
+                Grid.Row="0"
+                Grid.Column="5"
+                HorizontalContentAlignment="Left"
+                ItemsSource="{Binding AlarmNames}"
+                SelectedItem="{Binding SelectedAlarmName}"
+                Style="{StaticResource CustomComboBoxStyle}" />
+        </Grid>
+        <Grid Grid.Row="1" Margin="2">
+            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <Border
+                    Background="#FFEBECEC"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    CornerRadius="8">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Border
+                                Grid.Row="0"
+                                Margin="15,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="Red"
+                                BorderBrush="Silver"
+                                BorderThickness="1"
+                                CornerRadius="0,0,8,8">
+                                <StackPanel>
+                                    <Label
+                                        Grid.Row="0"
+                                        Width="200"
+                                        HorizontalContentAlignment="Center"
+                                        VerticalContentAlignment="Center"
+                                        Content="{Binding LanguageResources[AlarmMessage], FallbackValue='Alarm Message.'}"
+                                        FontSize="15"
+                                        FontWeight="Bold"
+                                        Foreground="White" />
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                        <Label
+                            Grid.Row="1"
+                            Margin="5,2,6,5"
+                            Background="White"
+                            FontSize="16">
+                            <TextBlock Text="{Binding AlarmMessage}" TextWrapping="Wrap" />
+                        </Label>
+                    </Grid>
+                </Border>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2" Margin="2">
+            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <Border
+                    Background="#FFEBECEC"
+                    BorderBrush="Black"
+                    BorderThickness="1"
+                    CornerRadius="8">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="3*" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <Border
+                                Grid.Row="0"
+                                Margin="15,0,0,0"
+                                HorizontalAlignment="Left"
+                                Background="Blue"
+                                BorderBrush="Silver"
+                                BorderThickness="1"
+                                CornerRadius="0,0,8,8">
+                                <StackPanel>
+                                    <Label
+                                        Grid.Row="0"
+                                        Width="200"
+                                        HorizontalContentAlignment="Center"
+                                        VerticalContentAlignment="Center"
+                                        Content="{Binding LanguageResources[SolutionMessage], FallbackValue='Solution Message.'}"
+                                        FontSize="15"
+                                        FontWeight="Bold"
+                                        Foreground="White" />
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                        <Label
+                            Grid.Row="1"
+                            Margin="5,2,6,5"
+                            Background="White"
+                            FontSize="16">
+                            <TextBlock Text="{Binding SolutionMessage}" TextWrapping="Wrap" />
+                        </Label>
+                    </Grid>
+                </Border>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</UserControl>

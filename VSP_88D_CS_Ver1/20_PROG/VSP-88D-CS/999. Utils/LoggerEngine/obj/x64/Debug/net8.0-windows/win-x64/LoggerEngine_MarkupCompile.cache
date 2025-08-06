@@ -1,0 +1,20 @@
+﻿LoggerEngine
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerEngine\obj\x64\Debug\net8.0-windows\win-x64\
+LoggerEngine
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\LoggerEngine\App.xaml
+3-1816114193
+2-1185611673
+19-1962346101
+252-781767463
+Views\LoggerMainWindow.xaml;Views\LoggerOptionsWindow.xaml;Views\MsgBox.xaml;
+
+True
+

@@ -1,0 +1,476 @@
+﻿<UserControl x:Class="VSP_88D_CS.Views.Setting.Sub.CleaningPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:VSP_88D_CS.Views.Setting.Sub"
+             xmlns:controls="clr-namespace:VSP_88D_CS.Common.Controls"
+             xmlns:sub="clr-namespace:VSP_88D_CS.ViewModels.Setting.Sub"
+             xmlns:VSControls="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+             d:DataContext="{d:DesignInstance Type=sub:CleaningPageViewModel}"
+             mc:Ignorable="d"
+             Height="auto"
+             Width="auto">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Border BorderBrush="Gray"
+                    BorderThickness="1"
+                    CornerRadius="8"
+                    Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!--<Button Grid.Row="0"
+                            Height="auto"
+                            Content="{Binding LanguageResources[CleaningParaList], FallbackValue='Cleaning Parameter List'}" />-->
+
+                    <GroupBox Grid.Row="0"
+                              Header="{Binding LanguageResources[RecipeList], FallbackValue='Recipe List'}"
+                              Padding="5"
+                              Margin="5,0,5,5"
+                              FontWeight="Bold">
+
+                        <VSControls:VsDataGrid ItemsSource="{Binding CleaningDataList, Mode=TwoWay}"
+                                               HeadersVisibility="None"
+                                               SelectedItem="{Binding SelectedCleaningData}"
+                                               AutoGenerateColumns="False"
+                                               IsReadOnly="True"
+                                               Background="White"
+                                               IsEnabled="{Binding IsEnableCleaningListRegion}"
+                                               BorderThickness="1"
+                                               BorderBrush="Black">
+                            <!--<VSControls:VsDataGrid.Style>
+                            <Style TargetType="DataGrid">
+                                <Setter Property="IsEnabled"
+                                        Value="true" />
+                            </Style>
+                        </VSControls:VsDataGrid.Style>-->
+
+                            <VSControls:VsDataGrid.Columns>
+                                <DataGridTemplateColumn Width="50">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="⮞"
+                                                       FontSize="16"
+                                                       FontWeight="Bold"
+                                                       Foreground="Green"
+                                                       Width="auto">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Setter Property="Visibility"
+                                                                Value="Collapsed" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}"
+                                                                         Value="True">
+                                                                <Setter Property="Visibility"
+                                                                        Value="Visible" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+
+                                <DataGridTextColumn Header="Name"
+                                                    Binding="{Binding CleaningName}" />
+                            </VSControls:VsDataGrid.Columns>
+                        </VSControls:VsDataGrid>
+                    </GroupBox>
+
+                    <Grid Grid.Row="1"
+                          Margin="0,5,0,5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="5" />
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="5" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <controls:ExtendedVsButton Grid.Column="0"
+                                                   ImageSource="pack://application:,,,/Resources/Icons/AddFile.png"
+                                                   Text="{Binding LanguageResources[Add], FallbackValue='Add'}"
+                                                   Command="{Binding AddCleaningParaCommand}"
+                                                   CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                                   IsEnabled="{Binding BtnAddInfo.IsEnable}" />
+
+                        <controls:ExtendedVsButton Grid.Column="2"
+                                                   ImageSource="pack://application:,,,/Resources/Icons/Edit.png"
+                                                   Text="{Binding LanguageResources[Edit], FallbackValue='Edit'}"
+                                                   Command="{Binding EditCleaningParaCommand}"
+                                                   CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                                   IsEnabled="{Binding BtnEditInfo.IsEnable}" />
+
+                        <controls:ExtendedVsButton Grid.Column="4"
+                                                   ImageSource="pack://application:,,,/Resources/Icons/DeleteFile.png"
+                                                   Text="{Binding LanguageResources[Delete], FallbackValue='Delete'}"
+                                                   Command="{Binding DeleteCleaningParaCommand}"
+                                                   CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                                   IsEnabled="{Binding BtnDeleteInfo.IsEnable}" />
+                    </Grid>
+
+                    <StackPanel Grid.Row="2"
+                                Margin="0,5,0,5">
+                        <GroupBox Header="Cleaning Parameter Name"
+                                  FontWeight="SemiBold"
+                                  BorderBrush="Gray"
+                                  BorderThickness="1"
+                                  IsEnabled="{Binding IsEnableCleaningNameRegion}">
+                            <GroupBox.HeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}"
+                                               HorizontalAlignment="Center" />
+                                </DataTemplate>
+                            </GroupBox.HeaderTemplate>
+                            <StackPanel Orientation="Horizontal"
+                                        HorizontalAlignment="Center">
+                                <TextBox Text="{Binding CleaningName}"
+                                         Margin="2,2,20,2"
+                                         TextAlignment="Center"
+                                         Width="200"
+                                         Height="25"></TextBox>
+                                <TextBox Style="{x:Null}"
+                                         Text="10"
+                                         Margin="2"
+                                         TextAlignment="Center"
+                                         Width="50"
+                                         VerticalContentAlignment="Center" />
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="5" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+
+                        <controls:ExtendedVsButton Grid.Column="0"
+                                                   ImageSource="pack://application:,,,/Resources/Icons/Save.png"
+                                                   Text="{Binding LanguageResources[Save], FallbackValue='Save'}"
+                                                   Command="{Binding ConfirmCleaningParaCommand}"
+                                                   CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+
+                        <controls:ExtendedVsButton Grid.Column="2"
+                                                   ImageSource="pack://application:,,,/Resources/Icons/Cancel.png"
+                                                   Text="{Binding LanguageResources[Cancel], FallbackValue='Cancel'}"
+                                                   Command="{Binding CancelCleaningParaCommand}"
+                                                   CommandParameter="{Binding RelativeSource={RelativeSource Self}}" />
+
+                    </Grid>
+
+                </Grid>
+
+            </Border>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Border BorderBrush="Gray"
+                    BorderThickness="1"
+                    Margin="5"
+                    CornerRadius="8"
+                    IsEnabled="{Binding IsEnableCleaningStepRegion }">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Border Background="White"
+                                BorderBrush="Gray"
+                                BorderThickness="1"
+                                CornerRadius="8">
+                            <ScrollViewer Grid.Column="0"
+                                          VerticalScrollBarVisibility="Auto"
+                                          HorizontalScrollBarVisibility="Auto">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                            <RowDefinition Height="25" />
+                                        </Grid.RowDefinitions>
+                                        <Label Grid.Row="0"
+                                               Content="{Binding LanguageResources[StepNo], FallbackValue='Step No.'}"
+                                               HorizontalContentAlignment="Center"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1"
+                                               Foreground="White"
+                                               Background="{StaticResource PrimaryColor}" />
+                                        <Label Grid.Row="1"
+                                               Content="{Binding LanguageResources[RFPower], FallbackValue='RF Power(Watt)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1"></Label>
+                                        <Label Grid.Row="2"
+                                               Content="{Binding SetupRecipeConfig.NameGas1, FallbackValue='Gas1(Sccm)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1"></Label>
+                                        <Label Grid.Row="3"
+                                               Content="{Binding SetupRecipeConfig.NameGas2, FallbackValue='Gas2(Sccm)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1"></Label>
+                                        <Label Grid.Row="4"
+                                               Content="{Binding SetupRecipeConfig.NameGas3, FallbackValue='Gas3(Sccm)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                        <Label Grid.Row="5"
+                                               Content="{Binding SetupRecipeConfig.NameGas4, FallbackValue='Gas4(Sccm)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                        <Label Grid.Row="4"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                        <Label Grid.Row="5"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                        <Label Grid.Row="6"
+                                               Content="{Binding LanguageResources[SetupRecipeView_lbl_Vac], FallbackValue='Vacuum(Torr)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                        <Label Grid.Row="7"
+                                               Content="{Binding LanguageResources[SetupRecipeView_lbl_CleanTime], FallbackValue='Clean Time(Sec.)'}"
+                                               HorizontalContentAlignment="Left"
+                                               VerticalContentAlignment="Center"
+                                               FontWeight="DemiBold"
+                                               BorderBrush="Black"
+                                               BorderThickness="0,0,1,1" />
+                                    </Grid>
+
+                                    <Grid Grid.Column="1">
+                                        <ItemsControl Grid.Column="1"
+                                                      ItemsSource="{Binding CleaningStepViews}">
+                                            <ItemsControl.Style>
+                                                <Style TargetType="ItemsControl">
+                                                    <Setter Property="IsEnabled"
+                                                            Value="True" />
+                                                    <Style.Triggers>
+                                                        <MultiDataTrigger>
+                                                            <MultiDataTrigger.Conditions>
+                                                                <Condition Binding="{Binding SetupRecipeConfig.ModeEditEnable}"
+                                                                           Value="False" />
+                                                            </MultiDataTrigger.Conditions>
+                                                            <Setter Property="IsEnabled"
+                                                                    Value="False" />
+                                                        </MultiDataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </ItemsControl.Style>
+                                            <ItemsControl.ItemsPanel>
+                                                <ItemsPanelTemplate>
+                                                    <StackPanel Orientation="Horizontal" />
+                                                </ItemsPanelTemplate>
+                                            </ItemsControl.ItemsPanel>
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="30" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                            <RowDefinition Height="25" />
+                                                        </Grid.RowDefinitions>
+                                                        <TextBox Text="{Binding Title}"
+                                                                 BorderBrush="Black"
+                                                                 BorderThickness="0,0,1,1"
+                                                                 Grid.Row="0"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Center"
+                                                                 VerticalContentAlignment="Center"
+                                                                 IsReadOnly="True"
+                                                                 FontWeight="DemiBold"
+                                                                 Foreground="White"
+                                                                 Background="{StaticResource PrimaryColor}" />
+                                                        <TextBox Text="{Binding RFPowerValue}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="1"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold" />
+                                                        <TextBox Text="{Binding Gas_1}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="2"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold"
+                                                                 IsReadOnly="{Binding IsGas_1ReadOnly}" />
+                                                        <TextBox Text="{Binding Gas_2}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="3"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold"
+                                                                 IsReadOnly="{Binding IsGas_2ReadOnly}" />
+                                                        <TextBox Text="{Binding Gas_3}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="4"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold"
+                                                                 IsReadOnly="{Binding IsGas_3ReadOnly}" />
+                                                        <TextBox Text="{Binding Gas_4}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="5"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold"
+                                                                 IsReadOnly="{Binding IsGas_4ReadOnly}" />
+                                                        <TextBox Text="{Binding Vacuum}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="6"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold" />
+                                                        <TextBox Text="{Binding CleanTime}"
+                                                                 BorderBrush="Gray"
+                                                                 BorderThickness="0,0,0.5,0.5"
+                                                                 Grid.Row="7"
+                                                                 Width="70"
+                                                                 HorizontalContentAlignment="Right"
+                                                                 VerticalContentAlignment="Center"
+                                                                 FontWeight="DemiBold" />
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </Grid>
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="150"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0"
+                              Margin="0,0,50,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="10"></RowDefinition>
+                                <RowDefinition Height="40"></RowDefinition>
+                                <RowDefinition Height="40"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="1"
+                                   Grid.Column="0"
+                                   Content="{Binding LanguageResources[OverPressure], FallbackValue='Over pressure(Torr)'}"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"
+                                   Foreground="Blue"></Label>
+                            <Label Grid.Row="2"
+                                   Grid.Column="0"
+                                   Content="{Binding LanguageResources[Time], FallbackValue='Time (msec.)'}"
+                                   HorizontalContentAlignment="Center"
+                                   VerticalContentAlignment="Center"
+                                   Foreground="Blue"></Label>
+                            <TextBox Margin="5"
+                                     Grid.Column="1"
+                                     Grid.Row="1"
+                                     FontSize="16"
+                                     HorizontalContentAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     Text="{Binding SelectedCleaningData.OverPressure}"
+                                     Style="{x:Null}" />
+                            <TextBox Margin="5"
+                                     Grid.Column="1"
+                                     Grid.Row="2"
+                                     FontSize="16"
+                                     HorizontalContentAlignment="Center"
+                                     VerticalContentAlignment="Center"
+                                     Text="{Binding SelectedCleaningData.Time}"
+                                     Style="{x:Null}" />
+                        </Grid>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <controls:ExtendedVsButton Command="{Binding AddStepCleaningParaCommand}"
+                                                       Text="{Binding LanguageResources[AddStep], FallbackValue='Add Step'}"
+                                                       CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                                       IsEnabled="{Binding BtnAddStepInfo.IsEnable}" />
+                            <!--<Button Grid.Row="1"
+                                    Margin="5"
+                                    Command="{Binding DeleteStepCleaningParaCommand}"
+                                    Style="{StaticResource ImageButtonContentRightStyle}"
+                                    Tag="{Binding BtnDeleteStepInfo}"
+                                    Content="{Binding LanguageResources[DeleteStep], FallbackValue='Delete Step'}"
+                                    CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
+                                    IsEnabled="{Binding BtnDeleteStepInfo.IsEnable}" />-->
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="150"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,98 @@
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.deps.json
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Services\Dialog\AlarmDialog.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Alarm.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Bottoms\AlarmInfo.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Centers\DrawingArea.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Lefts\AlarmCode.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Rights\ShapeBlock.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ColorTool.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FileTool.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FontTool.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ImageTool.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ZoomTool.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig_MarkupCompile.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig_MarkupCompile.lref
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Services\Dialog\AlarmDialog.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Alarm.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Bottoms\AlarmInfo.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Centers\DrawingArea.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Lefts\AlarmCode.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Rights\ShapeBlock.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ColorTool.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FileTool.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FontTool.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ImageTool.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ZoomTool.baml
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.g.resources
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.AssemblyInfo.cs
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmCon.BCF94669.Up2Date
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\refint\AlarmConfig.dll
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.pdb
+D:\01. ARAM VINA\VSPO_CS_Ver1\20_PROG\VSPO_CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\ref\AlarmConfig.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.csproj.AssemblyReference.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Services\Dialog\AlarmDialog.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Alarm.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Bottoms\AlarmInfo.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Lefts\AlarmCode.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Rights\ShapeBlock.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ColorTool.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FileTool.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FontTool.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ImageTool.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ZoomTool.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig_MarkupCompile.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig_MarkupCompile.lref
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\refint\AlarmConfig.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Centers\DrawingArea.g.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LICENSE\LICENSE.txt
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\AdlinkLib\Dask\PCI-Dask64.lib
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\AXTLib.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\3rd Party Files\Controller\Ajin\AxtLib\EzBasicAxl.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.deps.json
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\AlarmConfig.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\VSLibrary.dll
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\VSLibrary.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\bin\Debug\net8.0-windows\LiveChartsCore.SkiaSharpView.WPF.pdb
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Services\Dialog\AlarmDialog.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Alarm.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Bottoms\AlarmInfo.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Centers\DrawingArea.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Lefts\AlarmCode.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Rights\ShapeBlock.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ColorTool.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FileTool.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\FontTool.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ImageTool.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\Views\Tops\ZoomTool.baml
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.g.resources
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.GeneratedMSBuildEditorConfig.editorconfig
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.AssemblyInfoInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.AssemblyInfo.cs
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmConfig.csproj.CoreCompileInputs.cache
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\AlarmCon.BCF94669.Up2Date
+D:\01. ARAM VINA\04. PROJECT CLONE\10. VSP-88D-CS-VER1\VSP_88D_CS_Ver1\20_PROG\VSP-88D-CS\999. Utils\AlarmConfig\obj\Debug\net8.0-windows\ref\AlarmConfig.dll

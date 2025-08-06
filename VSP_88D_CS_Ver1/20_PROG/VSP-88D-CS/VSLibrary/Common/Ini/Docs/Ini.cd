@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="사용자 어플리 케이션&#xA;&#xA;// A안 - 정적 직접 접근&#xA;VsIniManager.Initialize(@&quot;D:\Config\app.ini&quot;);&#xA;var timeout = VsIniManager.Get(&quot;SYSTEM&quot;, &quot;TIMEOUT&quot;);&#xA;var langs = VsIniManager.GetList(&quot;SYSTEM&quot;, &quot;LANGUAGE&quot;);&#xA; VsIniManager.Set(&quot;SYSTEM&quot;, &quot;RESET_DOOR_ALARM_SKIP_TIME&quot;, &quot;0&quot;);&#xA;VsIniManager.Save();">
+    <Position X="6.156" Y="3.781" Height="1.823" Width="6.345" />
+  </Comment>
+  <Class Name="VSLibrary.Common.Ini.IniBase">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABABAgAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Common\Ini\IniBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.Ini.VsIniManager">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABQBAAAAAAGAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Common\Ini\IniManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VSLibrary.Common.Ini.VsIniManagerProxy">
+    <Position X="4" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAgIAAJAAAAgAAAAADAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Common\Ini\IniManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VSLibrary.Common.Ini.IniLine">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Common\Ini\IniBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VSLibrary.Common.Ini.IIniProvider">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Ini\IniInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VSLibrary.Common.Ini.IIniManager">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgIAAIAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Common\Ini\IniInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VSLibrary.Common.Ini.IniLineType">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Common\Ini\IniEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

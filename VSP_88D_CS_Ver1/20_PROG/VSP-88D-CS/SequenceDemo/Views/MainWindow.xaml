@@ -1,0 +1,145 @@
+﻿<Window
+    x:Class="SequenceDemo.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:SequenceDemo.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vs="clr-namespace:VSLibrary.UIComponent.VSControls;assembly=VSLibrary"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <local:StepHighlightConverter x:Key="StepHighlightConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="150" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <vs:VsButton
+                    Width="100"
+                    Margin="5"
+                    Command="{Binding StartSequenceCommand}"
+                    Content="Start"
+                    ShineColor="LightGray">
+                    <vs:VsButton.Style>
+                        <Style BasedOn="{StaticResource {x:Type vs:VsButton}}" TargetType="vs:VsButton">
+                            <Setter Property="IsEnabled" Value="False" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="READY">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="PAUSE">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </vs:VsButton.Style>
+                </vs:VsButton>
+
+
+                <vs:VsButton
+                    Width="100"
+                    Margin="5"
+                    Command="{Binding StopSequenceCommand}"
+                    Content="Stop"
+                    ShineColor="LightGray">
+                    <vs:VsButton.Style>
+                        <Style BasedOn="{StaticResource {x:Type vs:VsButton}}" TargetType="vs:VsButton">
+                            <Setter Property="IsEnabled" Value="False" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="RUNNING">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="INITIALIZE">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </vs:VsButton.Style>
+                </vs:VsButton>
+
+                <vs:VsButton
+                    Width="100"
+                    Margin="5"
+                    Command="{Binding InitializSequenceCommand}"
+                    Content="Initializ"
+                    ShineColor="LightGray">
+                    <vs:VsButton.Style>
+                        <Style BasedOn="{StaticResource {x:Type vs:VsButton}}" TargetType="vs:VsButton">
+                            <Setter Property="IsEnabled" Value="False" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="PAUSE">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="STOP">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </vs:VsButton.Style>
+                </vs:VsButton>
+
+                <vs:VsButton
+                    Width="100"
+                    Margin="5"
+                    Command="{Binding CancelSequenceCommand}"
+                    Content="Cancel"
+                    ShineColor="LightGray">
+                    <vs:VsButton.Style>
+                        <Style BasedOn="{StaticResource {x:Type vs:VsButton}}" TargetType="vs:VsButton">
+                            <Setter Property="IsEnabled" Value="False" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SequenceState}" Value="PAUSE">
+                                    <Setter Property="IsEnabled" Value="True" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </vs:VsButton.Style>
+                </vs:VsButton>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ItemsControl AlternationCount="1000" ItemsSource="{Binding Steps}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="5" />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="5">
+                            <Border.Background>
+                                <MultiBinding Converter="{StaticResource StepHighlightConverter}">
+                                    <Binding Path="Step" />
+                                    <Binding Path="DataContext.CurrentStepIndex" RelativeSource="{RelativeSource AncestorType=ItemsControl}" />
+                                </MultiBinding>
+                            </Border.Background>
+
+                            <TextBlock
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                FontSize="16"
+                                Text="{Binding DisplayName}" />
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+
+
+        </Grid>
+    </Grid>
+</Window>
